@@ -80,7 +80,7 @@ jobs:
         working-directory: scripts
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
-        run: python main.py
+        run: python src/main.py
 
       # 5. Commit updated job files & logs back to the public repo
       - name: Commit and push updates
@@ -100,5 +100,5 @@ jobs:
       - name: Dispatch Apply workflow
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: apply-and-commit.yml
+          workflow: apply.yml
           token: ${{ secrets.GITHUB_TOKEN }}

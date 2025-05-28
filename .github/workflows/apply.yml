@@ -15,7 +15,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 0. Checkout private scripts
+      # 0. Checkout public repo
+      - name: Checkout public repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      # 1. Checkout private scripts
       - name: Checkout private scripts
         uses: actions/checkout@v3
         with:
@@ -23,12 +30,8 @@ jobs:
           token: ${{ secrets.PRIVATE_SCRIPTS_PAT }}
           path: scripts
 
-      # 1. Checkout public repo
-      - name: Checkout public repo
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: false
-          fetch-depth: 0
+      - name: List workspace contents
+        run: ls -R . | sed -e 's/$/\/.../g'
 
       # 2. Setup Python & Chrome
       - name: Set up Python
@@ -64,7 +67,7 @@ jobs:
         env:
           APPLY_EMAIL:    ${{ secrets.APPLY_EMAIL }}
           APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD }}
-        run: python apply_jobs.py
+        run: python src/apply_jobs.py
 
       # 5. Commit final_ml_jobs.csv & logs back to public repo
       - name: Commit and push results
