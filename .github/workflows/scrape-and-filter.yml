@@ -29,7 +29,14 @@ jobs:
       cancel-in-progress: false
 
     steps:
-      # 0. Checkout your private repo containing the scraper code
+      # 0. Checkout the public repo (to commit outputs later)
+      - name: Checkout public repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      # 1. Checkout your private repo containing the scraper code
       - name: Checkout private scripts
         uses: actions/checkout@v3
         with:
@@ -37,13 +44,6 @@ jobs:
           token: ${{ secrets.PRIVATE_SCRIPTS_PAT }}
           path: scripts
 
-      # 1. Checkout the public repo (to commit outputs later)
-      - name: Checkout public repo
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-          
       - name: List workspace contents
         run: ls -R . | sed -e 's/$/\/.../g'
 
