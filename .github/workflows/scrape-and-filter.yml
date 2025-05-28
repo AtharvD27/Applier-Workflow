@@ -33,7 +33,7 @@ jobs:
       - name: Checkout private scripts
         uses: actions/checkout@v3
         with:
-          repository: your-org/my-dice-jobs-scripts
+          repository: AtharvD27/Dice-Auto-Applier
           token: ${{ secrets.PRIVATE_SCRIPTS_PAT }}
           path: scripts
 
