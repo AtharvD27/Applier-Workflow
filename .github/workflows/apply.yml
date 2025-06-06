@@ -69,18 +69,19 @@ jobs:
           APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD }}
         run: python src/apply_jobs.py
 
-      # 5. Commit final_ml_jobs.csv & logs back to public repo
-      - name: Commit and push results
+      - name: Commit and push updates to private repo
+        working-directory: scripts
         run: |
-          git config user.name  "github-actions"
+          git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           [ -d output/logs ] && find output/logs -type f -name "*.log" -exec git add {} \;
           [ -f output/final_ml_jobs.csv ] && git add output/final_ml_jobs.csv
 
           if git diff --cached --quiet; then
-            echo "✅ No changes to commit."
+            echo "✅ No changes to commit in private repo."
           else
-            git commit -m "✅ Auto-applied jobs and updated CSV + logs"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+            git commit -m "🔄 Auto-update jobs and logs"
+            git push https://x-access-token:${{ secrets.PRIVATE_SCRIPTS_PAT }}@github.com/AtharvD27/Dice-Auto-Applier.git HEAD:main
           fi
+
