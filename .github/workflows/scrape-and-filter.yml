@@ -87,8 +87,10 @@ jobs:
         run: |
           git config user.name  "github-actions"
           git config user.email "github-actions@github.com"
-          find output/logs -type f -name "*.log" -exec git add {} \; || true
-          git add output/jobs.csv output/final_ml_jobs.csv output/reposted_jobs.csv || true
+
+          [ -d output/logs ] && find output/logs -type f -name "*.log" -exec git add {} \;
+          [ -f output/jobs.csv ] && git add output/jobs.csv
+          [ -f output/final_ml_jobs.csv ] && git add output/final_ml_jobs.csv
 
           if git diff --cached --quiet; then
             echo "✅ No changes to commit."
