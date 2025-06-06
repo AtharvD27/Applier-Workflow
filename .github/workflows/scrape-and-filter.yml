@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
 
     concurrency:
-      group: dice-job-lock
+      group: lock-stealth
       cancel-in-progress: false
 
     steps:
@@ -82,7 +82,7 @@ jobs:
           BASE_URL: ${{ secrets.BASE_URL }}
         run: python src/main.py
 
-      # 5. Commit updated job files & logs back to the public repo
+      # 5. Commit updated job files & logs back to the private repo
       - name: Commit and push updates to private repo
         working-directory: scripts
         run: |

@@ -67,7 +67,7 @@ jobs:
         env:
           APPLY_EMAIL:    ${{ secrets.APPLY_EMAIL }}
           APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD }}
-        run: python src/apply_jobs.py
+        run: python src/stealth_apply.py
 
       - name: Commit and push updates to private repo
         working-directory: scripts
