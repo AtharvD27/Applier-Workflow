@@ -1,0 +1,114 @@
+name: Scrape & Filter Stealth (Secondary)
+
+on:  
+  schedule:
+    # Offset timing to avoid conflicts with primary workflow
+    - cron: '45 10 * * *'  # 6:45 AM EST (15 min after primary)
+    - cron: '45 12 * * *'  # 8:45 AM EST
+    - cron: '45 14 * * *'  # 10:45 AM EST
+    - cron: '45 16 * * *'  # 12:45 PM EST
+    - cron: '45 18 * * *'  # 2:45 PM EST
+    - cron: '45 20 * * *'  # 4:45 PM EST
+    - cron: '45 22 * * *'  # 6:45 PM EST
+    - cron: '45 0 * * *'   # 8:45 PM EST
+  workflow_dispatch:
+    
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: cancel-stealth-sec          # <-- Scrape duplicates
+  cancel-in-progress: true           #      are cancelled
+
+jobs:
+  scrape_and_filter:
+    runs-on: ubuntu-latest
+
+    concurrency:
+      group: lock-stealth-sec
+      cancel-in-progress: false
+
+    steps:
+      # 0. Checkout the public repo (to commit outputs later)
+      - name: Checkout public repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      # 1. Checkout your private repo containing the scraper code
+      - name: Checkout private scripts
+        uses: actions/checkout@v3
+        with:
+          repository: AtharvD27/Dice-Auto-Applier
+          token: ${{ secrets.PRIVATE_SCRIPTS_PAT }}
+          path: scripts
+      
+      # 2. Replace scripts/output with symlink to public repo output
+      - name: Replace scripts/output with symlink to public repo output
+        run: |
+          rm -rf scripts/output        # Remove stale or real folder
+          ln -s ../../output scripts/output
+
+      - name: List workspace contents
+        run: ls -la scripts/
+
+      # 3. Setup Python & Chrome
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Chrome & Chromedriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip curl
+          wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chrome-linux64.zip
+          unzip -q chrome-linux64.zip
+          sudo mv chrome-linux64 /opt/chrome
+          sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
+          wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+          unzip -q chromedriver-linux64.zip
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+          google-chrome --version
+          chromedriver --version
+
+      # 4. Install dependencies from your private scripts repo
+      - name: Install Python dependencies
+        working-directory: scripts
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 5. Run the scraper
+      - name: Run scraper from private repo
+        working-directory: scripts
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+        run: python src/main.py
+
+      # 6. Commit updated job files & logs back to the public repo
+      - name: Commit and push updates to public repo
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "github-actions@github.com"
+
+          [ -d output/logs ] && find output/logs -type f -name "*.log" -exec git add {} \;
+          [ -f output/jobs.csv ] && git add output/jobs.csv
+          [ -f output/final_ml_jobs.csv ] && git add output/final_ml_jobs.csv
+
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit."
+          else
+            git commit -m "🔄 Auto-update jobs.csv and logs (secondary)"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          fi
+
+      # 7. Trigger the apply workflow
+      - name: Dispatch Apply workflow
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: apply-sec.yml
+          token: ${{ secrets.GITHUB_TOKEN }}
