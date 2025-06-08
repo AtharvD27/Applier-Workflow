@@ -104,7 +104,7 @@ jobs:
       - name: Run scraper from private repo
         working-directory: scripts
         env:
-          BASE_URL: ${{ secrets.BASE_URL }}
+          BASE_URL: ${{ secrets.BASE_URL_SEC }}
         run: python src/main.py
 
       # 6. Commit updated job files & logs back to the public repo
