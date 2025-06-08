@@ -48,30 +48,25 @@ jobs:
       # 2. Ensure public repo output structure exists, then create symlink
       - name: Setup output directory and symlink
         run: |
-          # Clean up any existing symlink in public repo root
-          if [ -L output ]; then
-            echo "Removing existing symlink at output"
-            rm output
-          fi
+          # Get absolute path of public repo's output
+          PUBLIC_OUTPUT=$(realpath output)
+          echo "Public repo output path: $PUBLIC_OUTPUT"
           
-          # Create output directory structure in public repo if it doesn't exist
-          if [ ! -d output ]; then
-            mkdir -p output/logs
-          else
-            # Ensure logs subdirectory exists
-            mkdir -p output/logs
-          fi
+          # Ensure output/logs exists in public repo
+          mkdir -p output/logs
           
-          # Remove any existing output folder in scripts
+          # Remove any existing output in scripts
           rm -rf scripts/output
           
-          # Create symlink from scripts/output to public repo's output
-          ln -s ../../output scripts/output
+          # Create symlink using absolute path
+          ln -s "$PUBLIC_OUTPUT" scripts/output
           
-          # Verify the setup
-          echo "Checking symlink:"
-          ls -la scripts/output
-          echo "Checking actual output directory:"
+          # Debug: Check what we created
+          echo "=== Symlink details ==="
+          ls -la scripts/
+          echo "=== Following symlink ==="
+          ls -la scripts/output/
+          echo "=== Real output directory ==="
           ls -la output/
 
       - name: List workspace contents
@@ -109,7 +104,7 @@ jobs:
       - name: Run scraper from private repo
         working-directory: scripts
         env:
-          BASE_URL: ${{ secrets.BASE_URL_SEC }}
+          BASE_URL: ${{ secrets.BASE_URL }}
         run: python src/main.py
 
       # 6. Commit updated job files & logs back to the public repo
