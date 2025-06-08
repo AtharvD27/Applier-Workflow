@@ -48,6 +48,7 @@ jobs:
       # 2. Replace scripts/output with symlink to public repo output
       - name: Replace scripts/output with symlink to public repo output
         run: |
+          mkdir -p output
           mkdir -p output/logs
           rm -rf scripts/output        # Remove stale or real folder
           ln -s ../../output scripts/output
