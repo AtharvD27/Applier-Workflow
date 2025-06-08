@@ -30,14 +30,29 @@ jobs:
           token: ${{ secrets.PRIVATE_SCRIPTS_PAT }}
           path: scripts
 
-      # 2. Replace scripts/output with symlink to public repo output
-      - name: Replace scripts/output with symlink to public repo output
+      # 2. Ensure public repo output structure exists, then create symlink
+      - name: Setup output directory and symlink
         run: |
-          rm -rf scripts/output        # Remove stale or real folder
-          ln -s ../../output scripts/output
+          # Get absolute path of public repo's output
+          PUBLIC_OUTPUT=$(realpath output)
+          echo "Public repo output path: $PUBLIC_OUTPUT"
           
-      - name: List workspace contents
-        run: ls -la scripts/
+          # Ensure output/logs exists in public repo
+          mkdir -p output/logs
+          
+          # Remove any existing output in scripts
+          rm -rf scripts/output
+          
+          # Create symlink using absolute path
+          ln -s "$PUBLIC_OUTPUT" scripts/output
+          
+          # Debug: Check what we created
+          echo "=== Symlink details ==="
+          ls -la scripts/
+          echo "=== Following symlink ==="
+          ls -la scripts/output/
+          echo "=== Real output directory ==="
+          ls -la output/
 
       # 3. Setup Python & Chrome
       - name: Set up Python
