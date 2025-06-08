@@ -1,4 +1,4 @@
-name: Scrape & Filter Stealth (Secondary)
+name: Scrape & Filter Stealth Secondary
 
 on:  
   schedule:
@@ -45,12 +45,34 @@ jobs:
           token: ${{ secrets.PRIVATE_SCRIPTS_PAT }}
           path: scripts
       
-      # 2. Replace scripts/output with symlink to public repo output
-      - name: Replace scripts/output with symlink to public repo output
+      # 2. Ensure public repo output structure exists, then create symlink
+      - name: Setup output directory and symlink
         run: |
-          mkdir -p output/logs
-          rm -rf scripts/output        # Remove stale or real folder
+          # Clean up any existing symlink in public repo root
+          if [ -L output ]; then
+            echo "Removing existing symlink at output"
+            rm output
+          fi
+          
+          # Create output directory structure in public repo if it doesn't exist
+          if [ ! -d output ]; then
+            mkdir -p output/logs
+          else
+            # Ensure logs subdirectory exists
+            mkdir -p output/logs
+          fi
+          
+          # Remove any existing output folder in scripts
+          rm -rf scripts/output
+          
+          # Create symlink from scripts/output to public repo's output
           ln -s ../../output scripts/output
+          
+          # Verify the setup
+          echo "Checking symlink:"
+          ls -la scripts/output
+          echo "Checking actual output directory:"
+          ls -la output/
 
       - name: List workspace contents
         run: ls -la scripts/
