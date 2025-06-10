@@ -15,6 +15,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Add random delay (15-55 minutes after trigger)
+      - name: Random delay
+        run: |
+          # Generate random delay between 15-35 minutes
+          DELAY=$((RANDOM % 21 + 15))
+          echo "🎲 Waiting ${DELAY} minutes before starting..."
+          echo "Start time: $(date)"
+          echo "Will begin at: $(date -d "+${DELAY} minutes")"
+          sleep ${DELAY}m
+
       # 0. Checkout public repo
       - name: Checkout public repo
         uses: actions/checkout@v3
