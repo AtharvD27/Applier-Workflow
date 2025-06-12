@@ -19,7 +19,7 @@ jobs:
       - name: Random delay
         run: |
           # Generate random delay between 15-25 minutes
-          DELAY=$((RANDOM % 11 + 15))
+          DELAY=$((RANDOM % 6 + 10))
           echo "🎲 Waiting ${DELAY} minutes before starting..."
           echo "Start time: $(date)"
           echo "Will begin at: $(date -d "+${DELAY} minutes")"
