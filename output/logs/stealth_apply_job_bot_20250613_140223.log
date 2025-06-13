@@ -1,0 +1,184 @@
+2025-06-13 14:02:23,989 - INFO - 🚀 Starting stealth job application bot
+2025-06-13 14:02:58,449 - INFO - 📂 Loading jobs from output/final_ml_jobs.csv
+2025-06-13 14:02:58,462 - INFO -    📊 Total jobs in file: 1048
+2025-06-13 14:02:58,464 - INFO -    🎯 Easy Apply jobs: 1048
+2025-06-13 14:02:58,465 - INFO -    ⏳ Jobs to process: 7 (status: pending)
+2025-06-13 14:02:58,465 - INFO - 🎲 Will attempt 7 applications this run (target: 96)
+2025-06-13 14:02:58,465 - INFO - 🔑 Logging into Dice...
+2025-06-13 14:03:02,845 - INFO - ✅ Login successful
+2025-06-13 14:03:06,626 - INFO - 🔄 Starting job applications...
+2025-06-13 14:03:06,626 - INFO - 🎯 [1/7] Applying to: AI Architect- Reston, VA - LINK: https://www.dice.com/job-detail/a4b5afcf-959e-4b65-8cfb-1e4f2d3be82a
+2025-06-13 14:05:06,656 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=53737): Read timed out. (read timeout=120)
+2025-06-13 14:05:06,656 - ERROR - Full error for AI Architect- Reston, VA:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 629, in get_wrapped
+    return orig_get(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 472, in get
+    self.execute(Command.GET, {"url": url})
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 445, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=53737): Read timed out. (read timeout=120)
+2025-06-13 14:07:16,801 - INFO - 🎯 [2/7] Applying to: Data Scientist in Vienna, VA, Winchester VA or Pensacola FL - LINK: https://www.dice.com/job-detail/dd371e7a-6a14-4318-8bbe-e353c8f8a1e1
+2025-06-13 14:10:17,852 - ERROR -    ❌ Cannot click first NEXT button: HTTPConnectionPool(host='localhost', port=53737): Read timed out. (read timeout=120)
+2025-06-13 14:12:27,090 - INFO - 🎯 [3/7] Applying to: Product Owner AI/ML-Hybrid/Reston VA.-Healthcare Payor industry experience. - LINK: https://www.dice.com/job-detail/9a8a248d-b83e-44e8-905b-eb19e06e6c71
+2025-06-13 14:13:37,129 - INFO -    ✅ Successfully applied!
+2025-06-13 14:15:45,039 - INFO - 🎯 [4/7] Applying to: Conversational AI Engineer (AI Azure Cognitive Services/CLU) - LINK: https://www.dice.com/job-detail/d52df843-c52a-4191-a808-434443d2ec82
+2025-06-13 14:17:45,059 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=53737): Read timed out. (read timeout=120)
+2025-06-13 14:17:45,059 - ERROR - Full error for Conversational AI Engineer (AI Azure Cognitive Services/CLU):
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 544, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 445, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=53737): Read timed out. (read timeout=120)
+2025-06-13 14:18:45,985 - INFO - 🎯 [5/7] Applying to: Prompt Engineer - LINK: https://www.dice.com/job-detail/1d18bff1-3851-4313-8ed0-643ef03818c3
+2025-06-13 14:19:04,302 - INFO -    ✅ Successfully applied!
+2025-06-13 14:21:11,851 - INFO - 🎯 [6/7] Applying to: Python AI/ML Developer - LINK: https://www.dice.com/job-detail/52bfbeb4-a374-4a4a-9b8d-e9c99e29374d
+2025-06-13 14:23:11,858 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=53737): Read timed out. (read timeout=120)
+2025-06-13 14:23:11,858 - ERROR - Full error for Python AI/ML Developer:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 544, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 445, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=53737): Read timed out. (read timeout=120)
+2025-06-13 14:24:13,439 - INFO - 🎯 [7/7] Applying to: Remote - Senior Machine Learning Engineer (AI/ML, Apache Spark, Hadoop and Teradata) - 6 months contract - LINK: https://www.dice.com/job-detail/d90fe0c6-1a55-46af-a901-d8b7a0cc5b0c
+2025-06-13 14:24:30,289 - INFO -    ✅ Successfully applied!
+2025-06-13 14:24:33,696 - INFO - 📊 Processing results...
+2025-06-13 14:24:33,725 - INFO - 🎉 Application run completed!
+2025-06-13 14:24:33,725 - INFO -    ✅ Newly applied: 3
+2025-06-13 14:24:33,725 - INFO -    ⏭️  Already applied: 0
+2025-06-13 14:24:33,725 - INFO -    ❌ Failed: 4
+2025-06-13 14:24:33,725 - INFO -    📊 Total processed: 7
+2025-06-13 14:24:33,726 - INFO -    📁 Total jobs in CSV: 1048
+2025-06-13 14:24:33,726 - INFO -    💾 Updated: output/final_ml_jobs.csv
+2025-06-13 14:24:33,726 - INFO - 🔧 Closing browser...
