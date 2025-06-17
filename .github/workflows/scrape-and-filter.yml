@@ -2,14 +2,15 @@ name: Scrape & Filter Stealth
 
 on:  
   schedule:
-    - cron: '30 10 * * *'  # 6:30 AM EST
-    - cron: '30 12 * * *'  # 8:30 AM EST
-    - cron: '30 14 * * *'  # 10:30 AM EST
-    - cron: '30 16 * * *'  # 12:30 PM EST
-    - cron: '30 18 * * *'  # 2:30 PM EST
+    - cron: '15 13 * * *'  # 9:15 AM EST
+    - cron: '45 14 * * *'  # 10:45 AM EST
+    - cron: '15 16 * * *'  # 12:15 PM EST
+    - cron: '45 17 * * *'  # 1:45 PM EST
+    - cron: '15 19 * * *'  # 3:15 PM EST
     - cron: '30 20 * * *'  # 4:30 PM EST
-    - cron: '30 22 * * *'  # 6:30 PM EST
-    - cron: '30 0 * * *'   # 8:30 PM EST
+    - cron: '15 22 * * *'  # 6:15 PM EST
+    - cron: '45 23 * * *'  # 7:45 PM EST
+    - cron: '45 0 * * *'   # 8:45 PM EST
   workflow_dispatch:
     
 permissions:
