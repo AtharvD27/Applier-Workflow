@@ -1,0 +1,134 @@
+name: Weekly Backup & Cleanup
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Every Monday at 3:00 AM EST (8:00 AM UTC)
+  workflow_dispatch:      # Allow manual triggering
+    inputs:
+      keep_weeks:
+        description: 'Number of weeks to keep (default: 2)'
+        required: false
+        default: '2'
+        type: string
+      dry_run:
+        description: 'Run in dry-run mode (no actual changes)'
+        required: false
+        default: false
+        type: boolean
+    
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: backup-cleanup
+  cancel-in-progress: false  # Don't cancel backup operations
+
+jobs:
+  backup_and_cleanup:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+
+    - run: echo "🧹 Starting weekly backup & cleanup - $(date)"
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas pyyaml
+
+    - name: Run backup and cleanup
+      run: |
+        # Determine parameters based on trigger type
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          # Manual trigger - use provided inputs
+          KEEP_WEEKS="${{ github.event.inputs.keep_weeks }}"
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+          echo "🔧 Manual trigger: keep-weeks=$KEEP_WEEKS, dry-run=$DRY_RUN"
+        else
+          # Scheduled trigger - use defaults (REAL backup, not dry run)
+          KEEP_WEEKS="2"
+          DRY_RUN="false"
+          echo "⏰ Scheduled trigger: keep-weeks=$KEEP_WEEKS (real backup)"
+        fi
+        
+        # Build and run command
+        CMD="python src/backup_cleanup.py --keep-weeks $KEEP_WEEKS"
+        if [ "$DRY_RUN" = "true" ]; then
+          CMD="$CMD --dry-run"
+        fi
+        
+        echo "🚀 Running: $CMD"
+        $CMD
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Add all changes (CSV files, logs, backups)
+        git add output/ backups/
+        
+        # Check if there are changes to commit
+        if git diff --cached --quiet; then
+          echo "✅ No changes to commit"
+        else
+          # Create commit message
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+              commit_msg="🔍 Manual backup dry run - no changes made"
+            else
+              commit_msg="🧹 Manual backup & cleanup completed"
+            fi
+          else
+            commit_msg="🧹 Weekly automated backup & cleanup"
+          fi
+          
+          git commit -m "$commit_msg"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          echo "✅ Changes committed and pushed"
+        fi
+
+    - name: Create workflow summary
+      run: |
+        echo "## 🧹 Weekly Backup & Cleanup Summary" >> $GITHUB_STEP_SUMMARY
+        echo "**📅 Run Date:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "**⚙️ Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          echo "**📋 Parameters:** keep-weeks=${{ github.event.inputs.keep_weeks }}, dry-run=${{ github.event.inputs.dry_run }}" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "### ✅ Operation Complete" >> $GITHUB_STEP_SUMMARY
+        echo "Weekly backup and cleanup completed. Check backup script output above for detailed results." >> $GITHUB_STEP_SUMMARY
+
+    - name: Handle errors and cleanup
+      if: failure()
+      run: |
+        echo "❌ Backup operation failed"
+        
+        # Show recent backup log if available
+        if ls output/logs/backup_cleanup_*.log 1> /dev/null 2>&1; then
+          echo "📋 Recent backup log entries:"
+          tail -10 output/logs/backup_cleanup_*.log
+        fi
+        
+        # Commit any partial results
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add output/ backups/ 2>/dev/null || true
+        
+        if ! git diff --cached --quiet; then
+          git commit -m "⚠️ Partial backup results (operation failed)" || true
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }} || true
+        fi
