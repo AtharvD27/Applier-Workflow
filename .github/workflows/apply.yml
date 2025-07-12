@@ -73,6 +73,7 @@ jobs:
           APPLY_EMAIL:    ${{ secrets.APPLY_EMAIL }}
           APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD }}
           APPLY_PROCESS_FAILED:  ${{ secrets.APPLY_PROCESS_FAILED }}
+          APPLY_DEBUG_MODE:  ${{ secrets.APPLY_DEBUG_MODE }}
         run: python src/stealth_apply_copy.py
 
       - name: Commit and push updates to private repo
