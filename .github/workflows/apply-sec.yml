@@ -102,6 +102,7 @@ jobs:
           APPLY_EMAIL:    ${{ secrets.APPLY_EMAIL_SEC }}      # Different credentials
           APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD_SEC }}   # Different credentials
           APPLY_PROCESS_FAILED: ${{ secrets.APPLY_PROCESS_FAILED_SEC || 'false' }}
+          APPLY_DEBUG_MODE:  ${{ secrets.APPLY_DEBUG_MODE_SEC || 'false' }}
         run: python src/stealth_apply.py
 
       # 6. Commit final_ml_jobs.csv & logs back to public repo
