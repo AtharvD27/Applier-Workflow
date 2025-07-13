@@ -23,14 +23,15 @@ jobs:
     
     - name: Inject rclone.conf into cloud-init.sh
       run: |
-        mkdir -p linkedin-spot-vm/tmp
-        echo "${{ secrets.RCLONE_CONF }}" > linkedin-spot-vm/tmp/rclone.conf.raw
+        mkdir -p tmp
+        echo "${{ secrets.RCLONE_CONF }}" > tmp/rclone.conf.raw
         sed '/__RCLONE_CONF__/{
-          r linkedin-spot-vm/tmp/rclone.conf.raw
+          r tmp/rclone.conf.raw
           d
-        }' linkedin-spot-vm/cloud-init.sh > linkedin-spot-vm/tmp/cloud-init.sh
-        mv linkedin-spot-vm/tmp/cloud-init.sh linkedin-spot-vm/cloud-init.sh
-        - uses: hashicorp/setup-terraform@v2
+        }' cloud-init.sh > tmp/cloud-init.sh
+        mv tmp/cloud-init.sh cloud-init.sh
+  
+    - uses: hashicorp/setup-terraform@v2
 
     - name: Terraform init & apply
       run: |
