@@ -1,9 +1,9 @@
 variable "instance_type" {
-  default = "m5.xlarge"
+  default = "m5.large"
 }
 
 variable "volume_size" {
-  default = 14
+  default = 22
 }
 
 variable "region" {
