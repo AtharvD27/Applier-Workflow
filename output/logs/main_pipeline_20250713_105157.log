@@ -1,0 +1,732 @@
+2025-07-13 10:51:57,242 - INFO - 🚀 Starting main job processing pipeline
+2025-07-13 10:51:57,243 - INFO - ⚙️  Loading configuration...
+2025-07-13 10:51:57,243 - INFO -    ✅ Configuration loaded successfully
+2025-07-13 10:51:57,244 - INFO - 🕷️  Starting job scraper...
+2025-07-13 10:51:57,244 - INFO - 🚀 Starting Dice job scraper with stealth mode (shared logger)
+2025-07-13 10:51:57,244 - INFO - 🔍 Base URL: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=SEVEN&q={query}&page={page}
+2025-07-13 10:52:08,353 - INFO - 📂 Loading existing jobs from output/jobs.csv
+2025-07-13 10:52:08,373 - INFO - 🔍 Loaded 19 search queries: ML, AI Trainer, Generative AI Engineer...
+2025-07-13 10:52:08,373 - INFO - 🔄 Processing query 1/19: 'ML'
+2025-07-13 10:52:08,373 - INFO - 🔍 Starting scrape for query: 'ML'
+2025-07-13 10:52:08,373 - INFO - 📄 Scraping page 1/25 for 'ML'
+2025-07-13 10:52:10,241 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 10:52:11,318 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:17,409 - INFO - 📄 Scraping page 2/25 for 'ML'
+2025-07-13 10:52:18,306 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 10:52:19,194 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:23,634 - INFO - 📄 Scraping page 3/25 for 'ML'
+2025-07-13 10:52:24,206 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 10:52:25,336 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:27,110 - INFO - 📄 Scraping page 4/25 for 'ML'
+2025-07-13 10:52:27,737 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 10:52:28,650 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:32,647 - INFO - 📄 Scraping page 5/25 for 'ML'
+2025-07-13 10:52:33,215 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 10:52:34,145 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:37,558 - INFO - 📄 Scraping page 6/25 for 'ML'
+2025-07-13 10:52:38,104 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 10:52:39,001 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:43,780 - INFO - 📄 Scraping page 7/25 for 'ML'
+2025-07-13 10:52:44,316 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 10:52:45,248 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:49,811 - INFO - 📄 Scraping page 8/25 for 'ML'
+2025-07-13 10:52:50,373 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 10:52:51,256 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:52:55,468 - INFO - 📄 Scraping page 9/25 for 'ML'
+2025-07-13 10:52:56,029 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 10:52:56,968 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:01,251 - INFO - 📄 Scraping page 10/25 for 'ML'
+2025-07-13 10:53:01,797 - INFO - ✅ Found 20 job cards on page 10
+2025-07-13 10:53:02,721 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:07,629 - INFO - 📄 Scraping page 11/25 for 'ML'
+2025-07-13 10:53:08,227 - INFO - ✅ Found 20 job cards on page 11
+2025-07-13 10:53:09,104 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:13,861 - INFO - 📄 Scraping page 12/25 for 'ML'
+2025-07-13 10:53:14,450 - INFO - ✅ Found 20 job cards on page 12
+2025-07-13 10:53:15,027 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:18,612 - INFO - 📄 Scraping page 13/25 for 'ML'
+2025-07-13 10:53:19,194 - INFO - ✅ Found 20 job cards on page 13
+2025-07-13 10:53:20,145 - INFO - 📊 Page 13 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:23,746 - INFO - 📄 Scraping page 14/25 for 'ML'
+2025-07-13 10:53:24,316 - INFO - ✅ Found 20 job cards on page 14
+2025-07-13 10:53:25,187 - INFO - 📊 Page 14 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:30,223 - INFO - 📄 Scraping page 15/25 for 'ML'
+2025-07-13 10:53:30,817 - INFO - ✅ Found 20 job cards on page 15
+2025-07-13 10:53:31,667 - INFO - ✅ [4/20] Data Analytics Manager at Robert Half (Easy Apply)
+2025-07-13 10:53:31,840 - INFO - 📊 Page 15 summary: 1 new jobs added, 19 duplicates skipped
+2025-07-13 10:53:36,256 - INFO - 📄 Scraping page 16/25 for 'ML'
+2025-07-13 10:53:36,880 - INFO - ✅ Found 20 job cards on page 16
+2025-07-13 10:53:37,432 - INFO - 📊 Page 16 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:41,824 - INFO - 📄 Scraping page 17/25 for 'ML'
+2025-07-13 10:53:42,391 - INFO - ✅ Found 20 job cards on page 17
+2025-07-13 10:53:43,249 - INFO - 📊 Page 17 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:48,000 - INFO - 📄 Scraping page 18/25 for 'ML'
+2025-07-13 10:53:48,517 - INFO - ✅ Found 20 job cards on page 18
+2025-07-13 10:53:49,476 - INFO - 📊 Page 18 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:52,768 - INFO - 📄 Scraping page 19/25 for 'ML'
+2025-07-13 10:53:53,349 - INFO - ✅ Found 20 job cards on page 19
+2025-07-13 10:53:54,244 - INFO - 📊 Page 19 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:53:58,118 - INFO - 📄 Scraping page 20/25 for 'ML'
+2025-07-13 10:53:58,709 - INFO - ✅ Found 20 job cards on page 20
+2025-07-13 10:53:59,594 - INFO - 📊 Page 20 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:02,073 - INFO - 📄 Scraping page 21/25 for 'ML'
+2025-07-13 10:54:02,602 - INFO - ✅ Found 20 job cards on page 21
+2025-07-13 10:54:03,533 - INFO - 📊 Page 21 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:08,212 - INFO - 📄 Scraping page 22/25 for 'ML'
+2025-07-13 10:54:08,827 - INFO - ✅ Found 20 job cards on page 22
+2025-07-13 10:54:09,754 - INFO - 📊 Page 22 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:14,500 - INFO - 📄 Scraping page 23/25 for 'ML'
+2025-07-13 10:54:15,012 - INFO - ✅ Found 20 job cards on page 23
+2025-07-13 10:54:15,940 - INFO - 📊 Page 23 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:19,618 - INFO - 📄 Scraping page 24/25 for 'ML'
+2025-07-13 10:54:20,243 - INFO - ✅ Found 20 job cards on page 24
+2025-07-13 10:54:21,105 - INFO - 📊 Page 24 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:24,318 - INFO - 📄 Scraping page 25/25 for 'ML'
+2025-07-13 10:54:24,965 - INFO - ✅ Found 3 job cards on page 25
+2025-07-13 10:54:25,150 - INFO - 📊 Page 25 summary: 0 new jobs added, 3 duplicates skipped
+2025-07-13 10:54:28,343 - INFO - 🎯 Query 'ML' completed:
+2025-07-13 10:54:28,343 - INFO -    📄 Pages scraped: 25
+2025-07-13 10:54:28,343 - INFO -    ✅ New jobs found: 1
+2025-07-13 10:54:28,343 - INFO -    🔗 Total unique links: 2929
+2025-07-13 10:54:28,343 - INFO - ⏳ Waiting before next query...
+2025-07-13 10:54:33,229 - INFO - 🔄 Processing query 2/19: 'AI Trainer'
+2025-07-13 10:54:33,229 - INFO - 🔍 Starting scrape for query: 'AI Trainer'
+2025-07-13 10:54:33,229 - INFO - 📄 Scraping page 1/25 for 'AI Trainer'
+2025-07-13 10:54:33,870 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 10:54:34,728 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:38,118 - INFO - 📄 Scraping page 2/25 for 'AI Trainer'
+2025-07-13 10:54:38,768 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 10:54:39,628 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:43,014 - INFO - 📄 Scraping page 3/25 for 'AI Trainer'
+2025-07-13 10:54:43,577 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 10:54:44,462 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:49,162 - INFO - 📄 Scraping page 4/25 for 'AI Trainer'
+2025-07-13 10:54:49,680 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 10:54:50,609 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:54:54,346 - INFO - 📄 Scraping page 5/25 for 'AI Trainer'
+2025-07-13 10:54:54,851 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 10:54:55,776 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:55:00,715 - INFO - 📄 Scraping page 6/25 for 'AI Trainer'
+2025-07-13 10:55:01,231 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 10:55:02,168 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:55:08,025 - INFO - 📄 Scraping page 7/25 for 'AI Trainer'
+2025-07-13 10:55:08,661 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 10:55:09,590 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:55:12,703 - INFO - 📄 Scraping page 8/25 for 'AI Trainer'
+2025-07-13 10:55:13,303 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 10:55:14,173 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:55:19,365 - INFO - 📄 Scraping page 9/25 for 'AI Trainer'
+2025-07-13 10:55:19,939 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 10:55:20,866 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:55:25,796 - INFO - 📄 Scraping page 10/25 for 'AI Trainer'
+2025-07-13 10:55:26,384 - INFO - ✅ Found 15 job cards on page 10
+2025-07-13 10:55:27,202 - INFO - 📊 Page 10 summary: 0 new jobs added, 15 duplicates skipped
+2025-07-13 10:55:32,541 - INFO - 📄 Scraping page 11/25 for 'AI Trainer'
+2025-07-13 10:55:39,455 - WARNING - ⏰ Timeout loading page 11 for 'AI Trainer' - skipping
+2025-07-13 10:55:39,455 - INFO - 🎯 Query 'AI Trainer' completed:
+2025-07-13 10:55:39,455 - INFO -    📄 Pages scraped: 10
+2025-07-13 10:55:39,455 - INFO -    ✅ New jobs found: 0
+2025-07-13 10:55:39,455 - INFO -    🔗 Total unique links: 2929
+2025-07-13 10:55:39,455 - INFO - ⏳ Waiting before next query...
+2025-07-13 10:55:44,158 - INFO - 🔄 Processing query 3/19: 'Generative AI Engineer'
+2025-07-13 10:55:44,158 - INFO - 🔍 Starting scrape for query: 'Generative AI Engineer'
+2025-07-13 10:55:44,158 - INFO - 📄 Scraping page 1/25 for 'Generative AI Engineer'
+2025-07-13 10:55:44,719 - INFO - ✅ Found 3 job cards on page 1
+2025-07-13 10:55:45,079 - INFO - 📊 Page 1 summary: 0 new jobs added, 3 duplicates skipped
+2025-07-13 10:55:48,081 - INFO - 📄 Scraping page 2/25 for 'Generative AI Engineer'
+2025-07-13 10:55:55,060 - WARNING - ⏰ Timeout loading page 2 for 'Generative AI Engineer' - skipping
+2025-07-13 10:55:55,060 - INFO - 🎯 Query 'Generative AI Engineer' completed:
+2025-07-13 10:55:55,061 - INFO -    📄 Pages scraped: 1
+2025-07-13 10:55:55,061 - INFO -    ✅ New jobs found: 0
+2025-07-13 10:55:55,061 - INFO -    🔗 Total unique links: 2929
+2025-07-13 10:55:55,061 - INFO - ⏳ Waiting before next query...
+2025-07-13 10:55:59,000 - INFO - 🔄 Processing query 4/19: 'AI/ML DevOps Engineer'
+2025-07-13 10:55:59,000 - INFO - 🔍 Starting scrape for query: 'AI/ML DevOps Engineer'
+2025-07-13 10:55:59,000 - INFO - 📄 Scraping page 1/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:55:59,608 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 10:56:00,504 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:03,621 - INFO - 📄 Scraping page 2/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:04,251 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 10:56:05,143 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:08,824 - INFO - 📄 Scraping page 3/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:09,464 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 10:56:10,397 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:13,631 - INFO - 📄 Scraping page 4/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:14,295 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 10:56:15,177 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:21,290 - INFO - 📄 Scraping page 5/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:21,947 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 10:56:22,840 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:28,199 - INFO - 📄 Scraping page 6/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:28,840 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 10:56:29,735 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:33,555 - INFO - 📄 Scraping page 7/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:34,132 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 10:56:35,086 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:39,519 - INFO - 📄 Scraping page 8/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:40,137 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 10:56:41,080 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:46,421 - INFO - 📄 Scraping page 9/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:46,972 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 10:56:47,913 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:52,536 - INFO - 📄 Scraping page 10/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:53,178 - INFO - ✅ Found 20 job cards on page 10
+2025-07-13 10:56:54,065 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:56:57,409 - INFO - 📄 Scraping page 11/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:56:57,989 - INFO - ✅ Found 20 job cards on page 11
+2025-07-13 10:56:58,922 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:03,775 - INFO - 📄 Scraping page 12/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:04,406 - INFO - ✅ Found 20 job cards on page 12
+2025-07-13 10:57:05,303 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:09,111 - INFO - 📄 Scraping page 13/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:09,804 - INFO - ✅ Found 20 job cards on page 13
+2025-07-13 10:57:10,754 - INFO - 📊 Page 13 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:12,458 - INFO - 📄 Scraping page 14/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:13,063 - INFO - ✅ Found 20 job cards on page 14
+2025-07-13 10:57:13,998 - INFO - 📊 Page 14 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:17,138 - INFO - 📄 Scraping page 15/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:17,800 - INFO - ✅ Found 20 job cards on page 15
+2025-07-13 10:57:18,794 - INFO - ✅ [12/20] Dev Ops Engineer III (Contractor) at Robert Half (Easy Apply)
+2025-07-13 10:57:18,876 - INFO - 📊 Page 15 summary: 1 new jobs added, 19 duplicates skipped
+2025-07-13 10:57:23,590 - INFO - 📄 Scraping page 16/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:24,194 - INFO - ✅ Found 20 job cards on page 16
+2025-07-13 10:57:25,144 - INFO - 📊 Page 16 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:30,684 - INFO - 📄 Scraping page 17/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:31,259 - INFO - ✅ Found 20 job cards on page 17
+2025-07-13 10:57:32,198 - INFO - 📊 Page 17 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:36,821 - INFO - 📄 Scraping page 18/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:37,769 - INFO - ✅ Found 20 job cards on page 18
+2025-07-13 10:57:38,636 - INFO - 📊 Page 18 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:44,593 - INFO - 📄 Scraping page 19/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:45,366 - INFO - ✅ Found 20 job cards on page 19
+2025-07-13 10:57:46,247 - INFO - 📊 Page 19 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:48,309 - INFO - 📄 Scraping page 20/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:48,959 - INFO - ✅ Found 20 job cards on page 20
+2025-07-13 10:57:49,883 - INFO - 📊 Page 20 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:57:55,266 - INFO - 📄 Scraping page 21/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:57:55,841 - INFO - ✅ Found 20 job cards on page 21
+2025-07-13 10:57:56,766 - INFO - 📊 Page 21 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:01,424 - INFO - 📄 Scraping page 22/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:58:02,027 - INFO - ✅ Found 20 job cards on page 22
+2025-07-13 10:58:02,966 - INFO - 📊 Page 22 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:06,327 - INFO - 📄 Scraping page 23/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:58:06,885 - INFO - ✅ Found 20 job cards on page 23
+2025-07-13 10:58:07,834 - INFO - 📊 Page 23 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:13,562 - INFO - 📄 Scraping page 24/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:58:14,161 - INFO - ✅ Found 12 job cards on page 24
+2025-07-13 10:58:15,000 - INFO - 📊 Page 24 summary: 0 new jobs added, 12 duplicates skipped
+2025-07-13 10:58:18,682 - INFO - 📄 Scraping page 25/25 for 'AI/ML DevOps Engineer'
+2025-07-13 10:58:25,613 - WARNING - ⏰ Timeout loading page 25 for 'AI/ML DevOps Engineer' - skipping
+2025-07-13 10:58:25,613 - INFO - 🎯 Query 'AI/ML DevOps Engineer' completed:
+2025-07-13 10:58:25,613 - INFO -    📄 Pages scraped: 24
+2025-07-13 10:58:25,613 - INFO -    ✅ New jobs found: 1
+2025-07-13 10:58:25,613 - INFO -    🔗 Total unique links: 2930
+2025-07-13 10:58:25,613 - INFO - ⏳ Waiting before next query...
+2025-07-13 10:58:29,488 - INFO - 🔄 Processing query 5/19: 'AI Business Analyst'
+2025-07-13 10:58:29,488 - INFO - 🔍 Starting scrape for query: 'AI Business Analyst'
+2025-07-13 10:58:29,488 - INFO - 📄 Scraping page 1/25 for 'AI Business Analyst'
+2025-07-13 10:58:30,261 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 10:58:31,243 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:33,685 - INFO - 📄 Scraping page 2/25 for 'AI Business Analyst'
+2025-07-13 10:58:34,305 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 10:58:35,126 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:40,163 - INFO - 📄 Scraping page 3/25 for 'AI Business Analyst'
+2025-07-13 10:58:40,916 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 10:58:41,790 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:45,152 - INFO - 📄 Scraping page 4/25 for 'AI Business Analyst'
+2025-07-13 10:58:45,704 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 10:58:46,659 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:50,665 - INFO - 📄 Scraping page 5/25 for 'AI Business Analyst'
+2025-07-13 10:58:51,343 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 10:58:52,219 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:58:56,888 - INFO - 📄 Scraping page 6/25 for 'AI Business Analyst'
+2025-07-13 10:58:57,534 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 10:58:58,472 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:02,687 - INFO - 📄 Scraping page 7/25 for 'AI Business Analyst'
+2025-07-13 10:59:03,418 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 10:59:04,302 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:07,991 - INFO - 📄 Scraping page 8/25 for 'AI Business Analyst'
+2025-07-13 10:59:08,584 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 10:59:09,464 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:13,331 - INFO - 📄 Scraping page 9/25 for 'AI Business Analyst'
+2025-07-13 10:59:14,275 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 10:59:15,206 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:18,833 - INFO - 📄 Scraping page 10/25 for 'AI Business Analyst'
+2025-07-13 10:59:19,570 - INFO - ✅ Found 15 job cards on page 10
+2025-07-13 10:59:20,238 - INFO - 📊 Page 10 summary: 0 new jobs added, 15 duplicates skipped
+2025-07-13 10:59:25,357 - INFO - 📄 Scraping page 11/25 for 'AI Business Analyst'
+2025-07-13 10:59:32,349 - WARNING - ⏰ Timeout loading page 11 for 'AI Business Analyst' - skipping
+2025-07-13 10:59:32,349 - INFO - 🎯 Query 'AI Business Analyst' completed:
+2025-07-13 10:59:32,349 - INFO -    📄 Pages scraped: 10
+2025-07-13 10:59:32,349 - INFO -    ✅ New jobs found: 0
+2025-07-13 10:59:32,349 - INFO -    🔗 Total unique links: 2930
+2025-07-13 10:59:32,350 - INFO - ⏳ Waiting before next query...
+2025-07-13 10:59:34,115 - INFO - 🔄 Processing query 6/19: 'Artificial Intelligence Engineer'
+2025-07-13 10:59:34,115 - INFO - 🔍 Starting scrape for query: 'Artificial Intelligence Engineer'
+2025-07-13 10:59:34,115 - INFO - 📄 Scraping page 1/25 for 'Artificial Intelligence Engineer'
+2025-07-13 10:59:34,749 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 10:59:35,630 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:39,242 - INFO - 📄 Scraping page 2/25 for 'Artificial Intelligence Engineer'
+2025-07-13 10:59:39,922 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 10:59:40,874 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:45,128 - INFO - 📄 Scraping page 3/25 for 'Artificial Intelligence Engineer'
+2025-07-13 10:59:45,698 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 10:59:46,619 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:50,405 - INFO - 📄 Scraping page 4/25 for 'Artificial Intelligence Engineer'
+2025-07-13 10:59:50,992 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 10:59:51,942 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 10:59:55,757 - INFO - 📄 Scraping page 5/25 for 'Artificial Intelligence Engineer'
+2025-07-13 10:59:56,361 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 10:59:57,302 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:00:00,789 - INFO - 📄 Scraping page 6/25 for 'Artificial Intelligence Engineer'
+2025-07-13 11:00:01,469 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 11:00:02,436 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:00:06,934 - INFO - 📄 Scraping page 7/25 for 'Artificial Intelligence Engineer'
+2025-07-13 11:00:07,705 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 11:00:08,595 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:00:12,159 - INFO - 📄 Scraping page 8/25 for 'Artificial Intelligence Engineer'
+2025-07-13 11:00:12,709 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 11:00:13,656 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:00:18,625 - INFO - 📄 Scraping page 9/25 for 'Artificial Intelligence Engineer'
+2025-07-13 11:00:19,347 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 11:00:20,287 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:00:23,071 - INFO - 📄 Scraping page 10/25 for 'Artificial Intelligence Engineer'
+2025-07-13 11:00:23,755 - INFO - ✅ Found 20 job cards on page 10
+2025-07-13 11:00:24,607 - INFO - ✅ [7/20] Copilot Studio Agent at eSolutionsFirst, LLC (Easy Apply)
+2025-07-13 11:00:24,749 - INFO - 📊 Page 10 summary: 1 new jobs added, 19 duplicates skipped
+2025-07-13 11:00:29,108 - INFO - 📄 Scraping page 11/25 for 'Artificial Intelligence Engineer'
+2025-07-13 11:00:29,698 - INFO - ✅ Found 9 job cards on page 11
+2025-07-13 11:00:30,128 - INFO - 📊 Page 11 summary: 0 new jobs added, 9 duplicates skipped
+2025-07-13 11:00:33,846 - INFO - 📄 Scraping page 12/25 for 'Artificial Intelligence Engineer'
+2025-07-13 11:00:40,839 - WARNING - ⏰ Timeout loading page 12 for 'Artificial Intelligence Engineer' - skipping
+2025-07-13 11:00:40,839 - INFO - 🎯 Query 'Artificial Intelligence Engineer' completed:
+2025-07-13 11:00:40,839 - INFO -    📄 Pages scraped: 11
+2025-07-13 11:00:40,839 - INFO -    ✅ New jobs found: 1
+2025-07-13 11:00:40,839 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:00:40,839 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:00:46,574 - INFO - 🔄 Processing query 7/19: 'Machine Learning Engineer'
+2025-07-13 11:00:46,574 - INFO - 🔍 Starting scrape for query: 'Machine Learning Engineer'
+2025-07-13 11:00:46,574 - INFO - 📄 Scraping page 1/25 for 'Machine Learning Engineer'
+2025-07-13 11:00:47,245 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 11:00:47,914 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:00:51,188 - INFO - 📄 Scraping page 2/25 for 'Machine Learning Engineer'
+2025-07-13 11:00:51,731 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 11:00:52,711 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:00:55,976 - INFO - 📄 Scraping page 3/25 for 'Machine Learning Engineer'
+2025-07-13 11:00:56,562 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 11:00:57,503 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:02,922 - INFO - 📄 Scraping page 4/25 for 'Machine Learning Engineer'
+2025-07-13 11:01:03,589 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 11:01:04,449 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:09,311 - INFO - 📄 Scraping page 5/25 for 'Machine Learning Engineer'
+2025-07-13 11:01:09,932 - INFO - ✅ Found 13 job cards on page 5
+2025-07-13 11:01:10,705 - INFO - 📊 Page 5 summary: 0 new jobs added, 13 duplicates skipped
+2025-07-13 11:01:13,711 - INFO - 📄 Scraping page 6/25 for 'Machine Learning Engineer'
+2025-07-13 11:01:20,680 - WARNING - ⏰ Timeout loading page 6 for 'Machine Learning Engineer' - skipping
+2025-07-13 11:01:20,680 - INFO - 🎯 Query 'Machine Learning Engineer' completed:
+2025-07-13 11:01:20,680 - INFO -    📄 Pages scraped: 5
+2025-07-13 11:01:20,680 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:01:20,680 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:01:20,680 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:01:26,140 - INFO - 🔄 Processing query 8/19: 'Machine Learning'
+2025-07-13 11:01:26,140 - INFO - 🔍 Starting scrape for query: 'Machine Learning'
+2025-07-13 11:01:26,140 - INFO - 📄 Scraping page 1/25 for 'Machine Learning'
+2025-07-13 11:01:26,901 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 11:01:27,879 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:31,876 - INFO - 📄 Scraping page 2/25 for 'Machine Learning'
+2025-07-13 11:01:32,484 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 11:01:33,409 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:36,952 - INFO - 📄 Scraping page 3/25 for 'Machine Learning'
+2025-07-13 11:01:37,596 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 11:01:38,456 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:42,723 - INFO - 📄 Scraping page 4/25 for 'Machine Learning'
+2025-07-13 11:01:43,273 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 11:01:44,158 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:46,565 - INFO - 📄 Scraping page 5/25 for 'Machine Learning'
+2025-07-13 11:01:47,148 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 11:01:48,072 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:51,171 - INFO - 📄 Scraping page 6/25 for 'Machine Learning'
+2025-07-13 11:01:51,806 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 11:01:52,671 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:01:56,395 - INFO - 📄 Scraping page 7/25 for 'Machine Learning'
+2025-07-13 11:01:56,901 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 11:01:57,848 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:01,401 - INFO - 📄 Scraping page 8/25 for 'Machine Learning'
+2025-07-13 11:02:01,996 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 11:02:02,888 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:07,321 - INFO - 📄 Scraping page 9/25 for 'Machine Learning'
+2025-07-13 11:02:07,833 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 11:02:08,786 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:12,254 - INFO - 📄 Scraping page 10/25 for 'Machine Learning'
+2025-07-13 11:02:12,901 - INFO - ✅ Found 20 job cards on page 10
+2025-07-13 11:02:13,791 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:17,183 - INFO - 📄 Scraping page 11/25 for 'Machine Learning'
+2025-07-13 11:02:17,681 - INFO - ✅ Found 20 job cards on page 11
+2025-07-13 11:02:18,624 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:23,142 - INFO - 📄 Scraping page 12/25 for 'Machine Learning'
+2025-07-13 11:02:23,681 - INFO - ✅ Found 20 job cards on page 12
+2025-07-13 11:02:24,609 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:27,281 - INFO - 📄 Scraping page 13/25 for 'Machine Learning'
+2025-07-13 11:02:27,863 - INFO - ✅ Found 20 job cards on page 13
+2025-07-13 11:02:28,745 - INFO - 📊 Page 13 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:32,437 - INFO - 📄 Scraping page 14/25 for 'Machine Learning'
+2025-07-13 11:02:32,960 - INFO - ✅ Found 20 job cards on page 14
+2025-07-13 11:02:33,904 - INFO - 📊 Page 14 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:39,249 - INFO - 📄 Scraping page 15/25 for 'Machine Learning'
+2025-07-13 11:02:39,810 - INFO - ✅ Found 20 job cards on page 15
+2025-07-13 11:02:40,702 - INFO - 📊 Page 15 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:44,931 - INFO - 📄 Scraping page 16/25 for 'Machine Learning'
+2025-07-13 11:02:45,449 - INFO - ✅ Found 20 job cards on page 16
+2025-07-13 11:02:46,382 - INFO - 📊 Page 16 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:50,558 - INFO - 📄 Scraping page 17/25 for 'Machine Learning'
+2025-07-13 11:02:51,098 - INFO - ✅ Found 20 job cards on page 17
+2025-07-13 11:02:52,028 - INFO - 📊 Page 17 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:02:55,902 - INFO - 📄 Scraping page 18/25 for 'Machine Learning'
+2025-07-13 11:02:56,584 - INFO - ✅ Found 20 job cards on page 18
+2025-07-13 11:02:57,445 - INFO - 📊 Page 18 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:02,833 - INFO - 📄 Scraping page 19/25 for 'Machine Learning'
+2025-07-13 11:03:03,447 - INFO - ✅ Found 20 job cards on page 19
+2025-07-13 11:03:04,328 - INFO - 📊 Page 19 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:08,297 - INFO - 📄 Scraping page 20/25 for 'Machine Learning'
+2025-07-13 11:03:08,847 - INFO - ✅ Found 20 job cards on page 20
+2025-07-13 11:03:09,780 - INFO - 📊 Page 20 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:13,669 - INFO - 📄 Scraping page 21/25 for 'Machine Learning'
+2025-07-13 11:03:14,212 - INFO - ✅ Found 20 job cards on page 21
+2025-07-13 11:03:15,114 - INFO - 📊 Page 21 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:19,346 - INFO - 📄 Scraping page 22/25 for 'Machine Learning'
+2025-07-13 11:03:19,872 - INFO - ✅ Found 20 job cards on page 22
+2025-07-13 11:03:20,811 - INFO - 📊 Page 22 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:23,412 - INFO - 📄 Scraping page 23/25 for 'Machine Learning'
+2025-07-13 11:03:24,161 - INFO - ✅ Found 20 job cards on page 23
+2025-07-13 11:03:24,869 - INFO - 📊 Page 23 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:28,694 - INFO - 📄 Scraping page 24/25 for 'Machine Learning'
+2025-07-13 11:03:29,257 - INFO - ✅ Found 20 job cards on page 24
+2025-07-13 11:03:30,129 - INFO - 📊 Page 24 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:34,877 - INFO - 📄 Scraping page 25/25 for 'Machine Learning'
+2025-07-13 11:03:35,530 - INFO - ✅ Found 3 job cards on page 25
+2025-07-13 11:03:35,752 - INFO - 📊 Page 25 summary: 0 new jobs added, 3 duplicates skipped
+2025-07-13 11:03:41,334 - INFO - 🎯 Query 'Machine Learning' completed:
+2025-07-13 11:03:41,334 - INFO -    📄 Pages scraped: 25
+2025-07-13 11:03:41,334 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:03:41,334 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:03:41,334 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:03:46,797 - INFO - 🔄 Processing query 9/19: 'Data Scientist'
+2025-07-13 11:03:46,797 - INFO - 🔍 Starting scrape for query: 'Data Scientist'
+2025-07-13 11:03:46,797 - INFO - 📄 Scraping page 1/25 for 'Data Scientist'
+2025-07-13 11:03:47,381 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 11:03:48,369 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:51,392 - INFO - 📄 Scraping page 2/25 for 'Data Scientist'
+2025-07-13 11:03:52,138 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 11:03:53,021 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:03:57,025 - INFO - 📄 Scraping page 3/25 for 'Data Scientist'
+2025-07-13 11:03:57,630 - INFO - ✅ Found 19 job cards on page 3
+2025-07-13 11:03:58,496 - INFO - 📊 Page 3 summary: 0 new jobs added, 19 duplicates skipped
+2025-07-13 11:04:02,692 - INFO - 📄 Scraping page 4/25 for 'Data Scientist'
+2025-07-13 11:04:09,616 - WARNING - ⏰ Timeout loading page 4 for 'Data Scientist' - skipping
+2025-07-13 11:04:09,616 - INFO - 🎯 Query 'Data Scientist' completed:
+2025-07-13 11:04:09,616 - INFO -    📄 Pages scraped: 3
+2025-07-13 11:04:09,616 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:04:09,616 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:04:09,616 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:04:14,878 - INFO - 🔄 Processing query 10/19: 'Computer Vision Engineer'
+2025-07-13 11:04:14,879 - INFO - 🔍 Starting scrape for query: 'Computer Vision Engineer'
+2025-07-13 11:04:14,879 - INFO - 📄 Scraping page 1/25 for 'Computer Vision Engineer'
+2025-07-13 11:04:15,486 - INFO - ✅ Found 7 job cards on page 1
+2025-07-13 11:04:16,176 - INFO - 📊 Page 1 summary: 0 new jobs added, 7 duplicates skipped
+2025-07-13 11:04:19,910 - INFO - 📄 Scraping page 2/25 for 'Computer Vision Engineer'
+2025-07-13 11:04:27,063 - WARNING - ⏰ Timeout loading page 2 for 'Computer Vision Engineer' - skipping
+2025-07-13 11:04:27,063 - INFO - 🎯 Query 'Computer Vision Engineer' completed:
+2025-07-13 11:04:27,063 - INFO -    📄 Pages scraped: 1
+2025-07-13 11:04:27,064 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:04:27,064 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:04:27,064 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:04:33,387 - INFO - 🔄 Processing query 11/19: 'Natural Language Processing Engineer'
+2025-07-13 11:04:33,388 - INFO - 🔍 Starting scrape for query: 'Natural Language Processing Engineer'
+2025-07-13 11:04:33,388 - INFO - 📄 Scraping page 1/25 for 'Natural Language Processing Engineer'
+2025-07-13 11:04:40,395 - WARNING - ⏰ Timeout loading page 1 for 'Natural Language Processing Engineer' - skipping
+2025-07-13 11:04:40,395 - INFO - 🎯 Query 'Natural Language Processing Engineer' completed:
+2025-07-13 11:04:40,395 - INFO -    📄 Pages scraped: 0
+2025-07-13 11:04:40,395 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:04:40,396 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:04:40,396 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:04:44,563 - INFO - 🔄 Processing query 12/19: 'LLM Engineer'
+2025-07-13 11:04:44,563 - INFO - 🔍 Starting scrape for query: 'LLM Engineer'
+2025-07-13 11:04:44,564 - INFO - 📄 Scraping page 1/25 for 'LLM Engineer'
+2025-07-13 11:04:45,258 - INFO - ✅ Found 5 job cards on page 1
+2025-07-13 11:04:45,520 - INFO - 📊 Page 1 summary: 0 new jobs added, 5 duplicates skipped
+2025-07-13 11:04:49,911 - INFO - 📄 Scraping page 2/25 for 'LLM Engineer'
+2025-07-13 11:04:56,843 - WARNING - ⏰ Timeout loading page 2 for 'LLM Engineer' - skipping
+2025-07-13 11:04:56,843 - INFO - 🎯 Query 'LLM Engineer' completed:
+2025-07-13 11:04:56,843 - INFO -    📄 Pages scraped: 1
+2025-07-13 11:04:56,843 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:04:56,843 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:04:56,843 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:05:00,241 - INFO - 🔄 Processing query 13/19: 'AI Engineer'
+2025-07-13 11:05:00,241 - INFO - 🔍 Starting scrape for query: 'AI Engineer'
+2025-07-13 11:05:00,241 - INFO - 📄 Scraping page 1/25 for 'AI Engineer'
+2025-07-13 11:05:00,899 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 11:05:01,838 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:06,415 - INFO - 📄 Scraping page 2/25 for 'AI Engineer'
+2025-07-13 11:05:06,997 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 11:05:07,947 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:13,160 - INFO - 📄 Scraping page 3/25 for 'AI Engineer'
+2025-07-13 11:05:13,973 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 11:05:14,832 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:18,813 - INFO - 📄 Scraping page 4/25 for 'AI Engineer'
+2025-07-13 11:05:19,458 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 11:05:20,330 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:23,748 - INFO - 📄 Scraping page 5/25 for 'AI Engineer'
+2025-07-13 11:05:24,426 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 11:05:25,308 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:29,677 - INFO - 📄 Scraping page 6/25 for 'AI Engineer'
+2025-07-13 11:05:30,270 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 11:05:31,224 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:35,022 - INFO - 📄 Scraping page 7/25 for 'AI Engineer'
+2025-07-13 11:05:35,663 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 11:05:36,545 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:38,932 - INFO - 📄 Scraping page 8/25 for 'AI Engineer'
+2025-07-13 11:05:39,580 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 11:05:40,471 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:45,392 - INFO - 📄 Scraping page 9/25 for 'AI Engineer'
+2025-07-13 11:05:46,005 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 11:05:46,952 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:52,872 - INFO - 📄 Scraping page 10/25 for 'AI Engineer'
+2025-07-13 11:05:53,465 - INFO - ✅ Found 20 job cards on page 10
+2025-07-13 11:05:54,404 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:05:59,450 - INFO - 📄 Scraping page 11/25 for 'AI Engineer'
+2025-07-13 11:06:00,059 - INFO - ✅ Found 9 job cards on page 11
+2025-07-13 11:06:00,797 - INFO - 📊 Page 11 summary: 0 new jobs added, 9 duplicates skipped
+2025-07-13 11:06:03,337 - INFO - 📄 Scraping page 12/25 for 'AI Engineer'
+2025-07-13 11:06:10,362 - WARNING - ⏰ Timeout loading page 12 for 'AI Engineer' - skipping
+2025-07-13 11:06:10,362 - INFO - 🎯 Query 'AI Engineer' completed:
+2025-07-13 11:06:10,363 - INFO -    📄 Pages scraped: 11
+2025-07-13 11:06:10,363 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:06:10,363 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:06:10,363 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:06:15,801 - INFO - 🔄 Processing query 14/19: 'AI Software Engineer'
+2025-07-13 11:06:15,801 - INFO - 🔍 Starting scrape for query: 'AI Software Engineer'
+2025-07-13 11:06:15,801 - INFO - 📄 Scraping page 1/25 for 'AI Software Engineer'
+2025-07-13 11:06:16,445 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 11:06:17,434 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:19,224 - INFO - 📄 Scraping page 2/25 for 'AI Software Engineer'
+2025-07-13 11:06:19,818 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 11:06:20,801 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:24,266 - INFO - 📄 Scraping page 3/25 for 'AI Software Engineer'
+2025-07-13 11:06:24,958 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 11:06:25,832 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:30,177 - INFO - 📄 Scraping page 4/25 for 'AI Software Engineer'
+2025-07-13 11:06:30,781 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 11:06:31,735 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:32,714 - INFO - 📄 Scraping page 5/25 for 'AI Software Engineer'
+2025-07-13 11:06:33,537 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 11:06:34,396 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:37,840 - INFO - 📄 Scraping page 6/25 for 'AI Software Engineer'
+2025-07-13 11:06:38,573 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 11:06:39,467 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:43,521 - INFO - 📄 Scraping page 7/25 for 'AI Software Engineer'
+2025-07-13 11:06:44,194 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 11:06:45,077 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:48,981 - INFO - 📄 Scraping page 8/25 for 'AI Software Engineer'
+2025-07-13 11:06:49,627 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 11:06:50,522 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:06:55,233 - INFO - 📄 Scraping page 9/25 for 'AI Software Engineer'
+2025-07-13 11:06:55,900 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 11:06:56,776 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:07:02,065 - INFO - 📄 Scraping page 10/25 for 'AI Software Engineer'
+2025-07-13 11:07:02,701 - INFO - ✅ Found 20 job cards on page 10
+2025-07-13 11:07:03,649 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:07:08,217 - INFO - 📄 Scraping page 11/25 for 'AI Software Engineer'
+2025-07-13 11:07:08,992 - INFO - ✅ Found 9 job cards on page 11
+2025-07-13 11:07:09,621 - INFO - 📊 Page 11 summary: 0 new jobs added, 9 duplicates skipped
+2025-07-13 11:07:14,774 - INFO - 📄 Scraping page 12/25 for 'AI Software Engineer'
+2025-07-13 11:07:21,837 - WARNING - ⏰ Timeout loading page 12 for 'AI Software Engineer' - skipping
+2025-07-13 11:07:21,837 - INFO - 🎯 Query 'AI Software Engineer' completed:
+2025-07-13 11:07:21,838 - INFO -    📄 Pages scraped: 11
+2025-07-13 11:07:21,838 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:07:21,838 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:07:21,838 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:07:25,478 - INFO - 🔄 Processing query 15/19: 'ML Software Engineer'
+2025-07-13 11:07:25,478 - INFO - 🔍 Starting scrape for query: 'ML Software Engineer'
+2025-07-13 11:07:25,479 - INFO - 📄 Scraping page 1/25 for 'ML Software Engineer'
+2025-07-13 11:07:26,202 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 11:07:27,140 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:07:32,525 - INFO - 📄 Scraping page 2/25 for 'ML Software Engineer'
+2025-07-13 11:07:33,134 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 11:07:34,116 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:07:38,068 - INFO - 📄 Scraping page 3/25 for 'ML Software Engineer'
+2025-07-13 11:07:38,633 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 11:07:39,598 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:07:44,005 - INFO - 📄 Scraping page 4/25 for 'ML Software Engineer'
+2025-07-13 11:07:44,676 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 11:07:45,567 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:07:49,794 - INFO - 📄 Scraping page 5/25 for 'ML Software Engineer'
+2025-07-13 11:07:50,430 - INFO - ✅ Found 13 job cards on page 5
+2025-07-13 11:07:51,213 - INFO - 📊 Page 5 summary: 0 new jobs added, 13 duplicates skipped
+2025-07-13 11:07:55,048 - INFO - 📄 Scraping page 6/25 for 'ML Software Engineer'
+2025-07-13 11:08:02,102 - WARNING - ⏰ Timeout loading page 6 for 'ML Software Engineer' - skipping
+2025-07-13 11:08:02,102 - INFO - 🎯 Query 'ML Software Engineer' completed:
+2025-07-13 11:08:02,102 - INFO -    📄 Pages scraped: 5
+2025-07-13 11:08:02,102 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:08:02,102 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:08:02,102 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:08:07,093 - INFO - 🔄 Processing query 16/19: 'Prompt Engineer'
+2025-07-13 11:08:07,093 - INFO - 🔍 Starting scrape for query: 'Prompt Engineer'
+2025-07-13 11:08:07,093 - INFO - 📄 Scraping page 1/25 for 'Prompt Engineer'
+2025-07-13 11:08:07,830 - INFO - ✅ Found 4 job cards on page 1
+2025-07-13 11:08:08,090 - INFO - 📊 Page 1 summary: 0 new jobs added, 4 duplicates skipped
+2025-07-13 11:08:12,506 - INFO - 📄 Scraping page 2/25 for 'Prompt Engineer'
+2025-07-13 11:08:19,503 - WARNING - ⏰ Timeout loading page 2 for 'Prompt Engineer' - skipping
+2025-07-13 11:08:19,503 - INFO - 🎯 Query 'Prompt Engineer' completed:
+2025-07-13 11:08:19,503 - INFO -    📄 Pages scraped: 1
+2025-07-13 11:08:19,503 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:08:19,503 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:08:19,503 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:08:25,524 - INFO - 🔄 Processing query 17/19: 'GenAI Solutions Engineer'
+2025-07-13 11:08:25,525 - INFO - 🔍 Starting scrape for query: 'GenAI Solutions Engineer'
+2025-07-13 11:08:25,525 - INFO - 📄 Scraping page 1/25 for 'GenAI Solutions Engineer'
+2025-07-13 11:08:32,566 - WARNING - ⏰ Timeout loading page 1 for 'GenAI Solutions Engineer' - skipping
+2025-07-13 11:08:32,566 - INFO - 🎯 Query 'GenAI Solutions Engineer' completed:
+2025-07-13 11:08:32,566 - INFO -    📄 Pages scraped: 0
+2025-07-13 11:08:32,566 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:08:32,567 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:08:32,567 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:08:38,968 - INFO - 🔄 Processing query 18/19: 'Gen AI Architect'
+2025-07-13 11:08:38,968 - INFO - 🔍 Starting scrape for query: 'Gen AI Architect'
+2025-07-13 11:08:38,968 - INFO - 📄 Scraping page 1/25 for 'Gen AI Architect'
+2025-07-13 11:08:39,502 - INFO - ✅ Found 4 job cards on page 1
+2025-07-13 11:08:39,907 - INFO - 📊 Page 1 summary: 0 new jobs added, 4 duplicates skipped
+2025-07-13 11:08:42,151 - INFO - 📄 Scraping page 2/25 for 'Gen AI Architect'
+2025-07-13 11:08:49,095 - WARNING - ⏰ Timeout loading page 2 for 'Gen AI Architect' - skipping
+2025-07-13 11:08:49,095 - INFO - 🎯 Query 'Gen AI Architect' completed:
+2025-07-13 11:08:49,095 - INFO -    📄 Pages scraped: 1
+2025-07-13 11:08:49,096 - INFO -    ✅ New jobs found: 0
+2025-07-13 11:08:49,096 - INFO -    🔗 Total unique links: 2931
+2025-07-13 11:08:49,096 - INFO - ⏳ Waiting before next query...
+2025-07-13 11:08:53,506 - INFO - 🔄 Processing query 19/19: 'AI'
+2025-07-13 11:08:53,506 - INFO - 🔍 Starting scrape for query: 'AI'
+2025-07-13 11:08:53,506 - INFO - 📄 Scraping page 1/25 for 'AI'
+2025-07-13 11:08:54,035 - INFO - ✅ Found 20 job cards on page 1
+2025-07-13 11:08:54,993 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:00,460 - INFO - 📄 Scraping page 2/25 for 'AI'
+2025-07-13 11:09:01,026 - INFO - ✅ Found 20 job cards on page 2
+2025-07-13 11:09:01,922 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:05,060 - INFO - 📄 Scraping page 3/25 for 'AI'
+2025-07-13 11:09:05,670 - INFO - ✅ Found 20 job cards on page 3
+2025-07-13 11:09:06,574 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:09,897 - INFO - 📄 Scraping page 4/25 for 'AI'
+2025-07-13 11:09:10,541 - INFO - ✅ Found 20 job cards on page 4
+2025-07-13 11:09:11,480 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:16,079 - INFO - 📄 Scraping page 5/25 for 'AI'
+2025-07-13 11:09:16,616 - INFO - ✅ Found 20 job cards on page 5
+2025-07-13 11:09:17,556 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:21,437 - INFO - 📄 Scraping page 6/25 for 'AI'
+2025-07-13 11:09:22,016 - INFO - ✅ Found 20 job cards on page 6
+2025-07-13 11:09:22,956 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:26,533 - INFO - 📄 Scraping page 7/25 for 'AI'
+2025-07-13 11:09:27,064 - INFO - ✅ Found 20 job cards on page 7
+2025-07-13 11:09:28,007 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:30,319 - INFO - 📄 Scraping page 8/25 for 'AI'
+2025-07-13 11:09:30,888 - INFO - ✅ Found 20 job cards on page 8
+2025-07-13 11:09:31,852 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:35,117 - INFO - 📄 Scraping page 9/25 for 'AI'
+2025-07-13 11:09:35,640 - INFO - ✅ Found 20 job cards on page 9
+2025-07-13 11:09:36,592 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:40,919 - INFO - 📄 Scraping page 10/25 for 'AI'
+2025-07-13 11:09:41,466 - INFO - ✅ Found 20 job cards on page 10
+2025-07-13 11:09:42,417 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:47,446 - INFO - 📄 Scraping page 11/25 for 'AI'
+2025-07-13 11:09:48,053 - INFO - ✅ Found 20 job cards on page 11
+2025-07-13 11:09:48,925 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:53,567 - INFO - 📄 Scraping page 12/25 for 'AI'
+2025-07-13 11:09:54,101 - INFO - ✅ Found 20 job cards on page 12
+2025-07-13 11:09:55,071 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:09:58,801 - INFO - 📄 Scraping page 13/25 for 'AI'
+2025-07-13 11:09:59,365 - INFO - ✅ Found 20 job cards on page 13
+2025-07-13 11:10:00,311 - INFO - 📊 Page 13 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:10:04,438 - INFO - 📄 Scraping page 14/25 for 'AI'
+2025-07-13 11:10:04,969 - INFO - ✅ Found 20 job cards on page 14
+2025-07-13 11:10:05,906 - INFO - 📊 Page 14 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:10:10,175 - INFO - 📄 Scraping page 15/25 for 'AI'
+2025-07-13 11:10:10,727 - INFO - ✅ Found 20 job cards on page 15
+2025-07-13 11:10:11,668 - INFO - 📊 Page 15 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:10:15,351 - INFO - 📄 Scraping page 16/25 for 'AI'
+2025-07-13 11:10:15,993 - INFO - ✅ Found 20 job cards on page 16
+2025-07-13 11:10:16,985 - INFO - ✅ [17/20] MarTech Analytics Developer at Robert Half (Easy Apply)
+2025-07-13 11:10:17,016 - INFO - 📊 Page 16 summary: 1 new jobs added, 19 duplicates skipped
+2025-07-13 11:10:23,354 - INFO - 📄 Scraping page 17/25 for 'AI'
+2025-07-13 11:10:23,854 - INFO - ✅ Found 20 job cards on page 17
+2025-07-13 11:10:24,733 - INFO - ✅ [5/20] Graphic Designer at Robert Half (Easy Apply)
+2025-07-13 11:10:24,971 - INFO - ✅ [18/20] Lenel Security Systems Access Control Support Specialist at Robert Half (Easy Apply)
+2025-07-13 11:10:25,081 - INFO - ✅ [19/20] Desktop Support Analyst at Robert Half (Easy Apply)
+2025-07-13 11:10:25,092 - INFO - 📊 Page 17 summary: 3 new jobs added, 17 duplicates skipped
+2025-07-13 11:10:27,942 - INFO - 📄 Scraping page 18/25 for 'AI'
+2025-07-13 11:10:28,495 - INFO - ✅ Found 20 job cards on page 18
+2025-07-13 11:10:29,378 - INFO - ✅ [5/20] Infrastructure Project Manager at Robert Half (Easy Apply)
+2025-07-13 11:10:32,613 - INFO - ✅ [16/20] Lead Programmer Analyst at Robert Half (Easy Apply)
+2025-07-13 11:10:32,750 - INFO - ✅ [20/20] Product Owner IV (Contractor) at Robert Half (Easy Apply)
+2025-07-13 11:10:32,750 - INFO - 📊 Page 18 summary: 3 new jobs added, 17 duplicates skipped
+2025-07-13 11:10:38,180 - INFO - 📄 Scraping page 19/25 for 'AI'
+2025-07-13 11:10:38,736 - INFO - ✅ Found 20 job cards on page 19
+2025-07-13 11:10:39,326 - INFO - ✅ [3/20] Program Manager IV (Contractor) at Robert Half (Easy Apply)
+2025-07-13 11:10:39,564 - INFO - ✅ [17/20] ERP/CRM Consultant at Robert Half (Easy Apply)
+2025-07-13 11:10:39,717 - INFO - ✅ [20/20] Video Editor at Robert Half (Easy Apply)
+2025-07-13 11:10:39,717 - INFO - 📊 Page 19 summary: 3 new jobs added, 17 duplicates skipped
+2025-07-13 11:10:44,427 - INFO - 📄 Scraping page 20/25 for 'AI'
+2025-07-13 11:10:45,037 - INFO - ✅ Found 20 job cards on page 20
+2025-07-13 11:10:45,963 - INFO - ✅ [11/20] Help Desk Analyst at Robert Half (Easy Apply)
+2025-07-13 11:10:46,103 - INFO - ✅ [15/20] Package Designer at Robert Half (Easy Apply)
+2025-07-13 11:10:46,154 - INFO - 📊 Page 20 summary: 2 new jobs added, 18 duplicates skipped
+2025-07-13 11:10:50,302 - INFO - 📄 Scraping page 21/25 for 'AI'
+2025-07-13 11:10:50,933 - INFO - ✅ Found 20 job cards on page 21
+2025-07-13 11:10:51,783 - INFO - ✅ [7/20] ERP/CRM Consultant at Robert Half (Easy Apply)
+2025-07-13 11:10:51,981 - INFO - ✅ [16/20] Growth Marketing Associate at Robert Half (Easy Apply)
+2025-07-13 11:10:52,102 - INFO - ✅ [18/20] Service Delivery Manager at Robert Half (Easy Apply)
+2025-07-13 11:10:52,122 - INFO - 📊 Page 21 summary: 3 new jobs added, 17 duplicates skipped
+2025-07-13 11:10:54,282 - INFO - 📄 Scraping page 22/25 for 'AI'
+2025-07-13 11:10:54,821 - INFO - ✅ Found 20 job cards on page 22
+2025-07-13 11:10:55,657 - INFO - ✅ [1/20] Desktop Support Analyst at Robert Half (Easy Apply)
+2025-07-13 11:10:58,966 - INFO - ✅ [19/20] 3D Modeler at Robert Half (Easy Apply)
+2025-07-13 11:10:58,976 - INFO - 📊 Page 22 summary: 2 new jobs added, 18 duplicates skipped
+2025-07-13 11:11:04,506 - INFO - 📄 Scraping page 23/25 for 'AI'
+2025-07-13 11:11:05,036 - INFO - ✅ Found 20 job cards on page 23
+2025-07-13 11:11:05,928 - INFO - ✅ [3/20] Systems Administrator at Robert Half (Easy Apply)
+2025-07-13 11:11:06,108 - INFO - ✅ [10/20] Infor CSD (CloudSuite Distribution) Systems Administrator at Robert Half (Easy Apply)
+2025-07-13 11:11:06,209 - INFO - 📊 Page 23 summary: 2 new jobs added, 18 duplicates skipped
+2025-07-13 11:11:10,372 - INFO - 📄 Scraping page 24/25 for 'AI'
+2025-07-13 11:11:10,921 - INFO - ✅ Found 20 job cards on page 24
+2025-07-13 11:11:11,788 - INFO - ✅ [2/20] Database Administrator at Robert Half (Easy Apply)
+2025-07-13 11:11:11,978 - INFO - 📊 Page 24 summary: 1 new jobs added, 19 duplicates skipped
+2025-07-13 11:11:15,957 - INFO - 📄 Scraping page 25/25 for 'AI'
+2025-07-13 11:11:16,558 - INFO - ✅ Found 20 job cards on page 25
+2025-07-13 11:11:17,414 - INFO - 📊 Page 25 summary: 0 new jobs added, 20 duplicates skipped
+2025-07-13 11:11:20,307 - INFO - 🎯 Query 'AI' completed:
+2025-07-13 11:11:20,307 - INFO -    📄 Pages scraped: 25
+2025-07-13 11:11:20,307 - INFO -    ✅ New jobs found: 20
+2025-07-13 11:11:20,307 - INFO -    🔗 Total unique links: 2951
+2025-07-13 11:11:20,308 - INFO - ✅ Created DataFrame with 23 new jobs
+2025-07-13 11:11:20,344 - INFO - 🎉 Scraping completed successfully!
+2025-07-13 11:11:20,344 - INFO -    📊 New jobs scraped: 23
+2025-07-13 11:11:20,344 - INFO -    🔄 Duplicates removed: 0
+2025-07-13 11:11:20,344 - INFO -    📁 Total jobs in CSV: 2951
+2025-07-13 11:11:20,344 - INFO -    💾 Saved to: output/jobs.csv
+2025-07-13 11:11:20,344 - INFO - 🔧 Closing browser...
+2025-07-13 11:11:20,631 - INFO -    ✅ Scraping completed
+2025-07-13 11:11:20,631 - INFO - 🎯 Starting job filtering...
+2025-07-13 11:11:20,631 - INFO - 🔍 Starting job filtering process
+2025-07-13 11:11:20,631 - INFO - 📋 Loaded 49 relevant job title keywords
+2025-07-13 11:11:20,647 - INFO - 📂 Loaded 2951 jobs from output/jobs.csv
+2025-07-13 11:11:20,647 - INFO - 🎯 Filtering jobs by relevant keywords...
+2025-07-13 11:11:20,661 - INFO -    ✅ Found 1447 relevant jobs out of 2951 total
+2025-07-13 11:11:20,661 - INFO - 📂 Loading existing filtered jobs from output/final_ml_jobs.csv
+2025-07-13 11:11:20,669 - INFO -    📊 Found 1445 existing jobs, 1445 unique links
+2025-07-13 11:11:20,670 - INFO - 🔄 Combining datasets and removing duplicates...
+2025-07-13 11:11:20,671 - INFO -    🔄 Removed 1445 duplicate jobs
+2025-07-13 11:11:20,672 - INFO -    📊 Sorted jobs by status
+2025-07-13 11:11:20,689 - INFO - 💾 Saved filtered jobs to output/final_ml_jobs.csv
+2025-07-13 11:11:20,690 - INFO - 🎉 Filtering completed successfully!
+2025-07-13 11:11:20,690 - INFO -    📊 Total relevant jobs: 1447
+2025-07-13 11:11:20,690 - INFO -    ✅ New jobs added: 2
+2025-07-13 11:11:20,690 - INFO -    ⏳ New pending jobs: 2
+2025-07-13 11:11:20,690 - INFO -    💾 Saved to: output/final_ml_jobs.csv
+2025-07-13 11:11:20,691 - INFO -    ✅ Filtering completed
+2025-07-13 11:11:20,691 - INFO - 🎉 Main pipeline completed successfully!
