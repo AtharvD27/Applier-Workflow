@@ -2,6 +2,9 @@ name: Destroy Spot VM and Reattach EIP
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   destroy:
     runs-on: ubuntu-latest

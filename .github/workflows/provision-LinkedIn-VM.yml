@@ -2,6 +2,9 @@ name: Provision LinkedIn Spot VM
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   provision:
     runs-on: ubuntu-latest
