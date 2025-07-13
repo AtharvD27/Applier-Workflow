@@ -50,7 +50,7 @@ resource "aws_instance" "linkedln_vm" {
 
 # -----------------  ASSOCIATE EIP WITH NEW VM  -----------------
 resource "aws_eip_association" "attach_eip" {
-  allocation_id = data.aws_eip.static.allocation_id
+  allocation_id = data.aws_eip.static.id
   instance_id   = aws_instance.linkedln_vm.id
 }
 
