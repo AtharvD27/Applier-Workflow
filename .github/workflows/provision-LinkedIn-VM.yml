@@ -33,24 +33,31 @@ jobs:
   
     - uses: hashicorp/setup-terraform@v2
 
+    - name: Install jq
+      run: sudo apt-get update && sudo apt-get install -y jq
+
     - name: Terraform init & apply
       run: |
         terraform init -input=false
         terraform apply -auto-approve
 
-    - name: Commit state file
+    - name: Scrub secrets & commit state
       run: |
         git config --local user.email "github-actions@example.com"
         git config --local user.name  "github-actions"
 
-        # always add the main state file
+        # scrub OAuth tokens
+        ./sanitize_state.sh
+
+        # always add main state file
         git add -f terraform.tfstate
 
-        # add the backup only if it exists
+        # add backup only if it exists
         if [ -f terraform.tfstate.backup ]; then
           git add -f terraform.tfstate.backup
         fi
 
-        git commit -m "CI: save terraform state $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit"
+        git commit -m "CI: save sanitized terraform state $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit"
         git push
+
 
