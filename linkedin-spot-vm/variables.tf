@@ -1,5 +1,5 @@
 variable "instance_type" {
-  default = "t2.micro"
+  default = "m5.xlarge"
 }
 
 variable "volume_size" {

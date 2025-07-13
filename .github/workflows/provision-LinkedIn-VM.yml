@@ -20,8 +20,17 @@ jobs:
         aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region:            us-east-1
-
-    - uses: hashicorp/setup-terraform@v2
+    
+    - name: Inject rclone.conf into cloud-init.sh
+      run: |
+        mkdir -p linkedin-spot-vm/tmp
+        echo "${{ secrets.RCLONE_CONF }}" > linkedin-spot-vm/tmp/rclone.conf.raw
+        sed '/__RCLONE_CONF__/{
+          r linkedin-spot-vm/tmp/rclone.conf.raw
+          d
+        }' linkedin-spot-vm/cloud-init.sh > linkedin-spot-vm/tmp/cloud-init.sh
+        mv linkedin-spot-vm/tmp/cloud-init.sh linkedin-spot-vm/cloud-init.sh
+        - uses: hashicorp/setup-terraform@v2
 
     - name: Terraform init & apply
       run: |
