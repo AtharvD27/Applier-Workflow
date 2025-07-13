@@ -25,3 +25,8 @@ variable "ami_id" {
 variable "dummy_instance_id" {
   default = "i-06aed8d8baa0db506"
 }
+
+variable "eip_allocation_id" {
+  description = "Allocation ID of the static Elastic IP"
+  default     = "eipalloc-097c2ba45b51396c8"
+}

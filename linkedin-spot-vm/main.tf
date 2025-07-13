@@ -44,8 +44,13 @@ resource "aws_instance" "linkedln_vm" {
   }
 }
 
+# Look up the existing Elastic IP by allocation_id
+data "aws_eip" "static" {
+  allocation_id = var.eip_allocation_id
+}
+
 resource "aws_eip_association" "attach_eip" {
-  allocation_id = data.aws_eip.existing_eip.allocation_id
+  allocation_id = data.aws_eip.static.allocation_id
   instance_id   = aws_instance.linkedln_vm.id
 }
 
