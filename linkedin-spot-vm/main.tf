@@ -10,10 +10,15 @@ data "aws_security_group" "launch_sg" {
   id = var.security_group_id
 }
 
-data "aws_eip" "existing_eip" {
-  instance_id = var.dummy_instance_id
+# -----------------  LOOK UP THE EXISTING EIP  -----------------
+data "aws_eip" "static" {
+  filter {
+    name   = "allocation-id"
+    values = [var.eip_allocation_id]
+  }
 }
 
+# -----------------  SPOT INSTANCE  -----------------
 resource "aws_instance" "linkedln_vm" {
   ami                         = var.ami_id
   instance_type               = var.instance_type
@@ -29,8 +34,7 @@ resource "aws_instance" "linkedln_vm" {
     }
   }
 
-  user_data = data.template_file.user_data.rendered
-
+  user_data  = data.template_file.user_data.rendered
   monitoring = true
 
   root_block_device {
@@ -44,16 +48,13 @@ resource "aws_instance" "linkedln_vm" {
   }
 }
 
-# Look up the existing Elastic IP by allocation_id
-data "aws_eip" "static" {
-  allocation_id = var.eip_allocation_id
-}
-
+# -----------------  ASSOCIATE EIP WITH NEW VM  -----------------
 resource "aws_eip_association" "attach_eip" {
   allocation_id = data.aws_eip.static.allocation_id
   instance_id   = aws_instance.linkedln_vm.id
 }
 
+# -----------------  OUTPUTS  -----------------
 output "instance_id" {
   value = aws_instance.linkedln_vm.id
 }
