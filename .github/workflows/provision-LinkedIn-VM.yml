@@ -27,8 +27,17 @@ jobs:
 
     - name: Commit state file
       run: |
-        git config user.email "github-actions@example.com"
-        git config user.name  "github-actions"
-        git add terraform.tfstate terraform.tfstate.backup
-        git commit -m "CI: add terraform state for LinkedIn VM run $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+        git config --local user.email "github-actions@example.com"
+        git config --local user.name  "github-actions"
+
+        # always add the main state file
+        git add -f terraform.tfstate
+
+        # add the backup only if it exists
+        if [ -f terraform.tfstate.backup ]; then
+          git add -f terraform.tfstate.backup
+        fi
+
+        git commit -m "CI: save terraform state $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit"
         git push
+
