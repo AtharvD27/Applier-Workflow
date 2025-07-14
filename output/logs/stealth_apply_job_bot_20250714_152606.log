@@ -1,0 +1,1422 @@
+2025-07-14 15:26:06,681 - INFO - 🚀 Starting stealth job application bot
+2025-07-14 15:26:30,837 - INFO - 📂 Loading jobs from output/final_ml_jobs.csv
+2025-07-14 15:26:30,848 - INFO -    📊 Total jobs in file: 1482
+2025-07-14 15:26:30,850 - INFO -    🎯 Easy Apply jobs: 1482
+2025-07-14 15:26:30,851 - INFO -    ⏳ Jobs to process: 60 (status: pending, failed)
+2025-07-14 15:26:30,851 - INFO - 🎲 Will attempt 60 applications this run (target: 79)
+2025-07-14 15:26:30,851 - INFO - 🔑 Logging into Dice...
+2025-07-14 15:26:36,001 - INFO - ✅ Login successful
+2025-07-14 15:26:38,947 - INFO - 🔄 Starting job applications...
+2025-07-14 15:26:38,948 - INFO - 🎯 [1/60] Applying to: Authentication AI/ML Lead - LINK: https://www.dice.com/job-detail/ead04927-056c-4400-b8fc-87dc6bc5087b
+2025-07-14 15:26:55,416 - INFO -    ✅ Successfully applied!
+2025-07-14 15:29:01,784 - INFO - 🎯 [2/60] Applying to: Data Scientist-Hybrid - LINK: https://www.dice.com/job-detail/44d1d105-e1a5-467d-b1d8-decaeb3b492d
+2025-07-14 15:31:01,885 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:31:01,885 - ERROR - Full error for Data Scientist-Hybrid:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:32:02,899 - INFO - 🎯 [3/60] Applying to: AI/ML Architect - LINK: https://www.dice.com/job-detail/517c1957-cf96-4dff-a8b2-eb0afabc067d
+2025-07-14 15:34:15,296 - ERROR -    ❌ Cannot click first NEXT button: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:36:23,530 - INFO - 🎯 [4/60] Applying to: Gen AI/ML resource with experience with either Agentforce (primarily) or Salesforce Einstein - LINK: https://www.dice.com/job-detail/259c9b2a-f068-4ba0-9c59-2247174bf413
+2025-07-14 15:37:31,279 - ERROR -    ❌ Cannot click apply button: Message: element not interactable
+  (Session info: chrome=138.0.7204.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58d903 <unknown>
+#2 0x559cfa5e08fe <unknown>
+#3 0x559cfa5d390a <unknown>
+#4 0x559cfa6051a2 <unknown>
+#5 0x559cfa5d328a <unknown>
+#6 0x559cfa60536e <unknown>
+#7 0x559cfa62afee <unknown>
+#8 0x559cfa604f73 <unknown>
+#9 0x559cfa5d1aeb <unknown>
+#10 0x559cfa5d2751 <unknown>
+#11 0x559cfaaa7b4b <unknown>
+#12 0x559cfaaab929 <unknown>
+#13 0x559cfaa8e929 <unknown>
+#14 0x559cfaaac4e8 <unknown>
+#15 0x559cfaa730df <unknown>
+#16 0x559cfaad08e8 <unknown>
+#17 0x559cfaad0ac6 <unknown>
+#18 0x559cfaae2556 <unknown>
+#19 0x7fa09929caa4 <unknown>
+#20 0x7fa099329c3c <unknown>
+
+2025-07-14 15:37:42,066 - INFO - 🎯 [5/60] Applying to: Machine Learning Engineer - LINK: https://www.dice.com/job-detail/b9d7031c-d009-478f-bff5-d86d2cc555a5
+2025-07-14 15:37:59,273 - INFO -    ✅ Successfully applied!
+2025-07-14 15:40:10,563 - INFO - 🎯 [6/60] Applying to: Senior AI/ML Data Scientist - LINK: https://www.dice.com/job-detail/7fa28ca4-bce5-46fb-a516-c53713d1773f
+2025-07-14 15:42:10,664 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:42:10,664 - ERROR - Full error for Senior AI/ML Data Scientist:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:43:12,202 - INFO - 🎯 [7/60] Applying to: Sr AI/ML Architect with Databricks || Remote || - LINK: https://www.dice.com/job-detail/09ed78d0-fc73-4350-a900-abdcc2f87c96
+2025-07-14 15:43:29,088 - INFO -    ✅ Successfully applied!
+2025-07-14 15:43:40,370 - INFO - 🎯 [8/60] Applying to: Urgent Opening - Data Scientist - Jersey City, NJ - LINK: https://www.dice.com/job-detail/73cafc0a-fdad-4b9b-8716-00c0c0f0921b
+2025-07-14 15:45:54,435 - ERROR -    ❌ Cannot click first NEXT button: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:48:05,179 - INFO - 🎯 [9/60] Applying to: Generative AI Engineer - LINK: https://www.dice.com/job-detail/3759b2ac-a66e-496e-829f-ca3a84f7ac9f
+2025-07-14 15:49:17,492 - INFO -    ✅ Successfully applied!
+2025-07-14 15:51:27,022 - INFO - 🎯 [10/60] Applying to: Java Developer with Gen AI - LINK: https://www.dice.com/job-detail/3df902e3-5056-4721-96c6-f13cc67abb4a
+2025-07-14 15:53:27,067 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:53:27,067 - ERROR - Full error for Java Developer with Gen AI:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:54:28,771 - INFO - 🎯 [11/60] Applying to: AI/ML Engineer with Healthcare Domain - LINK: https://www.dice.com/job-detail/fb3b31a9-5810-4a6d-ab37-370a09cd3bb3
+2025-07-14 15:54:48,222 - INFO -    ✅ Successfully applied!
+2025-07-14 15:56:57,512 - INFO - 🎯 [12/60] Applying to: GEN AI Architect NYC highly preferred Onsite Full Time - LINK: https://www.dice.com/job-detail/10412e80-275c-4dff-b51f-a0dc10cfed2c
+2025-07-14 15:58:57,613 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:58:57,613 - ERROR - Full error for GEN AI Architect NYC highly preferred Onsite Full Time:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 15:59:59,193 - INFO - 🎯 [13/60] Applying to: AI Scientist - LINK: https://www.dice.com/job-detail/c651005f-569d-4275-b6f3-c8853150597d
+2025-07-14 16:02:15,279 - ERROR -    ❌ Cannot click first NEXT button: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:04:24,579 - INFO - 🎯 [14/60] Applying to: Sr. Data Engineer | W2 Only - LINK: https://www.dice.com/job-detail/27073ea8-06d9-4d0e-b31c-70213b5de87c
+2025-07-14 16:05:35,991 - INFO -    ✅ Successfully applied!
+2025-07-14 16:07:46,802 - INFO - 🎯 [15/60] Applying to: Data Scientist - Miami, FL. - LINK: https://www.dice.com/job-detail/80a257df-5530-4dca-81df-803b1e0459d3
+2025-07-14 16:09:46,811 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:09:46,811 - ERROR - Full error for Data Scientist - Miami, FL.:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:10:48,556 - INFO - 🎯 [16/60] Applying to: AI Agent Developer - LINK: https://www.dice.com/job-detail/30b1ec96-262c-4faa-b786-ee297eaf8035
+2025-07-14 16:13:04,043 - ERROR -    ❌ Cannot click first NEXT button: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:15:11,714 - INFO - 🎯 [17/60] Applying to: Data Scientist - LINK: https://www.dice.com/job-detail/b04a8e9d-3464-4e5c-b72a-3561f1dac974
+2025-07-14 16:16:26,217 - INFO -    ✅ Successfully applied!
+2025-07-14 16:18:37,230 - INFO - 🎯 [18/60] Applying to: Audio Tools Software Engineer | Audio DSP, C++, JUCE, GUI tools, Audio Hardware - LINK: https://www.dice.com/job-detail/189f8ef3-1f29-485a-96b0-7703bcb0fbef
+2025-07-14 16:20:37,331 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:20:37,331 - ERROR - Full error for Audio Tools Software Engineer | Audio DSP, C++, JUCE, GUI tools, Audio Hardware:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:21:38,831 - INFO - 🎯 [19/60] Applying to: Data Scientist - LINK: https://www.dice.com/job-detail/5af570dd-e67d-4b71-a55c-d6d78bccc119
+2025-07-14 16:21:56,335 - INFO -    ✅ Successfully applied!
+2025-07-14 16:24:04,210 - INFO - 🎯 [20/60] Applying to: AI Architect - LINK: https://www.dice.com/job-detail/337fcb5a-ab07-40bd-9f3b-dc14046f25a3
+2025-07-14 16:26:04,216 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:26:04,216 - ERROR - Full error for AI Architect:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 496, in get_wrapped
+    if self.execute_script("return navigator.webdriver"):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:27:05,822 - INFO - 🎯 [21/60] Applying to: AI/ML Engineer (Data Scientist) with AI Gen experience,Hybrid,NJ,W2 role - LINK: https://www.dice.com/job-detail/6d64f66d-5fb1-4a66-9dec-461229b5684a
+2025-07-14 16:29:05,899 - ERROR -    ❌ Application failed: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:29:05,899 - ERROR - Full error for AI/ML Engineer (Data Scientist) with AI Gen experience,Hybrid,NJ,W2 role:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Applier-Workflow/Applier-Workflow/scripts/src/stealth_apply.py", line 145, in easy_apply
+    driver.get(job_link)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 629, in get_wrapped
+    return orig_get(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 479, in get
+    self.execute(Command.GET, {"url": url})
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 451, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/hostedtoolcache/Python/3.10.18/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=35081): Read timed out. (read timeout=120)
+2025-07-14 16:31:12,818 - INFO - 🎯 [22/60] Applying to: AI Engineer - LINK: https://www.dice.com/job-detail/d29df35d-6500-412d-8a4e-b3e63328dabf
+2025-07-14 16:32:25,903 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:32:35,983 - INFO - 🎯 [23/60] Applying to: ML Engineer/ Data Science - LINK: https://www.dice.com/job-detail/524a8306-51e9-456c-a686-17313829d8f9
+2025-07-14 16:32:56,152 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:33:06,545 - INFO - 🎯 [24/60] Applying to: Artificial Intelligence Engineer - Agentic Data Engineer - LINK: https://www.dice.com/job-detail/e5551bf7-31b4-4a5a-a33c-f1d26be0800c
+2025-07-14 16:33:26,584 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:33:35,162 - INFO - 🎯 [25/60] Applying to: Data Scientist - LINK: https://www.dice.com/job-detail/ab459d92-96a0-4d5b-aabe-e6b18e2c22cd
+2025-07-14 16:33:54,678 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:34:05,344 - INFO - 🎯 [26/60] Applying to: AI/ML Engineer - LINK: https://www.dice.com/job-detail/d0f126f1-eaca-4a09-9422-900e86da7569
+2025-07-14 16:34:25,319 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:34:33,749 - INFO - 🎯 [27/60] Applying to: Solution Architect / AI Engineer - LINK: https://www.dice.com/job-detail/2dd767c0-bf92-4ac2-b8dd-271eaee7a93f
+2025-07-14 16:34:53,331 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:35:03,358 - INFO - 🎯 [28/60] Applying to: Immediate Hiring - Data Scientist (AI/ML) - Remote - LINK: https://www.dice.com/job-detail/1ec05b9e-8561-46b4-ad55-ac66dee256cf
+2025-07-14 16:35:23,406 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:35:31,707 - INFO - 🎯 [29/60] Applying to: AI/ML & Gen AI Senior Engineer - LINK: https://www.dice.com/job-detail/10fd7e0a-e377-403d-af46-3aa0a58ed867
+2025-07-14 16:35:51,045 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:35:59,662 - INFO - 🎯 [30/60] Applying to: AI Prompt Engineer - LINK: https://www.dice.com/job-detail/7ff3c6e8-6044-475a-93ab-02268ca09204
+2025-07-14 16:36:19,057 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:36:28,925 - INFO - 🎯 [31/60] Applying to: AI Engineer (LLM) - LINK: https://www.dice.com/job-detail/06cf9696-ea18-4208-b187-2302c0e29ac0
+2025-07-14 16:36:47,721 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:37:00,305 - INFO - 🎯 [32/60] Applying to: Data Scientist - LINK: https://www.dice.com/job-detail/fe6f4d75-0b64-4cde-b439-0426a0c538b5
+2025-07-14 16:37:18,376 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:37:29,701 - INFO - 🎯 [33/60] Applying to: Data Platform Lead- Local, In-Office - LINK: https://www.dice.com/job-detail/a8612c89-a822-4610-a8e8-59431c710edd
+2025-07-14 16:37:48,906 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:37:59,568 - INFO - 🎯 [34/60] Applying to: Gen AI Architect - LINK: https://www.dice.com/job-detail/c0e46780-3107-4668-84a5-f293308725f7
+2025-07-14 16:38:18,569 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:38:28,928 - INFO - 🎯 [35/60] Applying to: AI Architect- Reston, VA - LINK: https://www.dice.com/job-detail/a4b5afcf-959e-4b65-8cfb-1e4f2d3be82a
+2025-07-14 16:38:48,089 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:38:56,878 - INFO - 🎯 [36/60] Applying to: Data Scientist (GenAI/NLP) - LINK: https://www.dice.com/job-detail/894bdb48-3376-4a32-9cc0-ee35782fe848
+2025-07-14 16:39:15,752 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:39:26,038 - INFO - 🎯 [37/60] Applying to: Senior Data Engineer - LINK: https://www.dice.com/job-detail/32513ce4-4fac-4bcd-b892-2f367d0d899c
+2025-07-14 16:39:44,468 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:39:52,078 - INFO - 🎯 [38/60] Applying to: Jr. Data sphere Data Engineer - LINK: https://www.dice.com/job-detail/5ad6f18e-c6dd-49b8-9676-4473b8d47dd1
+2025-07-14 16:40:12,481 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:40:22,962 - INFO - 🎯 [39/60] Applying to: AI Developer - LINK: https://www.dice.com/job-detail/6fa56294-12f1-4968-bd2f-d6907204eb04
+2025-07-14 16:40:45,483 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:40:55,029 - INFO - 🎯 [40/60] Applying to: AI/ML Platform Admin - W2 - LINK: https://www.dice.com/job-detail/bd3eba7b-1beb-4d8c-a56d-4af3ca0b188d
+2025-07-14 16:41:14,583 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:41:23,820 - INFO - 🎯 [41/60] Applying to: Data Scientist- 10+ Years Experience required - LINK: https://www.dice.com/job-detail/50c634cf-e0dc-4995-b4d1-e3836ecad047
+2025-07-14 16:41:43,784 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:41:56,660 - INFO - 🎯 [42/60] Applying to: OpenSource GenAI Technical Delivery Manager - Remote - LINK: https://www.dice.com/job-detail/ec17c922-eaa6-4131-8ce3-3f3d8a1a6576
+2025-07-14 16:42:15,627 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:42:28,357 - INFO - 🎯 [43/60] Applying to: Data Scientist in Vienna, VA, Winchester VA or Pensacola FL - LINK: https://www.dice.com/job-detail/dd371e7a-6a14-4318-8bbe-e353c8f8a1e1
+2025-07-14 16:42:46,980 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:42:57,879 - INFO - 🎯 [44/60] Applying to: Jr. ML/Data Engineer - LINK: https://www.dice.com/job-detail/0f26f3bb-b7c4-4690-8b0d-ad3da859252e
+2025-07-14 16:43:17,468 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:43:26,728 - INFO - 🎯 [45/60] Applying to: Principal Data Scientist - LINK: https://www.dice.com/job-detail/0799cecc-ea6a-4280-a1ab-bad018af5e44
+2025-07-14 16:43:47,007 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:43:58,442 - INFO - 🎯 [46/60] Applying to: ML Engineer- West Coast (HYBRID) - LINK: https://www.dice.com/job-detail/a6e8edbe-9e0d-47cb-a536-c8ba2014399c
+2025-07-14 16:44:17,789 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:44:24,809 - INFO - 🎯 [47/60] Applying to: Sr Data Scientist - LINK: https://www.dice.com/job-detail/1a1d0c6c-6740-4325-9160-aca6e6490c8e
+2025-07-14 16:44:43,076 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:44:54,418 - INFO - 🎯 [48/60] Applying to: Sr. Data Engineer :: Remote - LINK: https://www.dice.com/job-detail/c2e4a901-550d-4128-ae35-8b1f18cc80bc
+2025-07-14 16:45:13,174 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:45:23,554 - INFO - 🎯 [49/60] Applying to: AWS AI Data Engineer - LINK: https://www.dice.com/job-detail/db9c03c7-5bf9-4632-ab7c-e8f3cbd53b14
+2025-07-14 16:45:42,487 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:45:51,342 - INFO - 🎯 [50/60] Applying to: Python AI/ML Developer - LINK: https://www.dice.com/job-detail/52bfbeb4-a374-4a4a-9b8d-e9c99e29374d
+2025-07-14 16:46:10,860 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:46:20,879 - INFO - 🎯 [51/60] Applying to: AI Developer Engineer - Overland Park, KS / Frisco, TX - LINK: https://www.dice.com/job-detail/e6292d88-b7ad-428c-bea1-d832cff5d4e8
+2025-07-14 16:46:39,915 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:46:48,219 - INFO - 🎯 [52/60] Applying to: Business Intelligence Engineer - LINK: https://www.dice.com/job-detail/7e21dfa2-d1b9-45e5-96e6-70e6d5279dfa
+2025-07-14 16:47:08,442 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:47:19,130 - INFO - 🎯 [53/60] Applying to: Azure Data Engineer - LINK: https://www.dice.com/job-detail/e48079b7-d060-4eb8-bad4-1d8f550ef904
+2025-07-14 16:47:38,244 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:47:49,822 - INFO - 🎯 [54/60] Applying to: Lead Data Scientist With Cortex || Remote - LINK: https://www.dice.com/job-detail/8f7f4fa8-d3b2-4802-99d8-78ad1e498dce
+2025-07-14 16:48:09,080 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:48:17,994 - INFO - 🎯 [55/60] Applying to: Data Scientist - LINK: https://www.dice.com/job-detail/efabc9e0-9431-4ac2-b9e4-1acd7a39a665
+2025-07-14 16:48:37,461 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:48:48,302 - INFO - 🎯 [56/60] Applying to: AI/ML Engineer @ Arlington, Texas- USA (Day 1 Onsite) _ Full Time - LINK: https://www.dice.com/job-detail/916533d7-a3c2-4aa4-8b0a-96215aaacaf9
+2025-07-14 16:49:06,991 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:49:17,513 - INFO - 🎯 [57/60] Applying to: Business Intelligence Engineer - LINK: https://www.dice.com/job-detail/00b291c1-d1c4-407b-8030-d86a152995f1
+2025-07-14 16:49:36,943 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:49:48,551 - INFO - 🎯 [58/60] Applying to: Data Scientist - LINK: https://www.dice.com/job-detail/28976d9c-b739-4a42-9db3-71f82af6513c
+2025-07-14 16:50:07,516 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:50:19,179 - INFO - 🎯 [59/60] Applying to: Sr AI/ML Engineer - LINK: https://www.dice.com/job-detail/9cf4d38e-9ac6-4a87-849d-f885f18672a2
+2025-07-14 16:50:37,811 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:50:46,181 - INFO - 🎯 [60/60] Applying to: ML Engineer (LLMs, Go) - LINK: https://www.dice.com/job-detail/16217799-d18f-409c-82db-85f3e6ca9628
+2025-07-14 16:51:05,587 - ERROR -    ❌ Cannot click apply button: Message: 
+Stacktrace:
+#0 0x559cfaae323a <unknown>
+#1 0x559cfa58dab0 <unknown>
+#2 0x559cfa5df6f0 <unknown>
+#3 0x559cfa5df8e1 <unknown>
+#4 0x559cfa62db94 <unknown>
+#5 0x559cfa6051cd <unknown>
+#6 0x559cfa62afee <unknown>
+#7 0x559cfa604f73 <unknown>
+#8 0x559cfa5d1aeb <unknown>
+#9 0x559cfa5d2751 <unknown>
+#10 0x559cfaaa7b4b <unknown>
+#11 0x559cfaaab929 <unknown>
+#12 0x559cfaa8e929 <unknown>
+#13 0x559cfaaac4e8 <unknown>
+#14 0x559cfaa730df <unknown>
+#15 0x559cfaad08e8 <unknown>
+#16 0x559cfaad0ac6 <unknown>
+#17 0x559cfaae2556 <unknown>
+#18 0x7fa09929caa4 <unknown>
+#19 0x7fa099329c3c <unknown>
+
+2025-07-14 16:51:07,291 - INFO - 📊 Processing results...
+2025-07-14 16:51:07,315 - INFO - 🎉 Application run completed!
+2025-07-14 16:51:07,315 - INFO -    ✅ Newly applied: 8
+2025-07-14 16:51:07,315 - INFO -    ⏭️  Already applied: 0
+2025-07-14 16:51:07,315 - INFO -    ❌ Failed: 52
+2025-07-14 16:51:07,315 - INFO -    📊 Total processed: 60
+2025-07-14 16:51:07,315 - INFO -    📁 Total jobs in CSV: 1482
+2025-07-14 16:51:07,315 - INFO -    💾 Updated: output/final_ml_jobs.csv
+2025-07-14 16:51:07,315 - INFO - 🔧 Closing browser...
