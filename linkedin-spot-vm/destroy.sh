@@ -5,6 +5,7 @@ cd "$(dirname "$0")"               # → terraform folder
 
 REGION="us-east-1"
 DUMMY_INSTANCE="i-06aed8d8baa0db506"
+BROWSER_VOLUME_ID="vol-06834ddf3f58d41a8"
 
 echo "[Terraform] init"
 terraform init -input=false -no-color
@@ -31,6 +32,20 @@ EIP_ALLOC=$(aws ec2 describe-addresses \
 echo "[Info] EIP allocation   → $EIP_ALLOC"
 
 # ------------------------------------------------------------
+# Detach browser volume before destroying instance
+# ------------------------------------------------------------
+echo "[Info] Detaching browser volume from instance..."
+aws ec2 detach-volume \
+  --region "$REGION" \
+  --volume-id "$BROWSER_VOLUME_ID" \
+  --instance-id "$VM_ID" \
+  --force || echo "[Warning] Browser volume might not be attached"
+
+# Wait for volume to detach
+echo "[Info] Waiting for browser volume to detach..."
+sleep 30
+
+# ------------------------------------------------------------
 # Destroy the Terraform-managed resources
 # ------------------------------------------------------------
 echo "[Terraform] destroy"
@@ -46,3 +61,4 @@ aws ec2 associate-address \
   --allocation-id "$EIP_ALLOC"
 
 echo "[✓] Destroy complete; EIP returned to $DUMMY_INSTANCE"
+echo "[✓] Browser volume $BROWSER_VOLUME_ID preserved and available for reuse"
