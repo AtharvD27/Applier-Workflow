@@ -33,6 +33,7 @@ resource "aws_instance" "linkedln_vm" {
   key_name                    = var.key_name
   vpc_security_group_ids      = [data.aws_security_group.launch_sg.id]
   associate_public_ip_address = true
+  availability_zone           = data.aws_ebs_volume.browser_data.availability_zone
 
   # Spot configuration
   instance_market_options {
