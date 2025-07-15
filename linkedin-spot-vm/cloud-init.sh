@@ -53,30 +53,87 @@ systemctl enable lxdm
 ufw allow 3389
 ufw --force enable
 
-# Wait for browser volume to be available
+# Wait and detect browser volume
 echo "Waiting for browser volume to be attached..."
-sleep 60
+BROWSER_DEVICE=""
+BROWSER_VOLUME_ID="vol-06834ddf3f58d41a8"
 
-# Mount the pre-configured browser volume
-if [ -b /dev/xvdf ]; then
-    echo "Browser volume detected, mounting..."
+# Wait up to 3 minutes for the volume to appear
+for i in {1..36}; do
+    echo "Checking for browser volume... attempt $i/36"
+    
+    # Check multiple possible device names
+    for device in /dev/xvdf /dev/nvme1n1 /dev/nvme2n1 /dev/sdf; do
+        if [ -b "$device" ]; then
+            # Verify this is our browser volume by checking size (8GB)
+            DEVICE_SIZE=$(lsblk -b -n -o SIZE "$device" 2>/dev/null | head -n1)
+            if [ "$DEVICE_SIZE" = "8589934592" ]; then  # 8GB in bytes
+                BROWSER_DEVICE="$device"
+                echo "✅ Browser volume found at: $BROWSER_DEVICE"
+                break 2
+            fi
+        fi
+    done
+    
+    # Also try to find by AWS volume ID using nvme-cli (if available)
+    if command -v nvme &> /dev/null; then
+        for nvme_device in /dev/nvme*n1; do
+            if [ -b "$nvme_device" ]; then
+                NVME_INFO=$(nvme id-ctrl "$nvme_device" 2>/dev/null | grep -o "vol-[a-zA-Z0-9]*" | head -n1 || echo "")
+                if [ "$NVME_INFO" = "$BROWSER_VOLUME_ID" ]; then
+                    BROWSER_DEVICE="$nvme_device"
+                    echo "✅ Browser volume found by volume ID at: $BROWSER_DEVICE"
+                    break 2
+                fi
+            fi
+        done
+    fi
+    
+    sleep 5
+done
+
+# Mount the browser volume if found
+if [ -n "$BROWSER_DEVICE" ]; then
+    echo "Mounting browser volume from $BROWSER_DEVICE..."
     
     # Create mount point
     mkdir -p /mnt/browsers
     
     # Mount the browser volume (already formatted and configured)
-    mount /dev/xvdf /mnt/browsers
-    
-    # Add to fstab for automatic mounting on boot
-    BROWSER_UUID=$(blkid -s UUID -o value /dev/xvdf)
-    echo "UUID=$BROWSER_UUID /mnt/browsers ext4 defaults 0 2" >> /etc/fstab
-    
-    # Set proper ownership
-    chown -R ubuntu:ubuntu /mnt/browsers
-    
-    echo "Browser volume mounted successfully!"
+    if mount "$BROWSER_DEVICE" /mnt/browsers; then
+        echo "✅ Browser volume mounted successfully!"
+        
+        # Add to fstab for automatic mounting on boot
+        BROWSER_UUID=$(blkid -s UUID -o value "$BROWSER_DEVICE")
+        if [ -n "$BROWSER_UUID" ]; then
+            echo "UUID=$BROWSER_UUID /mnt/browsers ext4 defaults 0 2" >> /etc/fstab
+            echo "✅ Added to fstab for automatic mounting"
+        fi
+        
+        # Set proper ownership
+        chown -R ubuntu:ubuntu /mnt/browsers
+        
+        # Verify our data is there
+        if [ -d "/mnt/browsers/scripts" ]; then
+            echo "✅ Browser scripts found on volume"
+        fi
+        if [ -d "/mnt/browsers/Drive" ]; then
+            echo "✅ Drive folder found on volume"
+        fi
+        if [ -d "/mnt/browsers/brave-data" ] || [ -d "/mnt/browsers/firefox-data" ]; then
+            echo "✅ Browser profile data found on volume"
+        fi
+        
+    else
+        echo "❌ Failed to mount browser volume"
+        mkdir -p /mnt/browsers
+        chown ubuntu:ubuntu /mnt/browsers
+    fi
 else
-    echo "Browser volume not found, creating placeholder directory..."
+    echo "❌ Browser volume not found after 3 minutes"
+    echo "Available block devices:"
+    lsblk
+    echo "Creating placeholder directory..."
     mkdir -p /mnt/browsers
     chown ubuntu:ubuntu /mnt/browsers
 fi
