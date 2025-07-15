@@ -41,14 +41,14 @@ resource "aws_instance" "linkedln_vm" {
     spot_options {
       spot_instance_type             = "one-time"
       instance_interruption_behavior = "terminate"
-      max_price                      = "0.10"
+      max_price                      = var.spot_max_price
     }
   }
 
   user_data  = data.template_file.user_data.rendered
   monitoring = true
 
-  # Root volume - reduced size since browsers are on separate volume
+  # Root volume - optimized for system files only
   root_block_device {
     volume_type           = "gp3"
     volume_size           = var.volume_size
@@ -58,14 +58,18 @@ resource "aws_instance" "linkedln_vm" {
     encrypted             = false
   }
 
-  # Enable EBS optimization
+  # Enable EBS optimization for better volume performance
   ebs_optimized = true
 
   tags = {
     Name        = "LinkedIn-Spot-VM"
-    Purpose     = "Automation"
+    Purpose     = "Browser-Automation"
     Environment = "Production"
+    VolumeSetup = "Configured"
   }
+
+  # Ensure the instance waits for the browser volume to be available
+  depends_on = [data.aws_ebs_volume.browser_data]
 }
 
 # Attach the pre-configured browser volume
@@ -73,6 +77,9 @@ resource "aws_volume_attachment" "browser_data" {
   device_name = "/dev/xvdf"
   volume_id   = data.aws_ebs_volume.browser_data.id
   instance_id = aws_instance.linkedln_vm.id
+  
+  # Force detach if volume is already attached elsewhere
+  force_detach = true
   
   # Ensure instance is running before attaching
   depends_on = [aws_instance.linkedln_vm]
@@ -82,21 +89,48 @@ resource "aws_volume_attachment" "browser_data" {
 resource "aws_eip_association" "attach_eip" {
   allocation_id = data.aws_eip.static.id
   instance_id   = aws_instance.linkedln_vm.id
+  
+  # Wait for volume attachment to complete first
+  depends_on = [aws_volume_attachment.browser_data]
 }
 
 # Outputs
 output "instance_id" {
-  value = aws_instance.linkedln_vm.id
+  value       = aws_instance.linkedln_vm.id
+  description = "EC2 Instance ID"
 }
 
 output "public_ip" {
-  value = aws_instance.linkedln_vm.public_ip
+  value       = aws_instance.linkedln_vm.public_ip
+  description = "Public IP address (temporary)"
+}
+
+output "elastic_ip" {
+  value       = data.aws_eip.static.public_ip
+  description = "Static Elastic IP address"
 }
 
 output "instance_type" {
-  value = aws_instance.linkedln_vm.instance_type
+  value       = aws_instance.linkedln_vm.instance_type
+  description = "Instance type used"
 }
 
-output "browser_volume_attached" {
-  value = "Browser volume ${var.browser_volume_id} attached as /dev/xvdf"
+output "browser_volume_status" {
+  value       = "Browser volume ${var.browser_volume_id} attached as /dev/xvdf"
+  description = "Browser volume attachment status"
+}
+
+output "availability_zone" {
+  value       = aws_instance.linkedln_vm.availability_zone
+  description = "Instance availability zone"
+}
+
+output "rdp_connection" {
+  value       = "RDP to ${data.aws_eip.static.public_ip}:3389 (user: ubuntu, pass: YourStrongPassword)"
+  description = "RDP connection details"
+}
+
+output "browser_data_location" {
+  value       = "Browser data persisted at /mnt/browsers on EBS volume"
+  description = "Browser data persistence info"
 }
