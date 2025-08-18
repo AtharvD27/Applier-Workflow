@@ -1,0 +1,31 @@
+BACKUP SUMMARY
+==================================================
+Backup Date: 2025-08-18 08:36:40
+Cutoff Date: 2025-08-04 (data older than this was archived)
+Backup Location: backups/backup_20250818_083640
+
+CSV FILES PROCESSED:
+------------------------------
+File: output/jobs.csv
+  - Entries archived: 3556
+  - Entries kept: 7428
+File: output/final_ml_jobs.csv
+  - Entries archived: 2751
+  - Entries kept: 2931
+
+TOTAL CSV ENTRIES:
+  - Total archived: 6307
+  - Total kept active: 10359
+
+LOG FILES:
+  - Old log files archived: 0
+
+BACKUP STRUCTURE:
+--------------------
+backups/backup_20250818_083640/
+├── csv_files/
+│   ├── jobs_old_entries.csv
+│   └── final_ml_jobs_old_entries.csv
+├── logs/
+│   └── old_logs.zip
+└── backup_summary.txt
