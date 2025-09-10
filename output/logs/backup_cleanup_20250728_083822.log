@@ -1,0 +1,28 @@
+2025-07-28 08:38:22,524 - INFO - 🚀 Starting backup and cleanup process
+2025-07-28 08:38:22,524 - INFO - 📅 Cutoff date: 2025-07-14 08:38:22
+2025-07-28 08:38:22,524 - INFO - 📅 Keeping data from the last 2 weeks
+2025-07-28 08:38:22,524 - INFO - 📁 Created backup directory: backups/backup_20250728_083822
+2025-07-28 08:38:22,524 - INFO - 📂 Processing CSV: output/jobs.csv
+2025-07-28 08:38:22,551 - INFO -    📊 Loaded 3526 total entries
+2025-07-28 08:38:22,578 - INFO -    📅 Entries older than 07/14/2025: 1074
+2025-07-28 08:38:22,578 - INFO -    📅 Recent entries to keep: 2452
+2025-07-28 08:38:22,591 - INFO -    💾 Backed up 1074 old entries to: backups/backup_20250728_083822/csv_files/jobs_old_entries.csv
+2025-07-28 08:38:22,619 - INFO -    🗑️  Removed 1074 old entries from main file
+2025-07-28 08:38:22,619 - INFO -    ✅ Kept 2452 recent entries
+2025-07-28 08:38:22,619 - INFO - 📂 Processing CSV: output/final_ml_jobs.csv
+2025-07-28 08:38:22,628 - INFO -    📊 Loaded 1390 total entries
+2025-07-28 08:38:22,639 - INFO -    📅 Entries older than 07/14/2025: 419
+2025-07-28 08:38:22,639 - INFO -    📅 Recent entries to keep: 971
+2025-07-28 08:38:22,644 - INFO -    💾 Backed up 419 old entries to: backups/backup_20250728_083822/csv_files/final_ml_jobs_old_entries.csv
+2025-07-28 08:38:22,656 - INFO -    🗑️  Removed 419 old entries from main file
+2025-07-28 08:38:22,656 - INFO -    ✅ Kept 971 recent entries
+2025-07-28 08:38:22,656 - INFO - 📁 Processing logs in: output/logs
+2025-07-28 08:38:22,658 - INFO -    📊 Total log files: 336
+2025-07-28 08:38:22,659 - INFO -    📅 Old log files (before 07/14/2025): 0
+2025-07-28 08:38:22,659 - INFO -    ✅ No old log files to archive
+2025-07-28 08:38:22,659 - INFO - 📋 Created backup summary: backups/backup_20250728_083822/backup_summary.txt
+2025-07-28 08:38:22,659 - INFO - 🎉 Backup and cleanup completed!
+2025-07-28 08:38:22,659 - INFO -    📊 Total CSV entries archived: 1493
+2025-07-28 08:38:22,659 - INFO -    📊 Total CSV entries kept active: 3423
+2025-07-28 08:38:22,659 - INFO -    📁 Log files archived: 0
+2025-07-28 08:38:22,659 - INFO -    💾 Backup saved to: backups/backup_20250728_083822

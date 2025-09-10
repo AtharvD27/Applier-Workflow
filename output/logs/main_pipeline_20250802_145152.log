@@ -1,0 +1,303 @@
+2025-08-02 14:51:52,874 - INFO - 🚀 Starting main job processing pipeline
+2025-08-02 14:51:52,875 - INFO - ⚙️  Loading configuration...
+2025-08-02 14:51:52,876 - INFO -    ✅ Configuration loaded successfully
+2025-08-02 14:51:52,876 - INFO - 🕷️  Starting job scraper...
+2025-08-02 14:51:52,876 - INFO - 🚀 Starting Dice job scraper with stealth mode (shared logger)
+2025-08-02 14:51:52,876 - INFO - 🔍 Base URL: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=SEVEN&q={query}&page={page}
+2025-08-02 14:51:53,621 - INFO - 📂 Loading existing jobs from output/jobs.csv
+2025-08-02 14:51:53,671 - INFO - 🔍 Loaded 30 search queries: ML, AI, Machine Learning Engineer...
+2025-08-02 14:51:53,671 - INFO - 🔄 Processing query 1/30: 'ML'
+2025-08-02 14:51:53,671 - INFO - 🔍 Starting scrape for query: 'ML'
+2025-08-02 14:51:53,672 - INFO - 📄 Scraping page 1/25 for 'ML'
+2025-08-02 14:52:02,563 - WARNING - ⏰ Timeout loading page 1 for 'ML' - skipping
+2025-08-02 14:52:02,563 - INFO - 🎯 Query 'ML' completed:
+2025-08-02 14:52:02,563 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:52:02,563 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:52:02,563 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:52:02,563 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:52:05,430 - INFO - 🔄 Processing query 2/30: 'AI'
+2025-08-02 14:52:05,431 - INFO - 🔍 Starting scrape for query: 'AI'
+2025-08-02 14:52:05,431 - INFO - 📄 Scraping page 1/25 for 'AI'
+2025-08-02 14:52:12,223 - WARNING - ⏰ Timeout loading page 1 for 'AI' - skipping
+2025-08-02 14:52:12,223 - INFO - 🎯 Query 'AI' completed:
+2025-08-02 14:52:12,223 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:52:12,223 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:52:12,223 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:52:12,223 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:52:15,315 - INFO - 🔄 Processing query 3/30: 'Machine Learning Engineer'
+2025-08-02 14:52:15,315 - INFO - 🔍 Starting scrape for query: 'Machine Learning Engineer'
+2025-08-02 14:52:15,315 - INFO - 📄 Scraping page 1/25 for 'Machine Learning Engineer'
+2025-08-02 14:52:22,533 - WARNING - ⏰ Timeout loading page 1 for 'Machine Learning Engineer' - skipping
+2025-08-02 14:52:22,534 - INFO - 🎯 Query 'Machine Learning Engineer' completed:
+2025-08-02 14:52:22,534 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:52:22,534 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:52:22,534 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:52:22,534 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:52:26,369 - INFO - 🔄 Processing query 4/30: 'AI Engineer'
+2025-08-02 14:52:26,369 - INFO - 🔍 Starting scrape for query: 'AI Engineer'
+2025-08-02 14:52:26,369 - INFO - 📄 Scraping page 1/25 for 'AI Engineer'
+2025-08-02 14:52:33,236 - WARNING - ⏰ Timeout loading page 1 for 'AI Engineer' - skipping
+2025-08-02 14:52:33,236 - INFO - 🎯 Query 'AI Engineer' completed:
+2025-08-02 14:52:33,236 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:52:33,236 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:52:33,237 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:52:33,237 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:52:37,911 - INFO - 🔄 Processing query 5/30: 'Data Scientist'
+2025-08-02 14:52:37,911 - INFO - 🔍 Starting scrape for query: 'Data Scientist'
+2025-08-02 14:52:37,911 - INFO - 📄 Scraping page 1/25 for 'Data Scientist'
+2025-08-02 14:52:44,692 - WARNING - ⏰ Timeout loading page 1 for 'Data Scientist' - skipping
+2025-08-02 14:52:44,692 - INFO - 🎯 Query 'Data Scientist' completed:
+2025-08-02 14:52:44,692 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:52:44,692 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:52:44,692 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:52:44,692 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:52:50,231 - INFO - 🔄 Processing query 6/30: 'Gen AI Engineer'
+2025-08-02 14:52:50,231 - INFO - 🔍 Starting scrape for query: 'Gen AI Engineer'
+2025-08-02 14:52:50,231 - INFO - 📄 Scraping page 1/25 for 'Gen AI Engineer'
+2025-08-02 14:52:57,030 - WARNING - ⏰ Timeout loading page 1 for 'Gen AI Engineer' - skipping
+2025-08-02 14:52:57,030 - INFO - 🎯 Query 'Gen AI Engineer' completed:
+2025-08-02 14:52:57,030 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:52:57,030 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:52:57,031 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:52:57,031 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:52:59,907 - INFO - 🔄 Processing query 7/30: 'Generative AI'
+2025-08-02 14:52:59,908 - INFO - 🔍 Starting scrape for query: 'Generative AI'
+2025-08-02 14:52:59,908 - INFO - 📄 Scraping page 1/25 for 'Generative AI'
+2025-08-02 14:53:06,803 - WARNING - ⏰ Timeout loading page 1 for 'Generative AI' - skipping
+2025-08-02 14:53:06,803 - INFO - 🎯 Query 'Generative AI' completed:
+2025-08-02 14:53:06,803 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:53:06,803 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:53:06,803 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:53:06,803 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:53:13,330 - INFO - 🔄 Processing query 8/30: 'LLM Engineer'
+2025-08-02 14:53:13,331 - INFO - 🔍 Starting scrape for query: 'LLM Engineer'
+2025-08-02 14:53:13,331 - INFO - 📄 Scraping page 1/25 for 'LLM Engineer'
+2025-08-02 14:53:20,184 - WARNING - ⏰ Timeout loading page 1 for 'LLM Engineer' - skipping
+2025-08-02 14:53:20,184 - INFO - 🎯 Query 'LLM Engineer' completed:
+2025-08-02 14:53:20,184 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:53:20,184 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:53:20,184 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:53:20,184 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:53:25,371 - INFO - 🔄 Processing query 9/30: 'ML Engineer'
+2025-08-02 14:53:25,371 - INFO - 🔍 Starting scrape for query: 'ML Engineer'
+2025-08-02 14:53:25,371 - INFO - 📄 Scraping page 1/25 for 'ML Engineer'
+2025-08-02 14:53:32,629 - WARNING - ⏰ Timeout loading page 1 for 'ML Engineer' - skipping
+2025-08-02 14:53:32,629 - INFO - 🎯 Query 'ML Engineer' completed:
+2025-08-02 14:53:32,629 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:53:32,629 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:53:32,629 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:53:32,629 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:53:38,057 - INFO - 🔄 Processing query 10/30: 'Data Engineer'
+2025-08-02 14:53:38,057 - INFO - 🔍 Starting scrape for query: 'Data Engineer'
+2025-08-02 14:53:38,058 - INFO - 📄 Scraping page 1/25 for 'Data Engineer'
+2025-08-02 14:53:44,849 - WARNING - ⏰ Timeout loading page 1 for 'Data Engineer' - skipping
+2025-08-02 14:53:44,849 - INFO - 🎯 Query 'Data Engineer' completed:
+2025-08-02 14:53:44,849 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:53:44,849 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:53:44,849 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:53:44,850 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:53:49,080 - INFO - 🔄 Processing query 11/30: 'AI Developer'
+2025-08-02 14:53:49,080 - INFO - 🔍 Starting scrape for query: 'AI Developer'
+2025-08-02 14:53:49,080 - INFO - 📄 Scraping page 1/25 for 'AI Developer'
+2025-08-02 14:53:55,893 - WARNING - ⏰ Timeout loading page 1 for 'AI Developer' - skipping
+2025-08-02 14:53:55,893 - INFO - 🎯 Query 'AI Developer' completed:
+2025-08-02 14:53:55,893 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:53:55,894 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:53:55,894 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:53:55,894 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:54:01,562 - INFO - 🔄 Processing query 12/30: 'ML Developer'
+2025-08-02 14:54:01,562 - INFO - 🔍 Starting scrape for query: 'ML Developer'
+2025-08-02 14:54:01,562 - INFO - 📄 Scraping page 1/25 for 'ML Developer'
+2025-08-02 14:54:08,444 - WARNING - ⏰ Timeout loading page 1 for 'ML Developer' - skipping
+2025-08-02 14:54:08,444 - INFO - 🎯 Query 'ML Developer' completed:
+2025-08-02 14:54:08,444 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:54:08,444 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:54:08,444 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:54:08,444 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:54:15,097 - INFO - 🔄 Processing query 13/30: 'Computer Vision Engineer'
+2025-08-02 14:54:15,097 - INFO - 🔍 Starting scrape for query: 'Computer Vision Engineer'
+2025-08-02 14:54:15,098 - INFO - 📄 Scraping page 1/25 for 'Computer Vision Engineer'
+2025-08-02 14:54:22,304 - WARNING - ⏰ Timeout loading page 1 for 'Computer Vision Engineer' - skipping
+2025-08-02 14:54:22,304 - INFO - 🎯 Query 'Computer Vision Engineer' completed:
+2025-08-02 14:54:22,304 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:54:22,304 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:54:22,304 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:54:22,304 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:54:26,672 - INFO - 🔄 Processing query 14/30: 'NLP Engineer'
+2025-08-02 14:54:26,672 - INFO - 🔍 Starting scrape for query: 'NLP Engineer'
+2025-08-02 14:54:26,672 - INFO - 📄 Scraping page 1/25 for 'NLP Engineer'
+2025-08-02 14:54:33,496 - WARNING - ⏰ Timeout loading page 1 for 'NLP Engineer' - skipping
+2025-08-02 14:54:33,496 - INFO - 🎯 Query 'NLP Engineer' completed:
+2025-08-02 14:54:33,496 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:54:33,496 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:54:33,496 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:54:33,496 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:54:40,290 - INFO - 🔄 Processing query 15/30: 'Deep Learning Engineer'
+2025-08-02 14:54:40,291 - INFO - 🔍 Starting scrape for query: 'Deep Learning Engineer'
+2025-08-02 14:54:40,291 - INFO - 📄 Scraping page 1/25 for 'Deep Learning Engineer'
+2025-08-02 14:54:47,084 - WARNING - ⏰ Timeout loading page 1 for 'Deep Learning Engineer' - skipping
+2025-08-02 14:54:47,084 - INFO - 🎯 Query 'Deep Learning Engineer' completed:
+2025-08-02 14:54:47,084 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:54:47,084 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:54:47,084 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:54:47,084 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:54:52,453 - INFO - 🔄 Processing query 16/30: 'MLOps Engineer'
+2025-08-02 14:54:52,453 - INFO - 🔍 Starting scrape for query: 'MLOps Engineer'
+2025-08-02 14:54:52,453 - INFO - 📄 Scraping page 1/25 for 'MLOps Engineer'
+2025-08-02 14:54:59,223 - WARNING - ⏰ Timeout loading page 1 for 'MLOps Engineer' - skipping
+2025-08-02 14:54:59,223 - INFO - 🎯 Query 'MLOps Engineer' completed:
+2025-08-02 14:54:59,223 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:54:59,223 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:54:59,223 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:54:59,223 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:55:03,032 - INFO - 🔄 Processing query 17/30: 'AI Architect'
+2025-08-02 14:55:03,032 - INFO - 🔍 Starting scrape for query: 'AI Architect'
+2025-08-02 14:55:03,032 - INFO - 📄 Scraping page 1/25 for 'AI Architect'
+2025-08-02 14:55:09,828 - WARNING - ⏰ Timeout loading page 1 for 'AI Architect' - skipping
+2025-08-02 14:55:09,828 - INFO - 🎯 Query 'AI Architect' completed:
+2025-08-02 14:55:09,829 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:55:09,829 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:55:09,829 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:55:09,829 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:55:14,247 - INFO - 🔄 Processing query 18/30: 'Prompt Engineer'
+2025-08-02 14:55:14,247 - INFO - 🔍 Starting scrape for query: 'Prompt Engineer'
+2025-08-02 14:55:14,247 - INFO - 📄 Scraping page 1/25 for 'Prompt Engineer'
+2025-08-02 14:55:21,052 - WARNING - ⏰ Timeout loading page 1 for 'Prompt Engineer' - skipping
+2025-08-02 14:55:21,052 - INFO - 🎯 Query 'Prompt Engineer' completed:
+2025-08-02 14:55:21,052 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:55:21,052 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:55:21,052 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:55:21,052 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:55:25,380 - INFO - 🔄 Processing query 19/30: 'Business Analyst'
+2025-08-02 14:55:25,380 - INFO - 🔍 Starting scrape for query: 'Business Analyst'
+2025-08-02 14:55:25,380 - INFO - 📄 Scraping page 1/25 for 'Business Analyst'
+2025-08-02 14:55:32,653 - WARNING - ⏰ Timeout loading page 1 for 'Business Analyst' - skipping
+2025-08-02 14:55:32,653 - INFO - 🎯 Query 'Business Analyst' completed:
+2025-08-02 14:55:32,653 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:55:32,653 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:55:32,653 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:55:32,653 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:55:37,090 - INFO - 🔄 Processing query 20/30: 'Junior AI'
+2025-08-02 14:55:37,090 - INFO - 🔍 Starting scrape for query: 'Junior AI'
+2025-08-02 14:55:37,090 - INFO - 📄 Scraping page 1/25 for 'Junior AI'
+2025-08-02 14:55:43,885 - WARNING - ⏰ Timeout loading page 1 for 'Junior AI' - skipping
+2025-08-02 14:55:43,885 - INFO - 🎯 Query 'Junior AI' completed:
+2025-08-02 14:55:43,885 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:55:43,885 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:55:43,885 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:55:43,885 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:55:49,790 - INFO - 🔄 Processing query 21/30: 'Entry Level AI'
+2025-08-02 14:55:49,790 - INFO - 🔍 Starting scrape for query: 'Entry Level AI'
+2025-08-02 14:55:49,790 - INFO - 📄 Scraping page 1/25 for 'Entry Level AI'
+2025-08-02 14:55:57,620 - WARNING - ⏰ Timeout loading page 1 for 'Entry Level AI' - skipping
+2025-08-02 14:55:57,620 - INFO - 🎯 Query 'Entry Level AI' completed:
+2025-08-02 14:55:57,620 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:55:57,620 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:55:57,620 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:55:57,620 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:56:01,139 - INFO - 🔄 Processing query 22/30: 'Python Developer'
+2025-08-02 14:56:01,139 - INFO - 🔍 Starting scrape for query: 'Python Developer'
+2025-08-02 14:56:01,139 - INFO - 📄 Scraping page 1/25 for 'Python Developer'
+2025-08-02 14:56:09,128 - WARNING - ⏰ Timeout loading page 1 for 'Python Developer' - skipping
+2025-08-02 14:56:09,129 - INFO - 🎯 Query 'Python Developer' completed:
+2025-08-02 14:56:09,129 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:56:09,129 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:56:09,129 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:56:09,129 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:56:12,715 - INFO - 🔄 Processing query 23/30: 'Full Stack Engineer'
+2025-08-02 14:56:12,715 - INFO - 🔍 Starting scrape for query: 'Full Stack Engineer'
+2025-08-02 14:56:12,715 - INFO - 📄 Scraping page 1/25 for 'Full Stack Engineer'
+2025-08-02 14:56:20,628 - WARNING - ⏰ Timeout loading page 1 for 'Full Stack Engineer' - skipping
+2025-08-02 14:56:20,628 - INFO - 🎯 Query 'Full Stack Engineer' completed:
+2025-08-02 14:56:20,628 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:56:20,628 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:56:20,629 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:56:20,629 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:56:23,161 - INFO - 🔄 Processing query 24/30: 'Software Engineer'
+2025-08-02 14:56:23,161 - INFO - 🔍 Starting scrape for query: 'Software Engineer'
+2025-08-02 14:56:23,161 - INFO - 📄 Scraping page 1/25 for 'Software Engineer'
+2025-08-02 14:56:31,454 - WARNING - ⏰ Timeout loading page 1 for 'Software Engineer' - skipping
+2025-08-02 14:56:31,454 - INFO - 🎯 Query 'Software Engineer' completed:
+2025-08-02 14:56:31,454 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:56:31,454 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:56:31,454 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:56:31,454 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:56:36,434 - INFO - 🔄 Processing query 25/30: 'Research Scientist'
+2025-08-02 14:56:36,435 - INFO - 🔍 Starting scrape for query: 'Research Scientist'
+2025-08-02 14:56:36,435 - INFO - 📄 Scraping page 1/25 for 'Research Scientist'
+2025-08-02 14:56:44,374 - WARNING - ⏰ Timeout loading page 1 for 'Research Scientist' - skipping
+2025-08-02 14:56:44,374 - INFO - 🎯 Query 'Research Scientist' completed:
+2025-08-02 14:56:44,374 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:56:44,374 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:56:44,374 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:56:44,374 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:56:49,747 - INFO - 🔄 Processing query 26/30: 'AI Consultant'
+2025-08-02 14:56:49,747 - INFO - 🔍 Starting scrape for query: 'AI Consultant'
+2025-08-02 14:56:49,747 - INFO - 📄 Scraping page 1/25 for 'AI Consultant'
+2025-08-02 14:56:57,638 - WARNING - ⏰ Timeout loading page 1 for 'AI Consultant' - skipping
+2025-08-02 14:56:57,638 - INFO - 🎯 Query 'AI Consultant' completed:
+2025-08-02 14:56:57,638 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:56:57,638 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:56:57,638 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:56:57,638 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:57:00,958 - INFO - 🔄 Processing query 27/30: 'Data Analyst'
+2025-08-02 14:57:00,958 - INFO - 🔍 Starting scrape for query: 'Data Analyst'
+2025-08-02 14:57:00,958 - INFO - 📄 Scraping page 1/25 for 'Data Analyst'
+2025-08-02 14:57:07,794 - WARNING - ⏰ Timeout loading page 1 for 'Data Analyst' - skipping
+2025-08-02 14:57:07,795 - INFO - 🎯 Query 'Data Analyst' completed:
+2025-08-02 14:57:07,795 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:57:07,795 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:57:07,795 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:57:07,795 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:57:12,070 - INFO - 🔄 Processing query 28/30: 'Business Analyst'
+2025-08-02 14:57:12,070 - INFO - 🔍 Starting scrape for query: 'Business Analyst'
+2025-08-02 14:57:12,070 - INFO - 📄 Scraping page 1/25 for 'Business Analyst'
+2025-08-02 14:57:18,895 - WARNING - ⏰ Timeout loading page 1 for 'Business Analyst' - skipping
+2025-08-02 14:57:18,895 - INFO - 🎯 Query 'Business Analyst' completed:
+2025-08-02 14:57:18,895 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:57:18,895 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:57:18,895 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:57:18,895 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:57:24,032 - INFO - 🔄 Processing query 29/30: 'Junior'
+2025-08-02 14:57:24,032 - INFO - 🔍 Starting scrape for query: 'Junior'
+2025-08-02 14:57:24,033 - INFO - 📄 Scraping page 1/25 for 'Junior'
+2025-08-02 14:57:31,415 - WARNING - ⏰ Timeout loading page 1 for 'Junior' - skipping
+2025-08-02 14:57:31,415 - INFO - 🎯 Query 'Junior' completed:
+2025-08-02 14:57:31,415 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:57:31,415 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:57:31,415 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:57:31,415 - INFO - ⏳ Waiting before next query...
+2025-08-02 14:57:35,695 - INFO - 🔄 Processing query 30/30: 'Jr'
+2025-08-02 14:57:35,695 - INFO - 🔍 Starting scrape for query: 'Jr'
+2025-08-02 14:57:35,695 - INFO - 📄 Scraping page 1/25 for 'Jr'
+2025-08-02 14:57:43,248 - WARNING - ⏰ Timeout loading page 1 for 'Jr' - skipping
+2025-08-02 14:57:43,248 - INFO - 🎯 Query 'Jr' completed:
+2025-08-02 14:57:43,248 - INFO -    📄 Pages scraped: 0
+2025-08-02 14:57:43,248 - INFO -    ✅ New jobs found: 0
+2025-08-02 14:57:43,248 - INFO -    🔗 Total unique links: 5423
+2025-08-02 14:57:43,314 - INFO - 🎉 Scraping completed successfully!
+2025-08-02 14:57:43,314 - INFO -    📊 New jobs scraped: 0
+2025-08-02 14:57:43,314 - INFO -    🔄 Duplicates removed: 0
+2025-08-02 14:57:43,314 - INFO -    📁 Total jobs in CSV: 5423
+2025-08-02 14:57:43,314 - INFO -    💾 Saved to: output/jobs.csv
+2025-08-02 14:57:43,315 - INFO - 🔧 Closing browser...
+2025-08-02 14:57:43,457 - INFO -    ✅ Scraping completed
+2025-08-02 14:57:43,457 - INFO - 🎯 Starting job filtering...
+2025-08-02 14:57:43,457 - INFO - 🔍 Starting similarity-based job filtering
+2025-08-02 14:57:43,458 - INFO - 📋 Loaded 209 relevant job title keywords
+2025-08-02 14:57:43,487 - INFO - 📂 Loaded 5423 jobs from output/jobs.csv
+2025-08-02 14:57:43,487 - INFO - 🎯 Filtering jobs by similarity...
+2025-08-02 14:58:35,117 - INFO -    ✅ Found 4459 relevant jobs out of 5423 total
+2025-08-02 14:58:35,117 - INFO - 📂 Loading existing filtered jobs from output/final_ml_jobs.csv
+2025-08-02 14:58:35,144 - INFO -    📊 Found 4459 existing jobs, 4459 unique links
+2025-08-02 14:58:35,144 - INFO - 🔄 Combining datasets and removing duplicates...
+2025-08-02 14:58:35,146 - INFO -    🔄 Removed 4459 duplicate jobs
+2025-08-02 14:58:35,147 - INFO -    📊 Sorted jobs by status
+2025-08-02 14:58:35,200 - INFO - 💾 Saved filtered jobs to output/final_ml_jobs.csv
+2025-08-02 14:58:35,202 - INFO - 🎉 Filtering completed successfully!
+2025-08-02 14:58:35,202 - INFO -    📊 Total relevant jobs: 4459
+2025-08-02 14:58:35,202 - INFO -    ✅ New jobs added: 0
+2025-08-02 14:58:35,202 - INFO -    ⏳ New pending jobs: 0
+2025-08-02 14:58:35,202 - INFO -    💾 Saved to: output/final_ml_jobs.csv
+2025-08-02 14:58:35,204 - INFO -    ✅ Filtering completed
+2025-08-02 14:58:35,204 - INFO - 🎉 Main pipeline completed successfully!
