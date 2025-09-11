@@ -1,0 +1,1305 @@
+2025-09-11 10:47:06,974 - INFO - 🚀 Starting main job processing pipeline
+2025-09-11 10:47:06,975 - INFO - ⚙️  Loading configuration...
+2025-09-11 10:47:06,975 - INFO -    ✅ Configuration loaded successfully
+2025-09-11 10:47:06,976 - INFO - 🕷️  Starting job scraper...
+2025-09-11 10:47:06,976 - INFO - 🚀 Starting Dice job scraper with stealth mode (shared logger)
+2025-09-11 10:47:06,976 - INFO - 🔍 Base URL: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=SEVEN&q={query}&page={page}
+2025-09-11 10:47:12,115 - INFO - 📂 Loading existing jobs from output/jobs.csv
+2025-09-11 10:47:12,157 - INFO - 🔍 Loaded 30 search queries: ML, AI, Machine Learning Engineer...
+2025-09-11 10:47:12,157 - INFO - 🔄 Processing query 1/30: 'ML'
+2025-09-11 10:47:12,157 - INFO - 🔍 Starting scrape for query: 'ML'
+2025-09-11 10:47:12,157 - INFO - 📄 Scraping page 1/15 for 'ML'
+2025-09-11 10:47:13,320 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:47:14,017 - INFO - ✅ [3/20] AI/ML Engineer at Data Capital Inc (Easy Apply)
+2025-09-11 10:47:14,267 - INFO - 📊 Page 1 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:47:18,385 - INFO - 📄 Scraping page 2/15 for 'ML'
+2025-09-11 10:47:18,975 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:47:19,799 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:47:24,875 - INFO - 📄 Scraping page 3/15 for 'ML'
+2025-09-11 10:47:25,569 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:47:26,171 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:47:29,618 - INFO - 📄 Scraping page 4/15 for 'ML'
+2025-09-11 10:47:30,289 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:47:30,822 - INFO - ✅ [5/20] Machine Learning Engineer at Prospance Inc. (Easy Apply)
+2025-09-11 10:47:30,954 - INFO - ✅ [9/20] AI/ML Engineer at Turing IT Labs (Easy Apply)
+2025-09-11 10:47:31,064 - INFO - 📊 Page 4 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 10:47:34,231 - INFO - 📄 Scraping page 5/15 for 'ML'
+2025-09-11 10:47:34,939 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 10:47:35,546 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:47:38,631 - INFO - 📄 Scraping page 6/15 for 'ML'
+2025-09-11 10:47:39,583 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 10:47:40,189 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:47:42,580 - INFO - 📄 Scraping page 7/15 for 'ML'
+2025-09-11 10:47:43,280 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 10:47:47,018 - INFO - ✅ [18/20] Python Developer Generative AI at Purple Drive Technologies LLC (Easy Apply)
+2025-09-11 10:47:47,039 - INFO - 📊 Page 7 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:47:49,900 - INFO - 📄 Scraping page 8/15 for 'ML'
+2025-09-11 10:47:50,659 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 10:47:54,305 - INFO - ✅ [9/20] GEN AI Engineer at Purple Drive Technologies LLC (Easy Apply)
+2025-09-11 10:47:54,413 - INFO - 📊 Page 8 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:47:58,185 - INFO - 📄 Scraping page 9/15 for 'ML'
+2025-09-11 10:47:58,756 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 10:47:59,496 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:48:03,154 - INFO - 📄 Scraping page 10/15 for 'ML'
+2025-09-11 10:48:03,723 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 10:48:04,409 - INFO - ✅ [10/20] Devops engineer with AI at Spiceorb (Easy Apply)
+2025-09-11 10:48:04,502 - INFO - 📊 Page 10 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:48:10,035 - INFO - 📄 Scraping page 11/15 for 'ML'
+2025-09-11 10:48:10,749 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 10:48:14,252 - INFO - ✅ [5/20] AI Engineer at Purple Drive Technologies LLC (Easy Apply)
+2025-09-11 10:48:14,382 - INFO - ✅ [10/20] Python Developer at Photon (Easy Apply)
+2025-09-11 10:48:14,497 - INFO - ✅ [13/20] Big Data Engineer at Valueprosite (Easy Apply)
+2025-09-11 10:48:14,599 - INFO - ✅ [15/20] DevOps & Infrastructure Engineers at Pioneer Corporate Services Inc (Easy Apply)
+2025-09-11 10:48:14,645 - INFO - 📊 Page 11 summary: 4 new jobs added, 16 duplicates skipped
+2025-09-11 10:48:19,327 - INFO - 📄 Scraping page 12/15 for 'ML'
+2025-09-11 10:48:20,259 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 10:48:20,698 - INFO - ✅ [8/20] Google Cloud Platform Data Engineer at Miracle Software Systems, Inc. (Easy Apply)
+2025-09-11 10:48:20,813 - INFO - 📊 Page 12 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:48:24,931 - INFO - 📄 Scraping page 13/15 for 'ML'
+2025-09-11 10:48:25,632 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 10:48:29,220 - INFO - ✅ [12/20] ASIC RTL Desginer at Santa Clara County, CA (Onsite) at Gtech LLC (Easy Apply)
+2025-09-11 10:48:29,320 - INFO - ✅ [14/20] Principal SaaS Software Engineer/ Architect at Resource 1 (Easy Apply)
+2025-09-11 10:48:29,376 - INFO - 📊 Page 13 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 10:48:31,905 - INFO - 📄 Scraping page 14/15 for 'ML'
+2025-09-11 10:48:32,626 - INFO - ✅ Found 20 job cards on page 14
+2025-09-11 10:48:33,190 - INFO - ✅ [14/20] Data Scientist: III (Senior) at Robert Half (Easy Apply)
+2025-09-11 10:48:33,287 - INFO - ✅ [15/20] Senior Data Engineer at Robert Half (Easy Apply)
+2025-09-11 10:48:33,392 - INFO - ✅ [17/20] Technical Analyst at Rose International (Easy Apply)
+2025-09-11 10:48:33,493 - INFO - ✅ [19/20] Cloud Architect OpenShift SME at Shiro Technologies (Easy Apply)
+2025-09-11 10:48:33,504 - INFO - 📊 Page 14 summary: 4 new jobs added, 16 duplicates skipped
+2025-09-11 10:48:37,786 - INFO - 📄 Scraping page 15/15 for 'ML'
+2025-09-11 10:48:38,373 - INFO - ✅ Found 20 job cards on page 15
+2025-09-11 10:48:42,094 - INFO - ✅ [10/20] Data Operations and Development Lead at System One (Easy Apply)
+2025-09-11 10:48:45,218 - INFO - ✅ [11/20] Data Operations and Development Lead at ALTA IT Services (Easy Apply)
+2025-09-11 10:48:45,317 - INFO - ✅ [13/20] Director of Data Operations at Robert Half (Easy Apply)
+2025-09-11 10:48:45,384 - INFO - 📊 Page 15 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 10:48:50,578 - INFO - 🎯 Query 'ML' completed:
+2025-09-11 10:48:50,578 - INFO -    📄 Pages scraped: 15
+2025-09-11 10:48:50,578 - INFO -    ✅ New jobs found: 20
+2025-09-11 10:48:50,578 - INFO -    🔗 Total unique links: 5318
+2025-09-11 10:48:50,579 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:48:56,502 - INFO - 🔄 Processing query 2/30: 'AI'
+2025-09-11 10:48:56,502 - INFO - 🔍 Starting scrape for query: 'AI'
+2025-09-11 10:48:56,502 - INFO - 📄 Scraping page 1/15 for 'AI'
+2025-09-11 10:48:57,906 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:48:58,583 - INFO - ✅ [2/20] Prompt-Context Engineer Fullstack Python (AI Agents, LangGraph, Context Engineering) at American IT Systems (Easy Apply)
+2025-09-11 10:48:58,771 - INFO - ✅ [3/20] Backend/Agent Engineer Python, AI Agents, LangGraph, MCP at American IT Systems (Easy Apply)
+2025-09-11 10:48:58,881 - INFO - ✅ [4/20] Backend/Agent Engineer- Python, AI Agents, LangGraph, MCP at American IT Systems (Easy Apply)
+2025-09-11 10:48:59,127 - INFO - ✅ [11/20] Urgent requirement for - Gen AI Architect - Dallas, TX at Cliff Services Inc (Easy Apply)
+2025-09-11 10:48:59,217 - INFO - ✅ [12/20] Looking for Gen AI Architect - Dallas, TX at Cliff Services Inc (Easy Apply)
+2025-09-11 10:48:59,308 - INFO - ✅ [13/20] Data Scientist AI/ML :: New Jersey | Dallas, TX | Tampa, FL at REDLEO SOFTWARE INC. (Easy Apply)
+2025-09-11 10:49:02,468 - INFO - ✅ [16/20] Data Scientist AI/ML at Cyber 1 Armor (Easy Apply)
+2025-09-11 10:49:02,506 - INFO - 📊 Page 1 summary: 7 new jobs added, 13 duplicates skipped
+2025-09-11 10:49:06,265 - INFO - 📄 Scraping page 2/15 for 'AI'
+2025-09-11 10:49:07,113 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:49:07,747 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:49:11,774 - INFO - 📄 Scraping page 3/15 for 'AI'
+2025-09-11 10:49:12,429 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:49:13,042 - INFO - ✅ [17/20] AI Cloud Engineer at MethodHub (Easy Apply)
+2025-09-11 10:49:13,071 - INFO - 📊 Page 3 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:49:16,109 - INFO - 📄 Scraping page 4/15 for 'AI'
+2025-09-11 10:49:16,817 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:49:20,432 - INFO - ✅ [11/20] AI Agent Engineer at VKore Solutions LLC (Easy Apply)
+2025-09-11 10:49:20,515 - INFO - 📊 Page 4 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:49:24,787 - INFO - 📄 Scraping page 5/15 for 'AI'
+2025-09-11 10:49:25,466 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 10:49:26,038 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:49:31,158 - INFO - 📄 Scraping page 6/15 for 'AI'
+2025-09-11 10:49:31,850 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 10:49:32,418 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:49:35,475 - INFO - 📄 Scraping page 7/15 for 'AI'
+2025-09-11 10:49:36,227 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 10:49:36,794 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:49:40,513 - INFO - 📄 Scraping page 8/15 for 'AI'
+2025-09-11 10:49:41,316 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 10:49:41,920 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:49:45,333 - INFO - 📄 Scraping page 9/15 for 'AI'
+2025-09-11 10:49:46,187 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 10:49:46,840 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:49:50,195 - INFO - 📄 Scraping page 10/15 for 'AI'
+2025-09-11 10:49:50,856 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 10:49:54,477 - INFO - ✅ [14/20] Product Owner (Imaging AI Algorithms) at ADDSOURCE (Easy Apply)
+2025-09-11 10:49:57,629 - INFO - ✅ [19/20] Gen AI Engineer at Envision Technology Solutions (Easy Apply)
+2025-09-11 10:50:00,725 - INFO - ✅ [20/20] Python - AI Engineer // Fort WOrth, TX and Alpharetta, GA at Volto Consulting (Easy Apply)
+2025-09-11 10:50:00,725 - INFO - 📊 Page 10 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 10:50:05,266 - INFO - 📄 Scraping page 11/15 for 'AI'
+2025-09-11 10:50:06,146 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 10:50:06,440 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:50:09,517 - INFO - 📄 Scraping page 12/15 for 'AI'
+2025-09-11 10:50:10,200 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 10:50:10,781 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:50:14,770 - INFO - 📄 Scraping page 13/15 for 'AI'
+2025-09-11 10:50:15,430 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 10:50:18,984 - INFO - ✅ [15/20] LLM/Prompt-Context Engineer at VKore Solutions LLC (Easy Apply)
+2025-09-11 10:50:19,029 - INFO - 📊 Page 13 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:50:23,103 - INFO - 📄 Scraping page 14/15 for 'AI'
+2025-09-11 10:50:23,777 - INFO - ✅ Found 20 job cards on page 14
+2025-09-11 10:50:24,206 - INFO - ✅ [5/20] IT Data Analyst at Horizontal Talent (Easy Apply)
+2025-09-11 10:50:24,379 - INFO - 📊 Page 14 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:50:27,405 - INFO - 📄 Scraping page 15/15 for 'AI'
+2025-09-11 10:50:28,081 - INFO - ✅ Found 20 job cards on page 15
+2025-09-11 10:50:28,587 - INFO - 📊 Page 15 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:50:33,422 - INFO - 🎯 Query 'AI' completed:
+2025-09-11 10:50:33,422 - INFO -    📄 Pages scraped: 15
+2025-09-11 10:50:33,422 - INFO -    ✅ New jobs found: 14
+2025-09-11 10:50:33,422 - INFO -    🔗 Total unique links: 5332
+2025-09-11 10:50:33,422 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:50:39,690 - INFO - 🔄 Processing query 3/30: 'Machine Learning Engineer'
+2025-09-11 10:50:39,691 - INFO - 🔍 Starting scrape for query: 'Machine Learning Engineer'
+2025-09-11 10:50:39,691 - INFO - 📄 Scraping page 1/15 for 'Machine Learning Engineer'
+2025-09-11 10:50:40,877 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:50:41,618 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:50:47,029 - INFO - 📄 Scraping page 2/15 for 'Machine Learning Engineer'
+2025-09-11 10:50:47,868 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:50:48,690 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:50:52,440 - INFO - 📄 Scraping page 3/15 for 'Machine Learning Engineer'
+2025-09-11 10:50:53,149 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:50:53,734 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:50:56,952 - INFO - 📄 Scraping page 4/15 for 'Machine Learning Engineer'
+2025-09-11 10:50:57,642 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:50:58,225 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:51:03,727 - INFO - 📄 Scraping page 5/15 for 'Machine Learning Engineer'
+2025-09-11 10:51:04,393 - INFO - ✅ Found 13 job cards on page 5
+2025-09-11 10:51:04,912 - INFO - ✅ [2/13] Integration Engineer: Full stack Python at Microgreen Technologies LLC (Easy Apply)
+2025-09-11 10:51:08,092 - INFO - ✅ [8/13] Computer Vision- Data Scientist Consultant at Enexus Global (Easy Apply)
+2025-09-11 10:51:08,180 - INFO - ✅ [9/13] UX Researcher at Advanced Software Talent (Easy Apply)
+2025-09-11 10:51:08,219 - INFO - 📊 Page 5 summary: 3 new jobs added, 10 duplicates skipped
+2025-09-11 10:51:12,206 - INFO - 📄 Scraping page 6/15 for 'Machine Learning Engineer'
+2025-09-11 10:51:22,696 - WARNING - ⏰ Timeout loading page 6 for 'Machine Learning Engineer' (failures: 1/3)
+2025-09-11 10:51:22,696 - INFO - 📄 Scraping page 7/15 for 'Machine Learning Engineer'
+2025-09-11 10:51:33,204 - WARNING - ⏰ Timeout loading page 7 for 'Machine Learning Engineer' (failures: 2/3)
+2025-09-11 10:51:33,204 - INFO - 📄 Scraping page 8/15 for 'Machine Learning Engineer'
+2025-09-11 10:51:43,697 - WARNING - ⏰ Timeout loading page 8 for 'Machine Learning Engineer' (failures: 3/3)
+2025-09-11 10:51:43,697 - ERROR - ❌ Too many consecutive failures, stopping query 'Machine Learning Engineer'
+2025-09-11 10:51:43,697 - INFO - 🎯 Query 'Machine Learning Engineer' completed:
+2025-09-11 10:51:43,697 - INFO -    📄 Pages scraped: 5
+2025-09-11 10:51:43,697 - INFO -    ✅ New jobs found: 3
+2025-09-11 10:51:43,697 - INFO -    🔗 Total unique links: 5335
+2025-09-11 10:51:43,697 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:51:48,031 - INFO - 🔄 Processing query 4/30: 'AI Engineer'
+2025-09-11 10:51:48,031 - INFO - 🔍 Starting scrape for query: 'AI Engineer'
+2025-09-11 10:51:48,031 - INFO - 📄 Scraping page 1/15 for 'AI Engineer'
+2025-09-11 10:51:49,254 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:51:49,980 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:51:53,721 - INFO - 📄 Scraping page 2/15 for 'AI Engineer'
+2025-09-11 10:51:54,440 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:51:55,216 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:51:58,698 - INFO - 📄 Scraping page 3/15 for 'AI Engineer'
+2025-09-11 10:51:59,411 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:52:00,021 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:03,329 - INFO - 📄 Scraping page 4/15 for 'AI Engineer'
+2025-09-11 10:52:04,089 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:52:04,680 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:07,796 - INFO - 📄 Scraping page 5/15 for 'AI Engineer'
+2025-09-11 10:52:08,599 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 10:52:09,204 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:13,170 - INFO - 📄 Scraping page 6/15 for 'AI Engineer'
+2025-09-11 10:52:13,902 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 10:52:14,475 - INFO - ✅ [8/20] SAP BTP Consultant at Nityo Infotech Corporation (Easy Apply)
+2025-09-11 10:52:14,588 - INFO - 📊 Page 6 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:52:17,942 - INFO - 📄 Scraping page 7/15 for 'AI Engineer'
+2025-09-11 10:52:18,771 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 10:52:19,338 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:24,285 - INFO - 📄 Scraping page 8/15 for 'AI Engineer'
+2025-09-11 10:52:24,994 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 10:52:25,557 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:30,429 - INFO - 📄 Scraping page 9/15 for 'AI Engineer'
+2025-09-11 10:52:31,131 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 10:52:31,703 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:34,776 - INFO - 📄 Scraping page 10/15 for 'AI Engineer'
+2025-09-11 10:52:35,528 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 10:52:36,107 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:38,948 - INFO - 📄 Scraping page 11/15 for 'AI Engineer'
+2025-09-11 10:52:39,627 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 10:52:40,189 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:44,757 - INFO - 📄 Scraping page 12/15 for 'AI Engineer'
+2025-09-11 10:52:45,715 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 10:52:46,012 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:52:49,255 - INFO - 📄 Scraping page 13/15 for 'AI Engineer'
+2025-09-11 10:52:50,270 - INFO - ✅ Found 5 job cards on page 13
+2025-09-11 10:52:50,430 - INFO - 📊 Page 13 summary: 0 new jobs added, 5 duplicates skipped
+2025-09-11 10:52:54,942 - INFO - 📄 Scraping page 14/15 for 'AI Engineer'
+2025-09-11 10:53:05,671 - WARNING - ⏰ Timeout loading page 14 for 'AI Engineer' (failures: 1/3)
+2025-09-11 10:53:05,671 - INFO - 📄 Scraping page 15/15 for 'AI Engineer'
+2025-09-11 10:53:16,197 - WARNING - ⏰ Timeout loading page 15 for 'AI Engineer' (failures: 2/3)
+2025-09-11 10:53:16,197 - INFO - 🎯 Query 'AI Engineer' completed:
+2025-09-11 10:53:16,197 - INFO -    📄 Pages scraped: 13
+2025-09-11 10:53:16,197 - INFO -    ✅ New jobs found: 1
+2025-09-11 10:53:16,197 - INFO -    🔗 Total unique links: 5336
+2025-09-11 10:53:16,197 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:53:20,352 - INFO - 🔄 Processing query 5/30: 'Data Scientist'
+2025-09-11 10:53:20,352 - INFO - 🔍 Starting scrape for query: 'Data Scientist'
+2025-09-11 10:53:20,352 - INFO - 📄 Scraping page 1/15 for 'Data Scientist'
+2025-09-11 10:53:21,519 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:53:22,390 - INFO - ✅ [14/20] Data Scientist, TS/SCI at Motion Recruitment Partners, LLC (Easy Apply)
+2025-09-11 10:53:22,565 - INFO - 📊 Page 1 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:53:24,846 - INFO - 📄 Scraping page 2/15 for 'Data Scientist'
+2025-09-11 10:53:25,450 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:53:26,250 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:53:30,757 - INFO - 📄 Scraping page 3/15 for 'Data Scientist'
+2025-09-11 10:53:31,430 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:53:32,090 - INFO - ✅ [20/20] Sr. Data Engineer(Medicre) required for a Long Term Remote Project at Svam International, Inc. (Easy Apply)
+2025-09-11 10:53:32,090 - INFO - 📊 Page 3 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:53:35,386 - INFO - 📄 Scraping page 4/15 for 'Data Scientist'
+2025-09-11 10:53:35,968 - INFO - ✅ Found 1 job cards on page 4
+2025-09-11 10:53:36,079 - INFO - 📊 Page 4 summary: 0 new jobs added, 1 duplicates skipped
+2025-09-11 10:53:40,054 - INFO - 📄 Scraping page 5/15 for 'Data Scientist'
+2025-09-11 10:53:50,564 - WARNING - ⏰ Timeout loading page 5 for 'Data Scientist' (failures: 1/3)
+2025-09-11 10:53:50,564 - INFO - 📄 Scraping page 6/15 for 'Data Scientist'
+2025-09-11 10:54:01,338 - WARNING - ⏰ Timeout loading page 6 for 'Data Scientist' (failures: 2/3)
+2025-09-11 10:54:01,338 - INFO - 📄 Scraping page 7/15 for 'Data Scientist'
+2025-09-11 10:54:11,832 - WARNING - ⏰ Timeout loading page 7 for 'Data Scientist' (failures: 3/3)
+2025-09-11 10:54:11,832 - ERROR - ❌ Too many consecutive failures, stopping query 'Data Scientist'
+2025-09-11 10:54:11,832 - INFO - 🎯 Query 'Data Scientist' completed:
+2025-09-11 10:54:11,832 - INFO -    📄 Pages scraped: 4
+2025-09-11 10:54:11,832 - INFO -    ✅ New jobs found: 2
+2025-09-11 10:54:11,832 - INFO -    🔗 Total unique links: 5338
+2025-09-11 10:54:11,832 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:54:18,216 - INFO - 🔄 Processing query 6/30: 'Gen AI Engineer'
+2025-09-11 10:54:18,216 - INFO - 🔍 Starting scrape for query: 'Gen AI Engineer'
+2025-09-11 10:54:18,217 - INFO - 📄 Scraping page 1/15 for 'Gen AI Engineer'
+2025-09-11 10:54:19,599 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:54:20,339 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:54:22,325 - INFO - 📄 Scraping page 2/15 for 'Gen AI Engineer'
+2025-09-11 10:54:22,983 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:54:23,748 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:54:28,065 - INFO - 📄 Scraping page 3/15 for 'Gen AI Engineer'
+2025-09-11 10:54:28,743 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:54:29,326 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:54:33,528 - INFO - 📄 Scraping page 4/15 for 'Gen AI Engineer'
+2025-09-11 10:54:34,270 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:54:34,833 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:54:39,769 - INFO - 📄 Scraping page 5/15 for 'Gen AI Engineer'
+2025-09-11 10:54:40,408 - INFO - ✅ Found 4 job cards on page 5
+2025-09-11 10:54:40,549 - INFO - 📊 Page 5 summary: 0 new jobs added, 4 duplicates skipped
+2025-09-11 10:54:44,419 - INFO - 📄 Scraping page 6/15 for 'Gen AI Engineer'
+2025-09-11 10:54:54,921 - WARNING - ⏰ Timeout loading page 6 for 'Gen AI Engineer' (failures: 1/3)
+2025-09-11 10:54:54,921 - INFO - 📄 Scraping page 7/15 for 'Gen AI Engineer'
+2025-09-11 10:55:05,456 - WARNING - ⏰ Timeout loading page 7 for 'Gen AI Engineer' (failures: 2/3)
+2025-09-11 10:55:05,456 - INFO - 📄 Scraping page 8/15 for 'Gen AI Engineer'
+2025-09-11 10:55:15,982 - WARNING - ⏰ Timeout loading page 8 for 'Gen AI Engineer' (failures: 3/3)
+2025-09-11 10:55:15,982 - ERROR - ❌ Too many consecutive failures, stopping query 'Gen AI Engineer'
+2025-09-11 10:55:15,982 - INFO - 🎯 Query 'Gen AI Engineer' completed:
+2025-09-11 10:55:15,982 - INFO -    📄 Pages scraped: 5
+2025-09-11 10:55:15,983 - INFO -    ✅ New jobs found: 0
+2025-09-11 10:55:15,983 - INFO -    🔗 Total unique links: 5338
+2025-09-11 10:55:15,983 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:55:21,385 - INFO - 🔄 Processing query 7/30: 'Generative AI'
+2025-09-11 10:55:21,385 - INFO - 🔍 Starting scrape for query: 'Generative AI'
+2025-09-11 10:55:21,385 - INFO - 📄 Scraping page 1/15 for 'Generative AI'
+2025-09-11 10:55:22,454 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:55:23,188 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:55:25,714 - INFO - 📄 Scraping page 2/15 for 'Generative AI'
+2025-09-11 10:55:26,299 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:55:27,121 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:55:31,436 - INFO - 📄 Scraping page 3/15 for 'Generative AI'
+2025-09-11 10:55:32,105 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:55:35,744 - INFO - ✅ [15/20] Site Reliability Engineer at Purple Drive Technologies LLC (Easy Apply)
+2025-09-11 10:55:35,789 - INFO - 📊 Page 3 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:55:39,689 - INFO - 📄 Scraping page 4/15 for 'Generative AI'
+2025-09-11 10:55:40,443 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:55:40,943 - INFO - ✅ [6/20] Database Management V at Robert Half (Easy Apply)
+2025-09-11 10:55:41,037 - INFO - ✅ [7/20] Data Modeler at System One (Easy Apply)
+2025-09-11 10:55:41,127 - INFO - ✅ [8/20] Data Modeler at ALTA IT Services (Easy Apply)
+2025-09-11 10:55:41,243 - INFO - 📊 Page 4 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 10:55:42,759 - INFO - 📄 Scraping page 5/15 for 'Generative AI'
+2025-09-11 10:55:43,378 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 10:55:44,054 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:55:46,968 - INFO - 📄 Scraping page 6/15 for 'Generative AI'
+2025-09-11 10:55:47,628 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 10:55:48,190 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:55:52,858 - INFO - 📄 Scraping page 7/15 for 'Generative AI'
+2025-09-11 10:55:53,692 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 10:55:54,386 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:55:58,686 - INFO - 📄 Scraping page 8/15 for 'Generative AI'
+2025-09-11 10:55:59,347 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 10:55:59,899 - INFO - ✅ [9/20] ServiceNow IRM Engineer at RIIASH LLC (Easy Apply)
+2025-09-11 10:56:00,029 - INFO - ✅ [14/20] Salesforce Solution Architect at ComTec Information Systems (Easy Apply)
+2025-09-11 10:56:00,086 - INFO - 📊 Page 8 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 10:56:03,974 - INFO - 📄 Scraping page 9/15 for 'Generative AI'
+2025-09-11 10:56:04,590 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 10:56:05,143 - INFO - ✅ [11/20] Technical and Business Intelligence Architect at Aroha Technologies (Easy Apply)
+2025-09-11 10:56:05,226 - INFO - 📊 Page 9 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:56:09,274 - INFO - 📄 Scraping page 10/15 for 'Generative AI'
+2025-09-11 10:56:09,923 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 10:56:10,272 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:56:14,938 - INFO - 📄 Scraping page 11/15 for 'Generative AI'
+2025-09-11 10:56:15,478 - INFO - ✅ Found 11 job cards on page 11
+2025-09-11 10:56:16,169 - INFO - ✅ [11/11] Technical Lead - Marketing IT - Contract to Hire at Dexian DISYS (Easy Apply)
+2025-09-11 10:56:16,169 - INFO - 📊 Page 11 summary: 1 new jobs added, 10 duplicates skipped
+2025-09-11 10:56:18,461 - INFO - 📄 Scraping page 12/15 for 'Generative AI'
+2025-09-11 10:56:29,202 - WARNING - ⏰ Timeout loading page 12 for 'Generative AI' (failures: 1/3)
+2025-09-11 10:56:29,202 - INFO - 📄 Scraping page 13/15 for 'Generative AI'
+2025-09-11 10:56:39,705 - WARNING - ⏰ Timeout loading page 13 for 'Generative AI' (failures: 2/3)
+2025-09-11 10:56:39,705 - INFO - 📄 Scraping page 14/15 for 'Generative AI'
+2025-09-11 10:56:50,167 - WARNING - ⏰ Timeout loading page 14 for 'Generative AI' (failures: 3/3)
+2025-09-11 10:56:50,167 - ERROR - ❌ Too many consecutive failures, stopping query 'Generative AI'
+2025-09-11 10:56:50,167 - INFO - 🎯 Query 'Generative AI' completed:
+2025-09-11 10:56:50,167 - INFO -    📄 Pages scraped: 11
+2025-09-11 10:56:50,167 - INFO -    ✅ New jobs found: 8
+2025-09-11 10:56:50,167 - INFO -    🔗 Total unique links: 5346
+2025-09-11 10:56:50,167 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:56:53,909 - INFO - 🔄 Processing query 8/30: 'LLM Engineer'
+2025-09-11 10:56:53,910 - INFO - 🔍 Starting scrape for query: 'LLM Engineer'
+2025-09-11 10:56:53,910 - INFO - 📄 Scraping page 1/15 for 'LLM Engineer'
+2025-09-11 10:56:55,026 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:56:55,717 - INFO - ✅ [2/20] LLM/Prompt-Context Engineer at American IT Systems (Easy Apply)
+2025-09-11 10:56:55,815 - INFO - ✅ [3/20] LLM/Prompt-Context Engineer at EdgeAll (Easy Apply)
+2025-09-11 10:56:55,974 - INFO - ✅ [4/20] LLM/Prompt-Context Engineer at American IT Systems (Easy Apply)
+2025-09-11 10:56:56,159 - INFO - ✅ [5/20] LLM/Prompt-Context Engineer at American IT Systems (Easy Apply)
+2025-09-11 10:56:56,296 - INFO - 📊 Page 1 summary: 4 new jobs added, 16 duplicates skipped
+2025-09-11 10:56:59,440 - INFO - 📄 Scraping page 2/15 for 'LLM Engineer'
+2025-09-11 10:57:00,054 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:57:00,824 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:57:04,627 - INFO - 📄 Scraping page 3/15 for 'LLM Engineer'
+2025-09-11 10:57:05,307 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:57:05,855 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:57:09,615 - INFO - 📄 Scraping page 4/15 for 'LLM Engineer'
+2025-09-11 10:57:10,288 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:57:10,854 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:57:15,532 - INFO - 📄 Scraping page 5/15 for 'LLM Engineer'
+2025-09-11 10:57:16,239 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 10:57:16,801 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:57:22,314 - INFO - 📄 Scraping page 6/15 for 'LLM Engineer'
+2025-09-11 10:57:22,991 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 10:57:23,184 - INFO - ✅ [1/20] Backend/Agent Engineer at American IT Systems (Easy Apply)
+2025-09-11 10:57:23,617 - INFO - 📊 Page 6 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:57:27,998 - INFO - 📄 Scraping page 7/15 for 'LLM Engineer'
+2025-09-11 10:57:28,603 - INFO - ✅ Found 19 job cards on page 7
+2025-09-11 10:57:29,281 - INFO - 📊 Page 7 summary: 0 new jobs added, 19 duplicates skipped
+2025-09-11 10:57:34,522 - INFO - 📄 Scraping page 8/15 for 'LLM Engineer'
+2025-09-11 10:57:45,025 - WARNING - ⏰ Timeout loading page 8 for 'LLM Engineer' (failures: 1/3)
+2025-09-11 10:57:45,025 - INFO - 📄 Scraping page 9/15 for 'LLM Engineer'
+2025-09-11 10:57:55,521 - WARNING - ⏰ Timeout loading page 9 for 'LLM Engineer' (failures: 2/3)
+2025-09-11 10:57:55,521 - INFO - 📄 Scraping page 10/15 for 'LLM Engineer'
+2025-09-11 10:58:06,207 - WARNING - ⏰ Timeout loading page 10 for 'LLM Engineer' (failures: 3/3)
+2025-09-11 10:58:06,207 - ERROR - ❌ Too many consecutive failures, stopping query 'LLM Engineer'
+2025-09-11 10:58:06,207 - INFO - 🎯 Query 'LLM Engineer' completed:
+2025-09-11 10:58:06,207 - INFO -    📄 Pages scraped: 7
+2025-09-11 10:58:06,207 - INFO -    ✅ New jobs found: 5
+2025-09-11 10:58:06,207 - INFO -    🔗 Total unique links: 5351
+2025-09-11 10:58:06,207 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:58:13,336 - INFO - 🔄 Processing query 9/30: 'ML Engineer'
+2025-09-11 10:58:13,337 - INFO - 🔍 Starting scrape for query: 'ML Engineer'
+2025-09-11 10:58:13,337 - INFO - 📄 Scraping page 1/15 for 'ML Engineer'
+2025-09-11 10:58:14,681 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:58:15,415 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:58:19,530 - INFO - 📄 Scraping page 2/15 for 'ML Engineer'
+2025-09-11 10:58:20,192 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:58:20,935 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:58:25,061 - INFO - 📄 Scraping page 3/15 for 'ML Engineer'
+2025-09-11 10:58:25,814 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:58:26,373 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:58:29,466 - INFO - 📄 Scraping page 4/15 for 'ML Engineer'
+2025-09-11 10:58:30,165 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:58:30,728 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:58:33,985 - INFO - 📄 Scraping page 5/15 for 'ML Engineer'
+2025-09-11 10:58:34,705 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 10:58:35,275 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:58:39,393 - INFO - 📄 Scraping page 6/15 for 'ML Engineer'
+2025-09-11 10:58:40,126 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 10:58:40,686 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:58:43,875 - INFO - 📄 Scraping page 7/15 for 'ML Engineer'
+2025-09-11 10:58:44,690 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 10:58:45,300 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:58:50,738 - INFO - 📄 Scraping page 8/15 for 'ML Engineer'
+2025-09-11 10:58:51,443 - INFO - ✅ Found 14 job cards on page 8
+2025-09-11 10:58:51,965 - INFO - 📊 Page 8 summary: 0 new jobs added, 14 duplicates skipped
+2025-09-11 10:58:56,847 - INFO - 📄 Scraping page 9/15 for 'ML Engineer'
+2025-09-11 10:59:07,638 - WARNING - ⏰ Timeout loading page 9 for 'ML Engineer' (failures: 1/3)
+2025-09-11 10:59:07,639 - INFO - 📄 Scraping page 10/15 for 'ML Engineer'
+2025-09-11 10:59:25,909 - WARNING - ⏰ Timeout loading page 10 for 'ML Engineer' (failures: 2/3)
+2025-09-11 10:59:25,909 - INFO - 📄 Scraping page 11/15 for 'ML Engineer'
+2025-09-11 10:59:36,557 - WARNING - ⏰ Timeout loading page 11 for 'ML Engineer' (failures: 3/3)
+2025-09-11 10:59:36,557 - ERROR - ❌ Too many consecutive failures, stopping query 'ML Engineer'
+2025-09-11 10:59:36,558 - INFO - 🎯 Query 'ML Engineer' completed:
+2025-09-11 10:59:36,558 - INFO -    📄 Pages scraped: 8
+2025-09-11 10:59:36,558 - INFO -    ✅ New jobs found: 0
+2025-09-11 10:59:36,558 - INFO -    🔗 Total unique links: 5351
+2025-09-11 10:59:36,558 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 10:59:41,903 - INFO - 🔄 Processing query 10/30: 'Data Engineer'
+2025-09-11 10:59:41,903 - INFO - 🔍 Starting scrape for query: 'Data Engineer'
+2025-09-11 10:59:41,903 - INFO - 📄 Scraping page 1/15 for 'Data Engineer'
+2025-09-11 10:59:43,024 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 10:59:43,807 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 10:59:47,273 - INFO - 📄 Scraping page 2/15 for 'Data Engineer'
+2025-09-11 10:59:48,149 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 10:59:48,863 - INFO - ✅ [13/20] Data Engineer (Investment Banking Domain) at RAPS Consulting Inc (Easy Apply)
+2025-09-11 10:59:48,932 - INFO - 📊 Page 2 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:59:52,624 - INFO - 📄 Scraping page 3/15 for 'Data Engineer'
+2025-09-11 10:59:53,204 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 10:59:53,806 - INFO - ✅ [8/20] Data Engineer with AWS Glue & Python at Compugra Systems (Easy Apply)
+2025-09-11 10:59:53,924 - INFO - 📊 Page 3 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 10:59:58,603 - INFO - 📄 Scraping page 4/15 for 'Data Engineer'
+2025-09-11 10:59:59,167 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 10:59:59,745 - INFO - ✅ [4/20] ETL Data Engineer/Developer at Cloud Bigdata (Easy Apply)
+2025-09-11 10:59:59,924 - INFO - 📊 Page 4 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:00:03,161 - INFO - 📄 Scraping page 5/15 for 'Data Engineer'
+2025-09-11 11:00:03,792 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:00:04,336 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:00:08,986 - INFO - 📄 Scraping page 6/15 for 'Data Engineer'
+2025-09-11 11:00:09,911 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:00:10,474 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:00:14,896 - INFO - 📄 Scraping page 7/15 for 'Data Engineer'
+2025-09-11 11:00:15,578 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:00:16,149 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:00:19,302 - INFO - 📄 Scraping page 8/15 for 'Data Engineer'
+2025-09-11 11:00:20,202 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:00:20,757 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:00:26,091 - INFO - 📄 Scraping page 9/15 for 'Data Engineer'
+2025-09-11 11:00:26,956 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:00:27,505 - INFO - ✅ [7/20] Business Analyst at Aditi Consulting (Easy Apply)
+2025-09-11 11:00:27,627 - INFO - 📊 Page 9 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:00:31,669 - INFO - 📄 Scraping page 10/15 for 'Data Engineer'
+2025-09-11 11:00:32,318 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:00:32,890 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:00:37,344 - INFO - 📄 Scraping page 11/15 for 'Data Engineer'
+2025-09-11 11:00:37,999 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:00:38,549 - INFO - ✅ [7/20] Only W2 - Azure Data Architect - Iselin NJ at ApTask (Easy Apply)
+2025-09-11 11:00:38,688 - INFO - ✅ [13/20] Hiring for Data Engineers - VA at Cliff Services Inc (Easy Apply)
+2025-09-11 11:00:38,781 - INFO - ✅ [14/20] Lookinfg for Data Engineers - VA at Cliff Services Inc (Easy Apply)
+2025-09-11 11:00:38,898 - INFO - ✅ [18/20] Sr.DataEngineerWith strongGoogle Cloud PlatformBackground (12+ yrs minimum experience required) at Aroha Technologies (Easy Apply)
+2025-09-11 11:00:38,918 - INFO - 📊 Page 11 summary: 4 new jobs added, 16 duplicates skipped
+2025-09-11 11:00:43,810 - INFO - 📄 Scraping page 12/15 for 'Data Engineer'
+2025-09-11 11:00:44,429 - INFO - ✅ Found 6 job cards on page 12
+2025-09-11 11:00:47,645 - INFO - ✅ [4/6] Databricks Architect at HMG America (Easy Apply)
+2025-09-11 11:00:47,666 - INFO - 📊 Page 12 summary: 1 new jobs added, 5 duplicates skipped
+2025-09-11 11:00:52,335 - INFO - 📄 Scraping page 13/15 for 'Data Engineer'
+2025-09-11 11:01:02,925 - WARNING - ⏰ Timeout loading page 13 for 'Data Engineer' (failures: 1/3)
+2025-09-11 11:01:02,925 - INFO - 📄 Scraping page 14/15 for 'Data Engineer'
+2025-09-11 11:01:14,362 - WARNING - ⏰ Timeout loading page 14 for 'Data Engineer' (failures: 2/3)
+2025-09-11 11:01:14,362 - INFO - 📄 Scraping page 15/15 for 'Data Engineer'
+2025-09-11 11:01:24,897 - WARNING - ⏰ Timeout loading page 15 for 'Data Engineer' (failures: 3/3)
+2025-09-11 11:01:24,898 - ERROR - ❌ Too many consecutive failures, stopping query 'Data Engineer'
+2025-09-11 11:01:24,898 - INFO - 🎯 Query 'Data Engineer' completed:
+2025-09-11 11:01:24,898 - INFO -    📄 Pages scraped: 12
+2025-09-11 11:01:24,898 - INFO -    ✅ New jobs found: 9
+2025-09-11 11:01:24,898 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:01:24,898 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:01:30,517 - INFO - 🔄 Processing query 11/30: 'AI Developer'
+2025-09-11 11:01:30,517 - INFO - 🔍 Starting scrape for query: 'AI Developer'
+2025-09-11 11:01:30,517 - INFO - 📄 Scraping page 1/15 for 'AI Developer'
+2025-09-11 11:01:31,704 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:01:32,464 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:01:36,621 - INFO - 📄 Scraping page 2/15 for 'AI Developer'
+2025-09-11 11:01:37,467 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:01:38,127 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:01:42,656 - INFO - 📄 Scraping page 3/15 for 'AI Developer'
+2025-09-11 11:01:43,425 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:01:44,026 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:01:48,644 - INFO - 📄 Scraping page 4/15 for 'AI Developer'
+2025-09-11 11:01:49,281 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:01:49,974 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:01:53,479 - INFO - 📄 Scraping page 5/15 for 'AI Developer'
+2025-09-11 11:01:54,173 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:01:54,754 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:01:57,472 - INFO - 📄 Scraping page 6/15 for 'AI Developer'
+2025-09-11 11:01:58,071 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:01:58,729 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:02:02,457 - INFO - 📄 Scraping page 7/15 for 'AI Developer'
+2025-09-11 11:02:03,193 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:02:03,770 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:02:05,762 - INFO - 📄 Scraping page 8/15 for 'AI Developer'
+2025-09-11 11:02:06,757 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:02:07,458 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:02:09,690 - INFO - 📄 Scraping page 9/15 for 'AI Developer'
+2025-09-11 11:02:10,384 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:02:10,966 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:02:14,840 - INFO - 📄 Scraping page 10/15 for 'AI Developer'
+2025-09-11 11:02:15,558 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:02:16,138 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:02:18,487 - INFO - 📄 Scraping page 11/15 for 'AI Developer'
+2025-09-11 11:02:19,184 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:02:19,767 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:02:24,927 - INFO - 📄 Scraping page 12/15 for 'AI Developer'
+2025-09-11 11:02:25,794 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 11:02:26,099 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:02:29,280 - INFO - 📄 Scraping page 13/15 for 'AI Developer'
+2025-09-11 11:02:30,157 - INFO - ✅ Found 5 job cards on page 13
+2025-09-11 11:02:30,313 - INFO - 📊 Page 13 summary: 0 new jobs added, 5 duplicates skipped
+2025-09-11 11:02:34,643 - INFO - 📄 Scraping page 14/15 for 'AI Developer'
+2025-09-11 11:02:45,124 - WARNING - ⏰ Timeout loading page 14 for 'AI Developer' (failures: 1/3)
+2025-09-11 11:02:45,124 - INFO - 📄 Scraping page 15/15 for 'AI Developer'
+2025-09-11 11:02:55,805 - WARNING - ⏰ Timeout loading page 15 for 'AI Developer' (failures: 2/3)
+2025-09-11 11:02:55,805 - INFO - 🎯 Query 'AI Developer' completed:
+2025-09-11 11:02:55,805 - INFO -    📄 Pages scraped: 13
+2025-09-11 11:02:55,805 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:02:55,805 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:02:55,805 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:02:59,472 - INFO - 🔄 Processing query 12/30: 'ML Developer'
+2025-09-11 11:02:59,473 - INFO - 🔍 Starting scrape for query: 'ML Developer'
+2025-09-11 11:02:59,473 - INFO - 📄 Scraping page 1/15 for 'ML Developer'
+2025-09-11 11:03:00,590 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:03:01,331 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:03:04,575 - INFO - 📄 Scraping page 2/15 for 'ML Developer'
+2025-09-11 11:03:05,202 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:03:06,005 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:03:07,752 - INFO - 📄 Scraping page 3/15 for 'ML Developer'
+2025-09-11 11:03:08,753 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:03:09,375 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:03:12,844 - INFO - 📄 Scraping page 4/15 for 'ML Developer'
+2025-09-11 11:03:13,446 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:03:14,144 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:03:19,274 - INFO - 📄 Scraping page 5/15 for 'ML Developer'
+2025-09-11 11:03:20,071 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:03:20,647 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:03:25,435 - INFO - 📄 Scraping page 6/15 for 'ML Developer'
+2025-09-11 11:03:26,221 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:03:26,827 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:03:30,508 - INFO - 📄 Scraping page 7/15 for 'ML Developer'
+2025-09-11 11:03:31,305 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:03:32,008 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:03:35,135 - INFO - 📄 Scraping page 8/15 for 'ML Developer'
+2025-09-11 11:03:35,817 - INFO - ✅ Found 14 job cards on page 8
+2025-09-11 11:03:36,320 - INFO - 📊 Page 8 summary: 0 new jobs added, 14 duplicates skipped
+2025-09-11 11:03:40,270 - INFO - 📄 Scraping page 9/15 for 'ML Developer'
+2025-09-11 11:03:50,832 - WARNING - ⏰ Timeout loading page 9 for 'ML Developer' (failures: 1/3)
+2025-09-11 11:03:50,833 - INFO - 📄 Scraping page 10/15 for 'ML Developer'
+2025-09-11 11:04:01,355 - WARNING - ⏰ Timeout loading page 10 for 'ML Developer' (failures: 2/3)
+2025-09-11 11:04:01,355 - INFO - 📄 Scraping page 11/15 for 'ML Developer'
+2025-09-11 11:04:12,078 - WARNING - ⏰ Timeout loading page 11 for 'ML Developer' (failures: 3/3)
+2025-09-11 11:04:12,078 - ERROR - ❌ Too many consecutive failures, stopping query 'ML Developer'
+2025-09-11 11:04:12,078 - INFO - 🎯 Query 'ML Developer' completed:
+2025-09-11 11:04:12,078 - INFO -    📄 Pages scraped: 8
+2025-09-11 11:04:12,078 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:04:12,078 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:04:12,078 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:04:18,168 - INFO - 🔄 Processing query 13/30: 'Computer Vision Engineer'
+2025-09-11 11:04:18,169 - INFO - 🔍 Starting scrape for query: 'Computer Vision Engineer'
+2025-09-11 11:04:18,169 - INFO - 📄 Scraping page 1/15 for 'Computer Vision Engineer'
+2025-09-11 11:04:19,386 - INFO - ✅ Found 17 job cards on page 1
+2025-09-11 11:04:20,056 - INFO - 📊 Page 1 summary: 0 new jobs added, 17 duplicates skipped
+2025-09-11 11:04:23,826 - INFO - 📄 Scraping page 2/15 for 'Computer Vision Engineer'
+2025-09-11 11:04:34,351 - WARNING - ⏰ Timeout loading page 2 for 'Computer Vision Engineer' (failures: 1/3)
+2025-09-11 11:04:34,351 - INFO - 📄 Scraping page 3/15 for 'Computer Vision Engineer'
+2025-09-11 11:04:44,860 - WARNING - ⏰ Timeout loading page 3 for 'Computer Vision Engineer' (failures: 2/3)
+2025-09-11 11:04:44,860 - INFO - 📄 Scraping page 4/15 for 'Computer Vision Engineer'
+2025-09-11 11:04:55,410 - WARNING - ⏰ Timeout loading page 4 for 'Computer Vision Engineer' (failures: 3/3)
+2025-09-11 11:04:55,410 - ERROR - ❌ Too many consecutive failures, stopping query 'Computer Vision Engineer'
+2025-09-11 11:04:55,410 - INFO - 🎯 Query 'Computer Vision Engineer' completed:
+2025-09-11 11:04:55,410 - INFO -    📄 Pages scraped: 1
+2025-09-11 11:04:55,410 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:04:55,410 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:04:55,410 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:05:00,445 - INFO - 🔄 Processing query 14/30: 'NLP Engineer'
+2025-09-11 11:05:00,445 - INFO - 🔍 Starting scrape for query: 'NLP Engineer'
+2025-09-11 11:05:00,445 - INFO - 📄 Scraping page 1/15 for 'NLP Engineer'
+2025-09-11 11:05:01,599 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:05:02,323 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:05:07,168 - INFO - 📄 Scraping page 2/15 for 'NLP Engineer'
+2025-09-11 11:05:08,227 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:05:08,869 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:05:12,653 - INFO - 📄 Scraping page 3/15 for 'NLP Engineer'
+2025-09-11 11:05:13,332 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:05:13,971 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:05:19,560 - INFO - 📄 Scraping page 4/15 for 'NLP Engineer'
+2025-09-11 11:05:20,350 - INFO - ✅ Found 3 job cards on page 4
+2025-09-11 11:05:20,476 - INFO - 📊 Page 4 summary: 0 new jobs added, 3 duplicates skipped
+2025-09-11 11:05:25,344 - INFO - 📄 Scraping page 5/15 for 'NLP Engineer'
+2025-09-11 11:05:35,902 - WARNING - ⏰ Timeout loading page 5 for 'NLP Engineer' (failures: 1/3)
+2025-09-11 11:05:35,902 - INFO - 📄 Scraping page 6/15 for 'NLP Engineer'
+2025-09-11 11:05:46,462 - WARNING - ⏰ Timeout loading page 6 for 'NLP Engineer' (failures: 2/3)
+2025-09-11 11:05:46,462 - INFO - 📄 Scraping page 7/15 for 'NLP Engineer'
+2025-09-11 11:05:57,044 - WARNING - ⏰ Timeout loading page 7 for 'NLP Engineer' (failures: 3/3)
+2025-09-11 11:05:57,045 - ERROR - ❌ Too many consecutive failures, stopping query 'NLP Engineer'
+2025-09-11 11:05:57,045 - INFO - 🎯 Query 'NLP Engineer' completed:
+2025-09-11 11:05:57,045 - INFO -    📄 Pages scraped: 4
+2025-09-11 11:05:57,045 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:05:57,045 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:05:57,045 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:06:01,544 - INFO - 🔄 Processing query 15/30: 'Deep Learning Engineer'
+2025-09-11 11:06:01,545 - INFO - 🔍 Starting scrape for query: 'Deep Learning Engineer'
+2025-09-11 11:06:01,545 - INFO - 📄 Scraping page 1/15 for 'Deep Learning Engineer'
+2025-09-11 11:06:02,712 - INFO - ✅ Found 5 job cards on page 1
+2025-09-11 11:06:02,768 - INFO - 📊 Page 1 summary: 0 new jobs added, 5 duplicates skipped
+2025-09-11 11:06:05,424 - INFO - 📄 Scraping page 2/15 for 'Deep Learning Engineer'
+2025-09-11 11:06:16,134 - WARNING - ⏰ Timeout loading page 2 for 'Deep Learning Engineer' (failures: 1/3)
+2025-09-11 11:06:16,134 - INFO - 📄 Scraping page 3/15 for 'Deep Learning Engineer'
+2025-09-11 11:06:26,756 - WARNING - ⏰ Timeout loading page 3 for 'Deep Learning Engineer' (failures: 2/3)
+2025-09-11 11:06:26,756 - INFO - 📄 Scraping page 4/15 for 'Deep Learning Engineer'
+2025-09-11 11:06:37,392 - WARNING - ⏰ Timeout loading page 4 for 'Deep Learning Engineer' (failures: 3/3)
+2025-09-11 11:06:37,392 - ERROR - ❌ Too many consecutive failures, stopping query 'Deep Learning Engineer'
+2025-09-11 11:06:37,392 - INFO - 🎯 Query 'Deep Learning Engineer' completed:
+2025-09-11 11:06:37,392 - INFO -    📄 Pages scraped: 1
+2025-09-11 11:06:37,392 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:06:37,392 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:06:37,393 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:06:42,827 - INFO - 🔄 Processing query 16/30: 'MLOps Engineer'
+2025-09-11 11:06:42,828 - INFO - 🔍 Starting scrape for query: 'MLOps Engineer'
+2025-09-11 11:06:42,828 - INFO - 📄 Scraping page 1/15 for 'MLOps Engineer'
+2025-09-11 11:06:44,509 - INFO - ✅ Found 11 job cards on page 1
+2025-09-11 11:06:45,152 - INFO - 📊 Page 1 summary: 0 new jobs added, 11 duplicates skipped
+2025-09-11 11:06:49,285 - INFO - 📄 Scraping page 2/15 for 'MLOps Engineer'
+2025-09-11 11:06:59,854 - WARNING - ⏰ Timeout loading page 2 for 'MLOps Engineer' (failures: 1/3)
+2025-09-11 11:06:59,854 - INFO - 📄 Scraping page 3/15 for 'MLOps Engineer'
+2025-09-11 11:07:10,418 - WARNING - ⏰ Timeout loading page 3 for 'MLOps Engineer' (failures: 2/3)
+2025-09-11 11:07:10,418 - INFO - 📄 Scraping page 4/15 for 'MLOps Engineer'
+2025-09-11 11:07:21,328 - WARNING - ⏰ Timeout loading page 4 for 'MLOps Engineer' (failures: 3/3)
+2025-09-11 11:07:21,328 - ERROR - ❌ Too many consecutive failures, stopping query 'MLOps Engineer'
+2025-09-11 11:07:21,328 - INFO - 🎯 Query 'MLOps Engineer' completed:
+2025-09-11 11:07:21,328 - INFO -    📄 Pages scraped: 1
+2025-09-11 11:07:21,328 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:07:21,328 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:07:21,328 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:07:28,488 - INFO - 🔄 Processing query 17/30: 'AI Architect'
+2025-09-11 11:07:28,488 - INFO - 🔍 Starting scrape for query: 'AI Architect'
+2025-09-11 11:07:28,488 - INFO - 📄 Scraping page 1/15 for 'AI Architect'
+2025-09-11 11:07:30,281 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:07:30,999 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:07:34,002 - INFO - 📄 Scraping page 2/15 for 'AI Architect'
+2025-09-11 11:07:34,841 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:07:35,617 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:07:39,009 - INFO - 📄 Scraping page 3/15 for 'AI Architect'
+2025-09-11 11:07:39,835 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:07:40,416 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:07:44,359 - INFO - 📄 Scraping page 4/15 for 'AI Architect'
+2025-09-11 11:07:45,057 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:07:45,689 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:07:49,440 - INFO - 📄 Scraping page 5/15 for 'AI Architect'
+2025-09-11 11:07:50,270 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:07:50,837 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:07:53,592 - INFO - 📄 Scraping page 6/15 for 'AI Architect'
+2025-09-11 11:07:54,331 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:07:54,883 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:07:57,952 - INFO - 📄 Scraping page 7/15 for 'AI Architect'
+2025-09-11 11:07:58,775 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:07:59,336 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:08:03,745 - INFO - 📄 Scraping page 8/15 for 'AI Architect'
+2025-09-11 11:08:04,549 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:08:05,116 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:08:08,347 - INFO - 📄 Scraping page 9/15 for 'AI Architect'
+2025-09-11 11:08:09,041 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:08:09,717 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:08:13,932 - INFO - 📄 Scraping page 10/15 for 'AI Architect'
+2025-09-11 11:08:15,030 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:08:15,593 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:08:18,834 - INFO - 📄 Scraping page 11/15 for 'AI Architect'
+2025-09-11 11:08:19,523 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:08:20,209 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:08:23,434 - INFO - 📄 Scraping page 12/15 for 'AI Architect'
+2025-09-11 11:08:24,293 - INFO - ✅ Found 7 job cards on page 12
+2025-09-11 11:08:24,459 - INFO - 📊 Page 12 summary: 0 new jobs added, 7 duplicates skipped
+2025-09-11 11:08:29,114 - INFO - 📄 Scraping page 13/15 for 'AI Architect'
+2025-09-11 11:08:39,619 - WARNING - ⏰ Timeout loading page 13 for 'AI Architect' (failures: 1/3)
+2025-09-11 11:08:39,619 - INFO - 📄 Scraping page 14/15 for 'AI Architect'
+2025-09-11 11:08:50,114 - WARNING - ⏰ Timeout loading page 14 for 'AI Architect' (failures: 2/3)
+2025-09-11 11:08:50,114 - INFO - 📄 Scraping page 15/15 for 'AI Architect'
+2025-09-11 11:09:00,672 - WARNING - ⏰ Timeout loading page 15 for 'AI Architect' (failures: 3/3)
+2025-09-11 11:09:00,673 - ERROR - ❌ Too many consecutive failures, stopping query 'AI Architect'
+2025-09-11 11:09:00,673 - INFO - 🎯 Query 'AI Architect' completed:
+2025-09-11 11:09:00,673 - INFO -    📄 Pages scraped: 12
+2025-09-11 11:09:00,673 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:09:00,673 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:09:00,673 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:09:05,339 - INFO - 🔄 Processing query 18/30: 'Prompt Engineer'
+2025-09-11 11:09:05,339 - INFO - 🔍 Starting scrape for query: 'Prompt Engineer'
+2025-09-11 11:09:05,339 - INFO - 📄 Scraping page 1/15 for 'Prompt Engineer'
+2025-09-11 11:09:07,084 - INFO - ✅ Found 16 job cards on page 1
+2025-09-11 11:09:07,852 - INFO - 📊 Page 1 summary: 0 new jobs added, 16 duplicates skipped
+2025-09-11 11:09:12,027 - INFO - 📄 Scraping page 2/15 for 'Prompt Engineer'
+2025-09-11 11:09:22,583 - WARNING - ⏰ Timeout loading page 2 for 'Prompt Engineer' (failures: 1/3)
+2025-09-11 11:09:22,584 - INFO - 📄 Scraping page 3/15 for 'Prompt Engineer'
+2025-09-11 11:09:33,550 - WARNING - ⏰ Timeout loading page 3 for 'Prompt Engineer' (failures: 2/3)
+2025-09-11 11:09:33,550 - INFO - 📄 Scraping page 4/15 for 'Prompt Engineer'
+2025-09-11 11:09:44,132 - WARNING - ⏰ Timeout loading page 4 for 'Prompt Engineer' (failures: 3/3)
+2025-09-11 11:09:44,132 - ERROR - ❌ Too many consecutive failures, stopping query 'Prompt Engineer'
+2025-09-11 11:09:44,132 - INFO - 🎯 Query 'Prompt Engineer' completed:
+2025-09-11 11:09:44,132 - INFO -    📄 Pages scraped: 1
+2025-09-11 11:09:44,132 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:09:44,132 - INFO -    🔗 Total unique links: 5360
+2025-09-11 11:09:44,132 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:09:47,885 - INFO - 🔄 Processing query 19/30: 'Business Analyst'
+2025-09-11 11:09:47,885 - INFO - 🔍 Starting scrape for query: 'Business Analyst'
+2025-09-11 11:09:47,885 - INFO - 📄 Scraping page 1/15 for 'Business Analyst'
+2025-09-11 11:09:49,658 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:09:50,358 - INFO - ✅ [5/20] Business Systems Analyst at Estaff LLC (Easy Apply)
+2025-09-11 11:09:53,630 - INFO - ✅ [15/20] Business Analyst at Arthur Lawrence (Easy Apply)
+2025-09-11 11:09:53,675 - INFO - 📊 Page 1 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:09:56,612 - INFO - 📄 Scraping page 2/15 for 'Business Analyst'
+2025-09-11 11:09:57,379 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:09:57,996 - INFO - ✅ [8/20] Business Analyst-Social Services Applications at Technology Recruiting Solutions,Inc. (Easy Apply)
+2025-09-11 11:09:58,106 - INFO - ✅ [11/20] Business Analyst at Rose International (Easy Apply)
+2025-09-11 11:09:58,276 - INFO - ✅ [20/20] Senior Business Analyst (Mortgage Domain) at Government Systems Technologies Inc. (GSTi) (Easy Apply)
+2025-09-11 11:09:58,276 - INFO - 📊 Page 2 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 11:10:04,563 - INFO - 📄 Scraping page 3/15 for 'Business Analyst'
+2025-09-11 11:10:05,299 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:10:05,752 - INFO - ✅ [1/20] Business Analyst at Danta Technologies (Easy Apply)
+2025-09-11 11:10:08,994 - INFO - ✅ [10/20] Business Analyst at Arthur Lawrence (Easy Apply)
+2025-09-11 11:10:09,086 - INFO - 📊 Page 3 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:10:14,326 - INFO - 📄 Scraping page 4/15 for 'Business Analyst'
+2025-09-11 11:10:14,969 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:10:15,673 - INFO - ✅ [11/20] Sr Business Analyst - Direct Hire at Beacon Hill (Easy Apply)
+2025-09-11 11:10:15,790 - INFO - ✅ [15/20] Business Analyst at Mitchell Martin, Inc. (Easy Apply)
+2025-09-11 11:10:15,839 - INFO - 📊 Page 4 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:10:19,238 - INFO - 📄 Scraping page 5/15 for 'Business Analyst'
+2025-09-11 11:10:19,955 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:10:20,667 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:10:22,746 - INFO - 📄 Scraping page 6/15 for 'Business Analyst'
+2025-09-11 11:10:23,812 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:10:24,400 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:10:28,804 - INFO - 📄 Scraping page 7/15 for 'Business Analyst'
+2025-09-11 11:10:29,416 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:10:30,188 - INFO - ✅ [20/20] Jr. Business Project Manager/BA at Softworld, Inc. (Easy Apply)
+2025-09-11 11:10:30,188 - INFO - 📊 Page 7 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:10:35,008 - INFO - 📄 Scraping page 8/15 for 'Business Analyst'
+2025-09-11 11:10:35,706 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:10:36,289 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:10:41,671 - INFO - 📄 Scraping page 9/15 for 'Business Analyst'
+2025-09-11 11:10:42,391 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:10:42,965 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:10:47,802 - INFO - 📄 Scraping page 10/15 for 'Business Analyst'
+2025-09-11 11:10:48,813 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:10:49,089 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:10:52,331 - INFO - 📄 Scraping page 11/15 for 'Business Analyst'
+2025-09-11 11:10:53,035 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:10:53,600 - INFO - ✅ [10/20] Technical Business Analyst at Aroha Technologies (Easy Apply)
+2025-09-11 11:10:53,698 - INFO - ✅ [12/20] IT Healthcare Consultant - Business Analyst at SYSTEM SOFT TECHNOLOGIES LLC (Easy Apply)
+2025-09-11 11:10:53,772 - INFO - 📊 Page 11 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:10:57,277 - INFO - 📄 Scraping page 12/15 for 'Business Analyst'
+2025-09-11 11:10:57,870 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 11:10:58,431 - INFO - ✅ [3/20] Business Analyst (Only W2) at nTech Solutions (Easy Apply)
+2025-09-11 11:11:01,705 - INFO - ✅ [18/20] 100% Remote-Microsoft Dynamics CRM - Sr. Business Analyst [Field Service] at Kutir Inc (Easy Apply)
+2025-09-11 11:11:01,725 - INFO - 📊 Page 12 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:11:06,264 - INFO - 📄 Scraping page 13/15 for 'Business Analyst'
+2025-09-11 11:11:06,968 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 11:11:07,413 - INFO - ✅ [2/20] SAP Commerce Cloud Business Analyst at System One (Easy Apply)
+2025-09-11 11:11:07,613 - INFO - ✅ [11/20] SAP Commerce Cloud Business Analyst at ALTA IT Services (Easy Apply)
+2025-09-11 11:11:07,695 - INFO - 📊 Page 13 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:11:13,784 - INFO - 📄 Scraping page 14/15 for 'Business Analyst'
+2025-09-11 11:11:14,464 - INFO - ✅ Found 20 job cards on page 14
+2025-09-11 11:11:15,054 - INFO - ✅ [12/20] Senior System Business Analyst at Prutech Solutions (Easy Apply)
+2025-09-11 11:11:18,204 - INFO - ✅ [18/20] Business Analyst (P&C Domain Expert) at Aroha Technologies (Easy Apply)
+2025-09-11 11:11:18,290 - INFO - ✅ [19/20] Business Analyst - Local Candidates - Philadelphia, PA - Hybrid at Apton Inc (Easy Apply)
+2025-09-11 11:11:18,301 - INFO - 📊 Page 14 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 11:11:22,822 - INFO - 📄 Scraping page 15/15 for 'Business Analyst'
+2025-09-11 11:11:23,758 - INFO - ✅ Found 20 job cards on page 15
+2025-09-11 11:11:24,245 - INFO - ✅ [13/20] CTRM (Commodity Trading & Price Risk Management) Business Analyst at Aroha Technologies (Easy Apply)
+2025-09-11 11:11:24,309 - INFO - 📊 Page 15 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:11:27,941 - INFO - 🎯 Query 'Business Analyst' completed:
+2025-09-11 11:11:27,941 - INFO -    📄 Pages scraped: 15
+2025-09-11 11:11:27,941 - INFO -    ✅ New jobs found: 20
+2025-09-11 11:11:27,942 - INFO -    🔗 Total unique links: 5380
+2025-09-11 11:11:27,942 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:11:33,516 - INFO - 🔄 Processing query 20/30: 'Junior AI'
+2025-09-11 11:11:33,516 - INFO - 🔍 Starting scrape for query: 'Junior AI'
+2025-09-11 11:11:33,516 - INFO - 📄 Scraping page 1/15 for 'Junior AI'
+2025-09-11 11:11:34,619 - INFO - ✅ Found 2 job cards on page 1
+2025-09-11 11:11:34,963 - INFO - 📊 Page 1 summary: 0 new jobs added, 2 duplicates skipped
+2025-09-11 11:11:40,030 - INFO - 📄 Scraping page 2/15 for 'Junior AI'
+2025-09-11 11:11:50,567 - WARNING - ⏰ Timeout loading page 2 for 'Junior AI' (failures: 1/3)
+2025-09-11 11:11:50,567 - INFO - 📄 Scraping page 3/15 for 'Junior AI'
+2025-09-11 11:12:01,082 - WARNING - ⏰ Timeout loading page 3 for 'Junior AI' (failures: 2/3)
+2025-09-11 11:12:01,083 - INFO - 📄 Scraping page 4/15 for 'Junior AI'
+2025-09-11 11:12:11,624 - WARNING - ⏰ Timeout loading page 4 for 'Junior AI' (failures: 3/3)
+2025-09-11 11:12:11,624 - ERROR - ❌ Too many consecutive failures, stopping query 'Junior AI'
+2025-09-11 11:12:11,624 - INFO - 🎯 Query 'Junior AI' completed:
+2025-09-11 11:12:11,625 - INFO -    📄 Pages scraped: 1
+2025-09-11 11:12:11,625 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:12:11,625 - INFO -    🔗 Total unique links: 5380
+2025-09-11 11:12:11,625 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:12:18,031 - INFO - 🔄 Processing query 21/30: 'Entry Level AI'
+2025-09-11 11:12:18,031 - INFO - 🔍 Starting scrape for query: 'Entry Level AI'
+2025-09-11 11:12:18,031 - INFO - 📄 Scraping page 1/15 for 'Entry Level AI'
+2025-09-11 11:12:19,161 - INFO - ✅ Found 2 job cards on page 1
+2025-09-11 11:12:19,588 - INFO - 📊 Page 1 summary: 0 new jobs added, 2 duplicates skipped
+2025-09-11 11:12:22,146 - INFO - 📄 Scraping page 2/15 for 'Entry Level AI'
+2025-09-11 11:12:32,693 - WARNING - ⏰ Timeout loading page 2 for 'Entry Level AI' (failures: 1/3)
+2025-09-11 11:12:32,694 - INFO - 📄 Scraping page 3/15 for 'Entry Level AI'
+2025-09-11 11:12:43,544 - WARNING - ⏰ Timeout loading page 3 for 'Entry Level AI' (failures: 2/3)
+2025-09-11 11:12:43,544 - INFO - 📄 Scraping page 4/15 for 'Entry Level AI'
+2025-09-11 11:12:54,027 - WARNING - ⏰ Timeout loading page 4 for 'Entry Level AI' (failures: 3/3)
+2025-09-11 11:12:54,027 - ERROR - ❌ Too many consecutive failures, stopping query 'Entry Level AI'
+2025-09-11 11:12:54,028 - INFO - 🎯 Query 'Entry Level AI' completed:
+2025-09-11 11:12:54,028 - INFO -    📄 Pages scraped: 1
+2025-09-11 11:12:54,028 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:12:54,028 - INFO -    🔗 Total unique links: 5380
+2025-09-11 11:12:54,028 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:12:59,495 - INFO - 🔄 Processing query 22/30: 'Python Developer'
+2025-09-11 11:12:59,496 - INFO - 🔍 Starting scrape for query: 'Python Developer'
+2025-09-11 11:12:59,496 - INFO - 📄 Scraping page 1/15 for 'Python Developer'
+2025-09-11 11:13:00,760 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:13:01,540 - INFO - ✅ [12/20] Lead Python Developer at Cloud Bigdata (Easy Apply)
+2025-09-11 11:13:01,720 - INFO - ✅ [15/20] Python Developer - Energy Domain at Aroha Technologies (Easy Apply)
+2025-09-11 11:13:01,836 - INFO - 📊 Page 1 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:13:06,218 - INFO - 📄 Scraping page 2/15 for 'Python Developer'
+2025-09-11 11:13:06,922 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:13:07,626 - INFO - ✅ [7/20] (Only W2) - Python Developer - Iselin NJ at ApTask (Easy Apply)
+2025-09-11 11:13:07,753 - INFO - ✅ [12/20] (Only W2) - Python Developer - New York, NY at ApTask (Easy Apply)
+2025-09-11 11:13:07,832 - INFO - 📊 Page 2 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:13:12,339 - INFO - 📄 Scraping page 3/15 for 'Python Developer'
+2025-09-11 11:13:13,109 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:13:13,641 - INFO - ✅ [8/20] Automation Developer (Python) - only W2 at LinQ Global Group. (Easy Apply)
+2025-09-11 11:13:13,754 - INFO - 📊 Page 3 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:13:16,535 - INFO - 📄 Scraping page 4/15 for 'Python Developer'
+2025-09-11 11:13:17,353 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:13:17,903 - INFO - ✅ [10/20] Python, Snowflake & Streamlit -Developer at Valueprosite (Easy Apply)
+2025-09-11 11:13:17,994 - INFO - 📊 Page 4 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:13:22,626 - INFO - 📄 Scraping page 5/15 for 'Python Developer'
+2025-09-11 11:13:23,354 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:13:23,899 - INFO - ✅ [9/20] Ansibe Python Programmer for Network automation at Motion Recruitment Partners, LLC (Easy Apply)
+2025-09-11 11:13:24,004 - INFO - 📊 Page 5 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:13:28,431 - INFO - 📄 Scraping page 6/15 for 'Python Developer'
+2025-09-11 11:13:29,137 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:13:32,358 - INFO - ✅ [1/20] Full Stack Engineer (TypeScript + Python) at Enexus Global (Easy Apply)
+2025-09-11 11:13:32,529 - INFO - 📊 Page 6 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:13:37,002 - INFO - 📄 Scraping page 7/15 for 'Python Developer'
+2025-09-11 11:13:37,863 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:13:38,543 - INFO - ✅ [5/20] EPIC bridges certification Bioinformatics Programmer - NGS, HL7, Nextflow or WDL,Python at APN Software Services, Inc (Easy Apply)
+2025-09-11 11:13:38,684 - INFO - 📊 Page 7 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:13:42,432 - INFO - 📄 Scraping page 8/15 for 'Python Developer'
+2025-09-11 11:13:43,130 - INFO - ✅ Found 8 job cards on page 8
+2025-09-11 11:13:43,630 - INFO - ✅ [6/8] Python with SQL Experience at The Dignify Solutions, LLC (Easy Apply)
+2025-09-11 11:13:43,648 - INFO - 📊 Page 8 summary: 1 new jobs added, 7 duplicates skipped
+2025-09-11 11:13:45,802 - INFO - 📄 Scraping page 9/15 for 'Python Developer'
+2025-09-11 11:13:56,534 - WARNING - ⏰ Timeout loading page 9 for 'Python Developer' (failures: 1/3)
+2025-09-11 11:13:56,535 - INFO - 📄 Scraping page 10/15 for 'Python Developer'
+2025-09-11 11:14:07,241 - WARNING - ⏰ Timeout loading page 10 for 'Python Developer' (failures: 2/3)
+2025-09-11 11:14:07,241 - INFO - 📄 Scraping page 11/15 for 'Python Developer'
+2025-09-11 11:14:17,787 - WARNING - ⏰ Timeout loading page 11 for 'Python Developer' (failures: 3/3)
+2025-09-11 11:14:17,787 - ERROR - ❌ Too many consecutive failures, stopping query 'Python Developer'
+2025-09-11 11:14:17,787 - INFO - 🎯 Query 'Python Developer' completed:
+2025-09-11 11:14:17,787 - INFO -    📄 Pages scraped: 8
+2025-09-11 11:14:17,787 - INFO -    ✅ New jobs found: 10
+2025-09-11 11:14:17,787 - INFO -    🔗 Total unique links: 5390
+2025-09-11 11:14:17,787 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:14:21,610 - INFO - 🔄 Processing query 23/30: 'Full Stack Engineer'
+2025-09-11 11:14:21,610 - INFO - 🔍 Starting scrape for query: 'Full Stack Engineer'
+2025-09-11 11:14:21,610 - INFO - 📄 Scraping page 1/15 for 'Full Stack Engineer'
+2025-09-11 11:14:22,759 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:14:23,398 - INFO - ✅ [2/20] Full Stack Engineer - Automation at Aroha Technologies (Easy Apply)
+2025-09-11 11:14:23,671 - INFO - 📊 Page 1 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:14:26,201 - INFO - 📄 Scraping page 2/15 for 'Full Stack Engineer'
+2025-09-11 11:14:26,965 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:14:27,609 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:14:32,065 - INFO - 📄 Scraping page 3/15 for 'Full Stack Engineer'
+2025-09-11 11:14:32,792 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:14:33,382 - INFO - ✅ [14/20] Full Stack Java Developer at Korn Ferry (Easy Apply)
+2025-09-11 11:14:36,484 - INFO - ✅ [16/20] Java Full Stack Developer - Banking Experience (Ex-Capital One) at IT America (Easy Apply)
+2025-09-11 11:14:36,520 - INFO - 📊 Page 3 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:14:41,089 - INFO - 📄 Scraping page 4/15 for 'Full Stack Engineer'
+2025-09-11 11:14:42,076 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:14:42,593 - INFO - ✅ [3/20] Software Engineer 3 - Contingent FULL STACK JAVA DEV (BACKEND) at PTR Global (Easy Apply)
+2025-09-11 11:14:42,784 - INFO - 📊 Page 4 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:14:46,937 - INFO - 📄 Scraping page 5/15 for 'Full Stack Engineer'
+2025-09-11 11:14:47,629 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:14:48,273 - INFO - ✅ [20/20] Full Stack Developer at PTR Global (Easy Apply)
+2025-09-11 11:14:48,273 - INFO - 📊 Page 5 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:14:53,954 - INFO - 📄 Scraping page 6/15 for 'Full Stack Engineer'
+2025-09-11 11:14:54,631 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:14:55,202 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:14:59,040 - INFO - 📄 Scraping page 7/15 for 'Full Stack Engineer'
+2025-09-11 11:14:59,721 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:15:00,245 - INFO - ✅ [6/20] Java Full Stack Developer at Techgene Solutions LLC (Easy Apply)
+2025-09-11 11:15:00,375 - INFO - 📊 Page 7 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:15:05,579 - INFO - 📄 Scraping page 8/15 for 'Full Stack Engineer'
+2025-09-11 11:15:06,245 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:15:09,673 - INFO - ✅ [4/20] Node.JS Full stack Developer at IKCON TECHNOLOGIES Inc. (Easy Apply)
+2025-09-11 11:15:09,762 - INFO - ✅ [5/20] Java Full Stack Developer at Profile DM Inc (Easy Apply)
+2025-09-11 11:15:09,849 - INFO - ✅ [6/20] Java Full Stack Developer at SelSoft Inc. (Easy Apply)
+2025-09-11 11:15:09,976 - INFO - 📊 Page 8 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 11:15:14,482 - INFO - 📄 Scraping page 9/15 for 'Full Stack Engineer'
+2025-09-11 11:15:15,194 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:15:15,761 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:15:18,157 - INFO - 📄 Scraping page 10/15 for 'Full Stack Engineer'
+2025-09-11 11:15:18,820 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:15:22,402 - INFO - ✅ [15/20] 100% REMOTE - .NET Developer with Angular (Healthcare experience) - Non H1Bs/OPTs at HYR Global Source Inc (Easy Apply)
+2025-09-11 11:15:22,525 - INFO - ✅ [20/20] Full-time Opportunity: Full Stack .Net Developer - Remote at Team-Soft, LLC (Easy Apply)
+2025-09-11 11:15:22,525 - INFO - 📊 Page 10 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:15:25,706 - INFO - 📄 Scraping page 11/15 for 'Full Stack Engineer'
+2025-09-11 11:15:26,327 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:15:30,098 - INFO - ✅ [18/20] Java + Angular Developer at DRC Systems USA LLC (Easy Apply)
+2025-09-11 11:15:30,118 - INFO - 📊 Page 11 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:15:33,712 - INFO - 📄 Scraping page 12/15 for 'Full Stack Engineer'
+2025-09-11 11:15:34,443 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 11:15:35,010 - INFO - ✅ [12/20] Software Developer - Full Stack at INSPYR Solutions (Easy Apply)
+2025-09-11 11:15:35,085 - INFO - 📊 Page 12 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:15:40,674 - INFO - 📄 Scraping page 13/15 for 'Full Stack Engineer'
+2025-09-11 11:15:41,558 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 11:15:42,134 - INFO - ✅ [4/20] Software Engineer 3 - Contingent at PTR Global (Easy Apply)
+2025-09-11 11:15:42,318 - INFO - 📊 Page 13 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:15:45,097 - INFO - 📄 Scraping page 14/15 for 'Full Stack Engineer'
+2025-09-11 11:15:45,795 - INFO - ✅ Found 5 job cards on page 14
+2025-09-11 11:15:45,946 - INFO - 📊 Page 14 summary: 0 new jobs added, 5 duplicates skipped
+2025-09-11 11:15:48,391 - INFO - 📄 Scraping page 15/15 for 'Full Stack Engineer'
+2025-09-11 11:15:58,934 - WARNING - ⏰ Timeout loading page 15 for 'Full Stack Engineer' (failures: 1/3)
+2025-09-11 11:15:58,934 - INFO - 🎯 Query 'Full Stack Engineer' completed:
+2025-09-11 11:15:58,934 - INFO -    📄 Pages scraped: 14
+2025-09-11 11:15:58,934 - INFO -    ✅ New jobs found: 14
+2025-09-11 11:15:58,934 - INFO -    🔗 Total unique links: 5404
+2025-09-11 11:15:58,934 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:16:03,237 - INFO - 🔄 Processing query 24/30: 'Software Engineer'
+2025-09-11 11:16:03,237 - INFO - 🔍 Starting scrape for query: 'Software Engineer'
+2025-09-11 11:16:03,237 - INFO - 📄 Scraping page 1/15 for 'Software Engineer'
+2025-09-11 11:16:04,466 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:16:05,211 - INFO - ✅ [2/20] Senior Embedded Software Engineer at ISCO International LLC (Easy Apply)
+2025-09-11 11:16:05,329 - INFO - ✅ [5/20] Software Engineer / Big Data at Korn Ferry (Easy Apply)
+2025-09-11 11:16:05,429 - INFO - ✅ [6/20] Entry Level Software Engineer (09042025) at Softworld, Inc. (Easy Apply)
+2025-09-11 11:16:05,654 - INFO - ✅ [11/20] Firmware Software Engineer at Aditi Consulting (Easy Apply)
+2025-09-11 11:16:05,837 - INFO - ✅ [20/20] Software Engineer 3 - Contingent at PTR Global (Easy Apply)
+2025-09-11 11:16:05,837 - INFO - 📊 Page 1 summary: 5 new jobs added, 15 duplicates skipped
+2025-09-11 11:16:10,881 - INFO - 📄 Scraping page 2/15 for 'Software Engineer'
+2025-09-11 11:16:11,569 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:16:15,450 - INFO - ✅ [20/20] Software Engineer 2 at Arthur Lawrence (Easy Apply)
+2025-09-11 11:16:15,450 - INFO - 📊 Page 2 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:16:17,778 - INFO - 📄 Scraping page 3/15 for 'Software Engineer'
+2025-09-11 11:16:18,795 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:16:19,357 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:16:24,363 - INFO - 📄 Scraping page 4/15 for 'Software Engineer'
+2025-09-11 11:16:25,111 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:16:25,727 - INFO - ✅ [16/20] Software Firmware Engineer at ITS Technologies, Inc. (Easy Apply)
+2025-09-11 11:16:25,763 - INFO - 📊 Page 4 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:16:30,519 - INFO - 📄 Scraping page 5/15 for 'Software Engineer'
+2025-09-11 11:16:31,302 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:16:31,883 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:16:34,154 - INFO - 📄 Scraping page 6/15 for 'Software Engineer'
+2025-09-11 11:16:34,877 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:16:35,438 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:16:39,149 - INFO - 📄 Scraping page 7/15 for 'Software Engineer'
+2025-09-11 11:16:39,957 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:16:43,479 - INFO - ✅ [5/20] RRC ) Software Engineer 2 at Avtech Solutions (Easy Apply)
+2025-09-11 11:16:43,648 - INFO - ✅ [15/20] Integration Engineer at Aditi Consulting (Easy Apply)
+2025-09-11 11:16:43,693 - INFO - 📊 Page 7 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:16:47,599 - INFO - 📄 Scraping page 8/15 for 'Software Engineer'
+2025-09-11 11:16:48,182 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:16:48,740 - INFO - ✅ [1/20] Lead .NET Software Engineer / React / SaaS at Motion Recruitment Partners, LLC (Easy Apply)
+2025-09-11 11:16:48,960 - INFO - ✅ [15/20] Embedded Software Engineer with RTOS and C++ (W2) at Geopaq Logic (Easy Apply)
+2025-09-11 11:16:49,051 - INFO - ✅ [16/20] Mid-Level Software Engineer / Hybrid in Naperville / .NET / Blazor at Motion Recruitment Partners, LLC (Easy Apply)
+2025-09-11 11:16:49,087 - INFO - 📊 Page 8 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 11:16:53,240 - INFO - 📄 Scraping page 9/15 for 'Software Engineer'
+2025-09-11 11:16:53,866 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:16:54,619 - INFO - ✅ [18/20] ATM Certified Software Development Engineer at TechSynergy Sources (Easy Apply)
+2025-09-11 11:16:54,639 - INFO - 📊 Page 9 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:16:58,111 - INFO - 📄 Scraping page 10/15 for 'Software Engineer'
+2025-09-11 11:16:58,724 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:16:59,312 - INFO - ✅ [1/20] Systems Engineer (Software Integration and Testing) at Rose International (Easy Apply)
+2025-09-11 11:16:59,524 - INFO - ✅ [14/20] OTA Systems Engineer at Aditi Consulting (Easy Apply)
+2025-09-11 11:16:59,600 - INFO - 📊 Page 10 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:17:04,419 - INFO - 📄 Scraping page 11/15 for 'Software Engineer'
+2025-09-11 11:17:05,482 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:17:05,845 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:17:08,834 - INFO - 📄 Scraping page 12/15 for 'Software Engineer'
+2025-09-11 11:17:09,583 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 11:17:09,995 - INFO - ✅ [17/20] Power BI Engineer at Idvide LLC (Easy Apply)
+2025-09-11 11:17:10,024 - INFO - 📊 Page 12 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:17:13,764 - INFO - 📄 Scraping page 13/15 for 'Software Engineer'
+2025-09-11 11:17:14,408 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 11:17:17,943 - INFO - ✅ [1/20] IAM Engineer at Beacon Hill (Easy Apply)
+2025-09-11 11:17:18,047 - INFO - ✅ [4/20] Materials Coordinator (Lead) - Orlando (Full Time, Weekday?Shift) at Yoh - A Day & Zimmerman Company (Easy Apply)
+2025-09-11 11:17:18,136 - INFO - ✅ [5/20] Materials Coordinator (Lead) - Houston (Full Time, Weekday?Shift) at Yoh - A Day & Zimmerman Company (Easy Apply)
+2025-09-11 11:17:18,224 - INFO - ✅ [6/20] Materials Coordinator (Lead) - San Antonio (Full Time, Weekday?Shift) at Yoh - A Day & Zimmerman Company (Easy Apply)
+2025-09-11 11:17:21,372 - INFO - ✅ [13/20] Automation and Tools Development Engineer(SDET) (Contract W2) at Sapear Inc (Easy Apply)
+2025-09-11 11:17:21,470 - INFO - ✅ [15/20] SDA - Systems Engineer at Softworld, Inc. (Easy Apply)
+2025-09-11 11:17:21,516 - INFO - 📊 Page 13 summary: 6 new jobs added, 14 duplicates skipped
+2025-09-11 11:17:26,431 - INFO - 📄 Scraping page 14/15 for 'Software Engineer'
+2025-09-11 11:17:27,171 - INFO - ✅ Found 20 job cards on page 14
+2025-09-11 11:17:27,744 - INFO - 📊 Page 14 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:17:33,190 - INFO - 📄 Scraping page 15/15 for 'Software Engineer'
+2025-09-11 11:17:33,944 - INFO - ✅ Found 20 job cards on page 15
+2025-09-11 11:17:34,530 - INFO - ✅ [12/20] Electrical Engineer Senior at Xceed Technologies Inc (Easy Apply)
+2025-09-11 11:17:34,604 - INFO - 📊 Page 15 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:17:36,999 - INFO - 🎯 Query 'Software Engineer' completed:
+2025-09-11 11:17:36,999 - INFO -    📄 Pages scraped: 15
+2025-09-11 11:17:36,999 - INFO -    ✅ New jobs found: 23
+2025-09-11 11:17:36,999 - INFO -    🔗 Total unique links: 5427
+2025-09-11 11:17:36,999 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:17:41,426 - INFO - 🔄 Processing query 25/30: 'Research Scientist'
+2025-09-11 11:17:41,426 - INFO - 🔍 Starting scrape for query: 'Research Scientist'
+2025-09-11 11:17:41,426 - INFO - 📄 Scraping page 1/15 for 'Research Scientist'
+2025-09-11 11:17:42,483 - INFO - ✅ Found 7 job cards on page 1
+2025-09-11 11:17:43,039 - INFO - 📊 Page 1 summary: 0 new jobs added, 7 duplicates skipped
+2025-09-11 11:17:45,867 - INFO - 📄 Scraping page 2/15 for 'Research Scientist'
+2025-09-11 11:17:56,387 - WARNING - ⏰ Timeout loading page 2 for 'Research Scientist' (failures: 1/3)
+2025-09-11 11:17:56,387 - INFO - 📄 Scraping page 3/15 for 'Research Scientist'
+2025-09-11 11:18:06,879 - WARNING - ⏰ Timeout loading page 3 for 'Research Scientist' (failures: 2/3)
+2025-09-11 11:18:06,879 - INFO - 📄 Scraping page 4/15 for 'Research Scientist'
+2025-09-11 11:18:17,328 - WARNING - ⏰ Timeout loading page 4 for 'Research Scientist' (failures: 3/3)
+2025-09-11 11:18:17,328 - ERROR - ❌ Too many consecutive failures, stopping query 'Research Scientist'
+2025-09-11 11:18:17,328 - INFO - 🎯 Query 'Research Scientist' completed:
+2025-09-11 11:18:17,328 - INFO -    📄 Pages scraped: 1
+2025-09-11 11:18:17,328 - INFO -    ✅ New jobs found: 0
+2025-09-11 11:18:17,328 - INFO -    🔗 Total unique links: 5427
+2025-09-11 11:18:17,328 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:18:23,799 - INFO - 🔄 Processing query 26/30: 'AI Consultant'
+2025-09-11 11:18:23,800 - INFO - 🔍 Starting scrape for query: 'AI Consultant'
+2025-09-11 11:18:23,800 - INFO - 📄 Scraping page 1/15 for 'AI Consultant'
+2025-09-11 11:18:24,820 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:18:25,560 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:18:28,975 - INFO - 📄 Scraping page 2/15 for 'AI Consultant'
+2025-09-11 11:18:29,608 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:18:30,386 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:18:35,387 - INFO - 📄 Scraping page 3/15 for 'AI Consultant'
+2025-09-11 11:18:36,070 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:18:36,670 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:18:39,652 - INFO - 📄 Scraping page 4/15 for 'AI Consultant'
+2025-09-11 11:18:40,328 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:18:40,874 - INFO - ✅ [6/20] Staff Consultant at Robert Half (Easy Apply)
+2025-09-11 11:18:40,964 - INFO - ✅ [7/20] Sr. Consultant at Robert Half (Easy Apply)
+2025-09-11 11:18:44,119 - INFO - ✅ [13/20] Systems Analyst at Robert Half (Easy Apply)
+2025-09-11 11:18:47,221 - INFO - ✅ [14/20] Global Oncology Medical Affairs Technology Enablement Consultant at System One (Easy Apply)
+2025-09-11 11:18:47,315 - INFO - ✅ [15/20] SAP ABAP Consultant at Robert Half (Easy Apply)
+2025-09-11 11:18:47,362 - INFO - 📊 Page 4 summary: 5 new jobs added, 15 duplicates skipped
+2025-09-11 11:18:51,285 - INFO - 📄 Scraping page 5/15 for 'AI Consultant'
+2025-09-11 11:18:51,851 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:18:52,507 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:18:55,294 - INFO - 📄 Scraping page 6/15 for 'AI Consultant'
+2025-09-11 11:18:55,954 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:18:56,525 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:19:01,049 - INFO - 📄 Scraping page 7/15 for 'AI Consultant'
+2025-09-11 11:19:01,706 - INFO - ✅ Found 9 job cards on page 7
+2025-09-11 11:19:02,215 - INFO - ✅ [6/9] Salesforce Solution Architect at Korn Ferry (Easy Apply)
+2025-09-11 11:19:02,242 - INFO - 📊 Page 7 summary: 1 new jobs added, 8 duplicates skipped
+2025-09-11 11:19:06,666 - INFO - 📄 Scraping page 8/15 for 'AI Consultant'
+2025-09-11 11:19:17,115 - WARNING - ⏰ Timeout loading page 8 for 'AI Consultant' (failures: 1/3)
+2025-09-11 11:19:17,115 - INFO - 📄 Scraping page 9/15 for 'AI Consultant'
+2025-09-11 11:19:27,544 - WARNING - ⏰ Timeout loading page 9 for 'AI Consultant' (failures: 2/3)
+2025-09-11 11:19:27,544 - INFO - 📄 Scraping page 10/15 for 'AI Consultant'
+2025-09-11 11:19:38,255 - WARNING - ⏰ Timeout loading page 10 for 'AI Consultant' (failures: 3/3)
+2025-09-11 11:19:38,255 - ERROR - ❌ Too many consecutive failures, stopping query 'AI Consultant'
+2025-09-11 11:19:38,255 - INFO - 🎯 Query 'AI Consultant' completed:
+2025-09-11 11:19:38,255 - INFO -    📄 Pages scraped: 7
+2025-09-11 11:19:38,255 - INFO -    ✅ New jobs found: 6
+2025-09-11 11:19:38,255 - INFO -    🔗 Total unique links: 5433
+2025-09-11 11:19:38,255 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:19:44,621 - INFO - 🔄 Processing query 27/30: 'Data Analyst'
+2025-09-11 11:19:44,621 - INFO - 🔍 Starting scrape for query: 'Data Analyst'
+2025-09-11 11:19:44,621 - INFO - 📄 Scraping page 1/15 for 'Data Analyst'
+2025-09-11 11:19:45,617 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:19:46,461 - INFO - ✅ [14/20] Data Analyst III at PTR Global (Easy Apply)
+2025-09-11 11:19:46,569 - INFO - ✅ [15/20] Data Analyst, TS/SCI at Motion Recruitment Partners, LLC (Easy Apply)
+2025-09-11 11:19:46,763 - INFO - ✅ [16/20] Data Analyst III at Xoriant Corporation (Easy Apply)
+2025-09-11 11:19:46,880 - INFO - ✅ [18/20] Data Analyst at PTR Global (Easy Apply)
+2025-09-11 11:19:46,901 - INFO - 📊 Page 1 summary: 4 new jobs added, 16 duplicates skipped
+2025-09-11 11:19:51,515 - INFO - 📄 Scraping page 2/15 for 'Data Analyst'
+2025-09-11 11:19:52,365 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:19:53,146 - INFO - ✅ [12/20] Data Analyst at Cloud Bigdata (Easy Apply)
+2025-09-11 11:19:53,225 - INFO - 📊 Page 2 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:19:57,602 - INFO - 📄 Scraping page 3/15 for 'Data Analyst'
+2025-09-11 11:19:58,275 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:19:58,829 - INFO - ✅ [8/20] Business & Data Analyst (Hybrid in McLean VA or Memphis, TN) at Noblesoft Solutions Inc. (Easy Apply)
+2025-09-11 11:19:58,944 - INFO - 📊 Page 3 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:20:02,978 - INFO - 📄 Scraping page 4/15 for 'Data Analyst'
+2025-09-11 11:20:03,538 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:20:04,232 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:20:08,285 - INFO - 📄 Scraping page 5/15 for 'Data Analyst'
+2025-09-11 11:20:08,944 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:20:09,535 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:20:12,237 - INFO - 📄 Scraping page 6/15 for 'Data Analyst'
+2025-09-11 11:20:12,880 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:20:13,397 - INFO - ✅ [5/20] Data Reporting Analyst at Robert Half (Easy Apply)
+2025-09-11 11:20:13,509 - INFO - ✅ [8/20] Data and Analytics Analyst at Rose International (Easy Apply)
+2025-09-11 11:20:13,622 - INFO - 📊 Page 6 summary: 2 new jobs added, 18 duplicates skipped
+2025-09-11 11:20:18,829 - INFO - 📄 Scraping page 7/15 for 'Data Analyst'
+2025-09-11 11:20:19,479 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:20:20,072 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:20:22,300 - INFO - 📄 Scraping page 8/15 for 'Data Analyst'
+2025-09-11 11:20:22,937 - INFO - ✅ Found 16 job cards on page 8
+2025-09-11 11:20:23,542 - INFO - ✅ [15/16] Informatica ETL Developer at Cloud Bigdata (Easy Apply)
+2025-09-11 11:20:23,550 - INFO - 📊 Page 8 summary: 1 new jobs added, 15 duplicates skipped
+2025-09-11 11:20:27,730 - INFO - 📄 Scraping page 9/15 for 'Data Analyst'
+2025-09-11 11:20:38,181 - WARNING - ⏰ Timeout loading page 9 for 'Data Analyst' (failures: 1/3)
+2025-09-11 11:20:38,181 - INFO - 📄 Scraping page 10/15 for 'Data Analyst'
+2025-09-11 11:20:48,604 - WARNING - ⏰ Timeout loading page 10 for 'Data Analyst' (failures: 2/3)
+2025-09-11 11:20:48,604 - INFO - 📄 Scraping page 11/15 for 'Data Analyst'
+2025-09-11 11:20:59,333 - WARNING - ⏰ Timeout loading page 11 for 'Data Analyst' (failures: 3/3)
+2025-09-11 11:20:59,333 - ERROR - ❌ Too many consecutive failures, stopping query 'Data Analyst'
+2025-09-11 11:20:59,333 - INFO - 🎯 Query 'Data Analyst' completed:
+2025-09-11 11:20:59,333 - INFO -    📄 Pages scraped: 8
+2025-09-11 11:20:59,333 - INFO -    ✅ New jobs found: 9
+2025-09-11 11:20:59,333 - INFO -    🔗 Total unique links: 5442
+2025-09-11 11:20:59,333 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:21:03,945 - INFO - 🔄 Processing query 28/30: 'Business Analyst'
+2025-09-11 11:21:03,946 - INFO - 🔍 Starting scrape for query: 'Business Analyst'
+2025-09-11 11:21:03,946 - INFO - 📄 Scraping page 1/15 for 'Business Analyst'
+2025-09-11 11:21:04,980 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:21:05,742 - INFO - ✅ [9/20] Senior Technical Business Analyst at Turing IT Labs (Easy Apply)
+2025-09-11 11:21:05,922 - INFO - 📊 Page 1 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:21:09,883 - INFO - 📄 Scraping page 2/15 for 'Business Analyst'
+2025-09-11 11:21:10,558 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:21:11,345 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:16,089 - INFO - 📄 Scraping page 3/15 for 'Business Analyst'
+2025-09-11 11:21:16,862 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:21:17,454 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:19,687 - INFO - 📄 Scraping page 4/15 for 'Business Analyst'
+2025-09-11 11:21:20,361 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:21:20,938 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:24,313 - INFO - 📄 Scraping page 5/15 for 'Business Analyst'
+2025-09-11 11:21:24,949 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:21:25,651 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:30,228 - INFO - 📄 Scraping page 6/15 for 'Business Analyst'
+2025-09-11 11:21:30,788 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:21:31,464 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:36,156 - INFO - 📄 Scraping page 7/15 for 'Business Analyst'
+2025-09-11 11:21:36,817 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:21:37,389 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:40,158 - INFO - 📄 Scraping page 8/15 for 'Business Analyst'
+2025-09-11 11:21:40,830 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:21:41,402 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:44,596 - INFO - 📄 Scraping page 9/15 for 'Business Analyst'
+2025-09-11 11:21:45,196 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:21:45,759 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:49,390 - INFO - 📄 Scraping page 10/15 for 'Business Analyst'
+2025-09-11 11:21:50,246 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:21:50,811 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:54,039 - INFO - 📄 Scraping page 11/15 for 'Business Analyst'
+2025-09-11 11:21:54,605 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:21:55,351 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:21:58,094 - INFO - 📄 Scraping page 12/15 for 'Business Analyst'
+2025-09-11 11:21:58,675 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 11:21:59,156 - INFO - 📊 Page 12 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:22:01,973 - INFO - 📄 Scraping page 13/15 for 'Business Analyst'
+2025-09-11 11:22:02,812 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 11:22:03,111 - INFO - 📊 Page 13 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:22:06,919 - INFO - 📄 Scraping page 14/15 for 'Business Analyst'
+2025-09-11 11:22:07,588 - INFO - ✅ Found 20 job cards on page 14
+2025-09-11 11:22:08,185 - INFO - 📊 Page 14 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:22:12,656 - INFO - 📄 Scraping page 15/15 for 'Business Analyst'
+2025-09-11 11:22:13,445 - INFO - ✅ Found 20 job cards on page 15
+2025-09-11 11:22:14,023 - INFO - 📊 Page 15 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:22:19,303 - INFO - 🎯 Query 'Business Analyst' completed:
+2025-09-11 11:22:19,303 - INFO -    📄 Pages scraped: 15
+2025-09-11 11:22:19,303 - INFO -    ✅ New jobs found: 1
+2025-09-11 11:22:19,303 - INFO -    🔗 Total unique links: 5443
+2025-09-11 11:22:19,303 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:22:26,102 - INFO - 🔄 Processing query 29/30: 'Junior'
+2025-09-11 11:22:26,102 - INFO - 🔍 Starting scrape for query: 'Junior'
+2025-09-11 11:22:26,103 - INFO - 📄 Scraping page 1/15 for 'Junior'
+2025-09-11 11:22:27,349 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:22:28,076 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:22:33,713 - INFO - 📄 Scraping page 2/15 for 'Junior'
+2025-09-11 11:22:34,376 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:22:35,062 - INFO - ✅ [11/20] Jr. Java React Developer at Princeton, NJ (ONSITE) at TeamSuccess LLC DBA HiEd Success (Easy Apply)
+2025-09-11 11:22:35,143 - INFO - 📊 Page 2 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:22:39,994 - INFO - 📄 Scraping page 3/15 for 'Junior'
+2025-09-11 11:22:40,677 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:22:41,200 - INFO - ✅ [5/20] Junior Business Analyst at Ellianse LLC (Easy Apply)
+2025-09-11 11:22:41,339 - INFO - 📊 Page 3 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:22:46,711 - INFO - 📄 Scraping page 4/15 for 'Junior'
+2025-09-11 11:22:47,461 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:22:48,018 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:22:52,321 - INFO - 📄 Scraping page 5/15 for 'Junior'
+2025-09-11 11:22:52,998 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:22:53,602 - INFO - ✅ [14/20] Chemist at SuperbTech,Inc. (Easy Apply)
+2025-09-11 11:22:53,703 - INFO - ✅ [16/20] Helpdesk Support at Convergent Consulting Inc (Easy Apply)
+2025-09-11 11:22:53,799 - INFO - ✅ [17/20] IT Helpdesk Support at Convergent Consulting Inc (Easy Apply)
+2025-09-11 11:22:53,828 - INFO - 📊 Page 5 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 11:22:58,128 - INFO - 📄 Scraping page 6/15 for 'Junior'
+2025-09-11 11:22:58,998 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:22:59,665 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:23:02,058 - INFO - 📄 Scraping page 7/15 for 'Junior'
+2025-09-11 11:23:02,781 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:23:03,355 - INFO - ✅ [10/20] Senior Android Developer at Mindlance (Easy Apply)
+2025-09-11 11:23:03,448 - INFO - 📊 Page 7 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:23:07,057 - INFO - 📄 Scraping page 8/15 for 'Junior'
+2025-09-11 11:23:07,606 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:23:08,336 - INFO - ✅ [14/20] SIDES Systems Analyst 2 at E Quality Corporation (Easy Apply)
+2025-09-11 11:23:08,392 - INFO - 📊 Page 8 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:23:12,408 - INFO - 📄 Scraping page 9/15 for 'Junior'
+2025-09-11 11:23:12,948 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:23:13,647 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:23:17,130 - INFO - 📄 Scraping page 10/15 for 'Junior'
+2025-09-11 11:23:17,694 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:23:18,449 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:23:23,470 - INFO - 📄 Scraping page 11/15 for 'Junior'
+2025-09-11 11:23:24,508 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:23:24,799 - INFO - ✅ [12/20] IT Help Desk at Pyramid Consulting, Inc. (Easy Apply)
+2025-09-11 11:23:24,931 - INFO - 📊 Page 11 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:23:28,506 - INFO - 📄 Scraping page 12/15 for 'Junior'
+2025-09-11 11:23:29,238 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 11:23:29,448 - INFO - ✅ [1/20] DevOps Engineer at Stellar IT Solutions (Easy Apply)
+2025-09-11 11:23:29,862 - INFO - ✅ [8/20] Senior Java Developer at PTR Global (Easy Apply)
+2025-09-11 11:23:32,987 - INFO - ✅ [9/20] Senior Java Developer (with Spark) at Purple Drive Technologies LLC (Easy Apply)
+2025-09-11 11:23:33,088 - INFO - 📊 Page 12 summary: 3 new jobs added, 17 duplicates skipped
+2025-09-11 11:23:36,212 - INFO - 📄 Scraping page 13/15 for 'Junior'
+2025-09-11 11:23:36,957 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 11:23:37,527 - INFO - 📊 Page 13 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:23:41,642 - INFO - 📄 Scraping page 14/15 for 'Junior'
+2025-09-11 11:23:42,403 - INFO - ✅ Found 20 job cards on page 14
+2025-09-11 11:23:42,985 - INFO - ✅ [12/20] Utilities Project Manager at SNtial Technologies, Inc. (Easy Apply)
+2025-09-11 11:23:43,059 - INFO - 📊 Page 14 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:23:44,613 - INFO - 📄 Scraping page 15/15 for 'Junior'
+2025-09-11 11:23:45,362 - INFO - ✅ Found 20 job cards on page 15
+2025-09-11 11:23:45,943 - INFO - 📊 Page 15 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:23:48,919 - INFO - 🎯 Query 'Junior' completed:
+2025-09-11 11:23:48,919 - INFO -    📄 Pages scraped: 15
+2025-09-11 11:23:48,919 - INFO -    ✅ New jobs found: 12
+2025-09-11 11:23:48,920 - INFO -    🔗 Total unique links: 5455
+2025-09-11 11:23:48,920 - INFO - 🔄 Restarting driver between queries...
+2025-09-11 11:23:53,458 - INFO - 🔄 Processing query 30/30: 'Jr'
+2025-09-11 11:23:53,458 - INFO - 🔍 Starting scrape for query: 'Jr'
+2025-09-11 11:23:53,459 - INFO - 📄 Scraping page 1/15 for 'Jr'
+2025-09-11 11:23:55,450 - INFO - ✅ Found 20 job cards on page 1
+2025-09-11 11:23:56,233 - INFO - 📊 Page 1 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:00,111 - INFO - 📄 Scraping page 2/15 for 'Jr'
+2025-09-11 11:24:01,192 - INFO - ✅ Found 20 job cards on page 2
+2025-09-11 11:24:01,868 - INFO - 📊 Page 2 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:06,035 - INFO - 📄 Scraping page 3/15 for 'Jr'
+2025-09-11 11:24:06,798 - INFO - ✅ Found 20 job cards on page 3
+2025-09-11 11:24:07,357 - INFO - 📊 Page 3 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:12,822 - INFO - 📄 Scraping page 4/15 for 'Jr'
+2025-09-11 11:24:13,557 - INFO - ✅ Found 20 job cards on page 4
+2025-09-11 11:24:14,133 - INFO - 📊 Page 4 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:17,158 - INFO - 📄 Scraping page 5/15 for 'Jr'
+2025-09-11 11:24:17,898 - INFO - ✅ Found 20 job cards on page 5
+2025-09-11 11:24:18,465 - INFO - 📊 Page 5 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:23,246 - INFO - 📄 Scraping page 6/15 for 'Jr'
+2025-09-11 11:24:23,974 - INFO - ✅ Found 20 job cards on page 6
+2025-09-11 11:24:24,565 - INFO - 📊 Page 6 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:29,222 - INFO - 📄 Scraping page 7/15 for 'Jr'
+2025-09-11 11:24:29,972 - INFO - ✅ Found 20 job cards on page 7
+2025-09-11 11:24:30,565 - INFO - 📊 Page 7 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:34,234 - INFO - 📄 Scraping page 8/15 for 'Jr'
+2025-09-11 11:24:35,130 - INFO - ✅ Found 20 job cards on page 8
+2025-09-11 11:24:35,711 - INFO - 📊 Page 8 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:39,006 - INFO - 📄 Scraping page 9/15 for 'Jr'
+2025-09-11 11:24:39,732 - INFO - ✅ Found 20 job cards on page 9
+2025-09-11 11:24:40,307 - INFO - 📊 Page 9 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:44,684 - INFO - 📄 Scraping page 10/15 for 'Jr'
+2025-09-11 11:24:45,467 - INFO - ✅ Found 20 job cards on page 10
+2025-09-11 11:24:46,041 - INFO - 📊 Page 10 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:48,475 - INFO - 📄 Scraping page 11/15 for 'Jr'
+2025-09-11 11:24:49,222 - INFO - ✅ Found 20 job cards on page 11
+2025-09-11 11:24:49,840 - INFO - 📊 Page 11 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:24:54,174 - INFO - 📄 Scraping page 12/15 for 'Jr'
+2025-09-11 11:24:55,198 - INFO - ✅ Found 20 job cards on page 12
+2025-09-11 11:24:55,703 - INFO - ✅ [18/20] W2 Business Solutions Specialist - SAP & Production support and Service Now local to Tampa, FL 33607 at APN Software Services, Inc (Easy Apply)
+2025-09-11 11:24:55,723 - INFO - 📊 Page 12 summary: 1 new jobs added, 19 duplicates skipped
+2025-09-11 11:25:00,816 - INFO - 📄 Scraping page 13/15 for 'Jr'
+2025-09-11 11:25:01,412 - INFO - ✅ Found 20 job cards on page 13
+2025-09-11 11:25:01,994 - INFO - 📊 Page 13 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:25:05,428 - INFO - 📄 Scraping page 14/15 for 'Jr'
+2025-09-11 11:25:06,152 - INFO - ✅ Found 20 job cards on page 14
+2025-09-11 11:25:06,732 - INFO - 📊 Page 14 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:25:10,040 - INFO - 📄 Scraping page 15/15 for 'Jr'
+2025-09-11 11:25:10,728 - INFO - ✅ Found 20 job cards on page 15
+2025-09-11 11:25:11,250 - INFO - 📊 Page 15 summary: 0 new jobs added, 20 duplicates skipped
+2025-09-11 11:25:15,125 - INFO - 🎯 Query 'Jr' completed:
+2025-09-11 11:25:15,125 - INFO -    📄 Pages scraped: 15
+2025-09-11 11:25:15,126 - INFO -    ✅ New jobs found: 1
+2025-09-11 11:25:15,126 - INFO -    🔗 Total unique links: 5456
+2025-09-11 11:25:15,127 - INFO - ✅ Created DataFrame with 158 new jobs
+2025-09-11 11:25:15,192 - INFO - 🎉 Scraping completed successfully!
+2025-09-11 11:25:15,192 - INFO -    📊 New jobs scraped: 158
+2025-09-11 11:25:15,192 - INFO -    🔄 Duplicates removed: 0
+2025-09-11 11:25:15,192 - INFO -    📁 Total jobs in CSV: 5456
+2025-09-11 11:25:15,192 - INFO -    💾 Saved to: output/jobs.csv
+2025-09-11 11:25:15,192 - INFO - 🔧 Closing browser...
+2025-09-11 11:25:15,319 - INFO -    ✅ Scraping completed
+2025-09-11 11:25:15,319 - INFO - 🎯 Starting job filtering...
+2025-09-11 11:25:15,319 - INFO - 🔍 Starting similarity-based job filtering
+2025-09-11 11:25:15,319 - INFO - 📋 Loaded 99 relevant job title keywords
+2025-09-11 11:25:15,348 - INFO - 📂 Loaded 5456 jobs from output/jobs.csv
+2025-09-11 11:25:15,348 - INFO - 🎯 Filtering jobs by similarity...
+2025-09-11 11:25:20,766 - INFO -    ✅ Found 2170 relevant jobs out of 5456 total
+2025-09-11 11:25:20,766 - INFO - 📂 Loading existing filtered jobs from output/final_ml_jobs.csv
+2025-09-11 11:25:20,779 - INFO -    📊 Found 2116 existing jobs, 2116 unique links
+2025-09-11 11:25:20,779 - INFO - 🔄 Combining datasets and removing duplicates...
+2025-09-11 11:25:20,781 - INFO -    🔄 Removed 2095 duplicate jobs
+2025-09-11 11:25:20,782 - INFO -    📊 Sorted jobs by status
+2025-09-11 11:25:20,807 - INFO - 💾 Saved filtered jobs to output/final_ml_jobs.csv
+2025-09-11 11:25:20,809 - INFO - 🎉 Filtering completed successfully!
+2025-09-11 11:25:20,809 - INFO -    📊 Total relevant jobs: 2191
+2025-09-11 11:25:20,809 - INFO -    ✅ New jobs added: 75
+2025-09-11 11:25:20,809 - INFO -    ⏳ New pending jobs: 75
+2025-09-11 11:25:20,809 - INFO -    💾 Saved to: output/final_ml_jobs.csv
+2025-09-11 11:25:20,810 - INFO -    ✅ Filtering completed
+2025-09-11 11:25:20,810 - INFO - 🎉 Main pipeline completed successfully!
