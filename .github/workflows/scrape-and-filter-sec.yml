@@ -117,23 +117,56 @@ jobs:
         env:
           BASE_URL: ${{ secrets.BASE_URL_SEC }}
         run: python src/main.py
-
+      
       # 6. Commit updated job files & logs back to the public repo
       - name: Commit and push updates to public repo
         run: |
           git config user.name  "github-actions"
           git config user.email "github-actions@github.com"
 
+          # Add files to commit
           [ -d output/logs ] && find output/logs -type f -name "*.log" -exec git add {} \;
           [ -f output/jobs.csv ] && git add output/jobs.csv
           [ -f output/final_ml_jobs.csv ] && git add output/final_ml_jobs.csv
 
+          # Check if there are changes to commit
           if git diff --cached --quiet; then
             echo "✅ No changes to commit."
-          else
-            git commit -m "🔄 Auto-update jobs.csv and logs (secondary)"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+            exit 0
           fi
+
+          # Pull latest changes first to avoid conflicts
+          echo "🔄 Pulling latest changes..."
+          git fetch origin
+          git pull --rebase origin ${{ github.ref_name }} || {
+            echo "⚠️  Rebase conflicts detected, trying merge strategy..."
+            git rebase --abort 2>/dev/null || true
+            git pull --no-rebase origin ${{ github.ref_name }} || {
+              echo "❌ Both rebase and merge failed. Manual intervention needed."
+              exit 1
+            }
+          }
+
+          # Commit our changes
+          git commit -m "🔄 Auto-update jobs.csv and logs (secondary) - $(date)"
+
+          # Push with retry logic
+          for attempt in 1 2 3; do
+            echo "📤 Push attempt $attempt/3..."
+            if git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}; then
+              echo "✅ Push successful!"
+              break
+            else
+              if [ $attempt -lt 3 ]; then
+                echo "⚠️  Push failed, pulling latest changes and retrying..."
+                git pull --no-rebase origin ${{ github.ref_name }}
+                sleep 5
+              else
+                echo "❌ All push attempts failed."
+                exit 1
+              fi
+            fi
+          done
 
       # 7. Trigger the apply workflow
       - name: Dispatch Apply workflow
