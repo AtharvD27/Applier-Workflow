@@ -1,0 +1,1628 @@
+2025-09-13 10:46:12,580 - INFO - 🚀 Starting main job processing pipeline
+2025-09-13 10:46:12,580 - INFO - ⚙️  Loading configuration...
+2025-09-13 10:46:12,581 - INFO -    ✅ Configuration loaded successfully
+2025-09-13 10:46:12,581 - INFO - 🕷️  Starting job scraper...
+2025-09-13 10:46:12,581 - INFO - 🚀 Starting CRASH-RESILIENT Dice job scraper (shared logger)
+2025-09-13 10:46:12,581 - INFO - 🔍 Base URL: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=SEVEN&q={query}&page={page}
+2025-09-13 10:46:12,581 - INFO - 🔍 Loaded 30 search queries: ML, AI, Machine Learning Engineer...
+2025-09-13 10:46:12,581 - INFO - 📂 Loading existing jobs from output/jobs.csv
+2025-09-13 10:46:12,620 - INFO -    📊 Found 6574 existing job links
+2025-09-13 10:46:12,621 - INFO - 🚀 Starting crash-resilient scraping for 30 queries
+2025-09-13 10:46:12,621 - INFO - 🔄 [1/30] Processing query: 'ML'
+2025-09-13 10:46:12,621 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:46:30,161 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:46:30,161 - INFO - 🔍 Starting query: 'ML'
+2025-09-13 10:46:30,162 - INFO -    📄 Page 1/12
+2025-09-13 10:46:32,532 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:46:33,668 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:46:39,617 - INFO -    📄 Page 2/12
+2025-09-13 10:46:40,273 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:46:41,469 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:46:44,787 - INFO -    📄 Page 3/12
+2025-09-13 10:46:45,432 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:46:46,322 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:46:49,781 - INFO -    📄 Page 4/12
+2025-09-13 10:46:50,359 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:46:51,387 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 10:46:56,924 - INFO -    📄 Page 5/12
+2025-09-13 10:46:57,466 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:46:58,497 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 10:47:02,902 - INFO -    📄 Page 6/12
+2025-09-13 10:47:03,494 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:04,525 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 10:47:08,448 - INFO -    📄 Page 7/12
+2025-09-13 10:47:08,986 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:09,976 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 10:47:12,270 - INFO -    📄 Page 8/12
+2025-09-13 10:47:12,966 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:13,937 - INFO -    📊 Page 8: 1 jobs added
+2025-09-13 10:47:17,467 - INFO -    📄 Page 9/12
+2025-09-13 10:47:18,138 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:19,005 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 10:47:22,104 - INFO -    📄 Page 10/12
+2025-09-13 10:47:22,718 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:23,643 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 10:47:26,786 - INFO -    📄 Page 11/12
+2025-09-13 10:47:27,479 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:28,496 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 10:47:32,670 - INFO -    📄 Page 12/12
+2025-09-13 10:47:33,230 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:34,194 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 10:47:38,530 - INFO - ✅ Query 'ML' completed successfully!
+2025-09-13 10:47:38,530 - INFO -    📄 Pages scraped: 12
+2025-09-13 10:47:38,530 - INFO -    ✅ Jobs found: 1
+2025-09-13 10:47:38,530 - INFO - ✅ Query 'ML' completed successfully
+2025-09-13 10:47:38,530 - INFO - 💾 Saving progress: 2 jobs scraped so far...
+2025-09-13 10:47:38,643 - INFO -    ✅ Progress saved!
+2025-09-13 10:47:38,643 - INFO -    📊 New jobs: 2
+2025-09-13 10:47:38,643 - INFO -    🔄 Duplicates removed: 1
+2025-09-13 10:47:38,643 - INFO -    📁 Total in CSV: 6575
+2025-09-13 10:47:43,710 - INFO - 🔄 [2/30] Processing query: 'AI'
+2025-09-13 10:47:43,710 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:47:43,861 - INFO -    🗑️  Killed old driver
+2025-09-13 10:47:47,633 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:47:47,633 - INFO - 🔍 Starting query: 'AI'
+2025-09-13 10:47:47,633 - INFO -    📄 Page 1/12
+2025-09-13 10:47:48,788 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:50,011 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:47:54,181 - INFO -    📄 Page 2/12
+2025-09-13 10:47:54,887 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:47:56,004 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:47:59,140 - INFO -    📄 Page 3/12
+2025-09-13 10:47:59,759 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:00,820 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:48:04,890 - INFO -    📄 Page 4/12
+2025-09-13 10:48:05,618 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:06,876 - INFO -    📊 Page 4: 1 jobs added
+2025-09-13 10:48:12,618 - INFO -    📄 Page 5/12
+2025-09-13 10:48:13,223 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:14,211 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 10:48:18,294 - INFO -    📄 Page 6/12
+2025-09-13 10:48:18,833 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:23,002 - INFO -    📊 Page 6: 1 jobs added
+2025-09-13 10:48:27,182 - INFO -    📄 Page 7/12
+2025-09-13 10:48:27,830 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:28,870 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 10:48:33,163 - INFO -    📄 Page 8/12
+2025-09-13 10:48:33,830 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:34,791 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 10:48:38,395 - INFO -    📄 Page 9/12
+2025-09-13 10:48:38,947 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:39,961 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 10:48:43,897 - INFO -    📄 Page 10/12
+2025-09-13 10:48:44,482 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:45,471 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 10:48:48,461 - INFO -    📄 Page 11/12
+2025-09-13 10:48:49,067 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:49,703 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 10:48:53,058 - INFO -    📄 Page 12/12
+2025-09-13 10:48:53,764 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:48:54,528 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 10:48:58,475 - INFO - ✅ Query 'AI' completed successfully!
+2025-09-13 10:48:58,475 - INFO -    📄 Pages scraped: 12
+2025-09-13 10:48:58,475 - INFO -    ✅ Jobs found: 2
+2025-09-13 10:48:58,475 - INFO - ✅ Query 'AI' completed successfully
+2025-09-13 10:48:58,475 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:48:58,590 - INFO -    ✅ Progress saved!
+2025-09-13 10:48:58,590 - INFO -    📊 New jobs: 4
+2025-09-13 10:48:58,590 - INFO -    🔄 Duplicates removed: 2
+2025-09-13 10:48:58,590 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:49:02,062 - INFO - 🔄 [3/30] Processing query: 'Machine Learning Engineer'
+2025-09-13 10:49:02,062 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:49:02,219 - INFO -    🗑️  Killed old driver
+2025-09-13 10:49:06,011 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:49:06,012 - INFO - 🔍 Starting query: 'Machine Learning Engineer'
+2025-09-13 10:49:06,012 - INFO -    📄 Page 1/12
+2025-09-13 10:49:07,236 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:49:08,485 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:49:11,602 - INFO -    📄 Page 2/12
+2025-09-13 10:49:12,301 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:49:13,398 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:49:17,081 - INFO -    📄 Page 3/12
+2025-09-13 10:49:17,734 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:49:18,730 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:49:24,400 - INFO -    📄 Page 4/12
+2025-09-13 10:49:25,007 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:49:25,961 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 10:49:30,302 - INFO -    📄 Page 5/12
+2025-09-13 10:49:30,945 - INFO -    ✅ Found 19 job cards
+2025-09-13 10:49:31,915 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 10:49:36,429 - INFO -    📄 Page 6/12
+2025-09-13 10:49:46,953 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 10:49:46,953 - INFO -    📄 Page 7/12
+2025-09-13 10:49:57,387 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 10:49:57,387 - INFO -    📄 Page 8/12
+2025-09-13 10:50:07,904 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 10:50:07,904 - INFO -    📄 Page 9/12
+2025-09-13 10:50:18,713 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 10:50:18,713 - INFO -    📄 Page 10/12
+2025-09-13 10:50:29,290 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 10:50:29,290 - INFO -    📄 Page 11/12
+2025-09-13 10:50:39,875 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 10:50:39,876 - INFO -    📄 Page 12/12
+2025-09-13 10:50:50,377 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 10:50:50,377 - INFO - ✅ Query 'Machine Learning Engineer' completed successfully!
+2025-09-13 10:50:50,377 - INFO -    📄 Pages scraped: 5
+2025-09-13 10:50:50,377 - INFO -    ✅ Jobs found: 0
+2025-09-13 10:50:50,377 - INFO - ✅ Query 'Machine Learning Engineer' completed successfully
+2025-09-13 10:50:50,377 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:50:50,491 - INFO -    ✅ Progress saved!
+2025-09-13 10:50:50,491 - INFO -    📊 New jobs: 4
+2025-09-13 10:50:50,491 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:50:50,491 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:50:54,282 - INFO - 🔄 [4/30] Processing query: 'AI Engineer'
+2025-09-13 10:50:54,282 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:50:54,458 - INFO -    🗑️  Killed old driver
+2025-09-13 10:50:58,236 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:50:58,236 - INFO - 🔍 Starting query: 'AI Engineer'
+2025-09-13 10:50:58,237 - INFO -    📄 Page 1/12
+2025-09-13 10:50:59,454 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:00,764 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:51:04,533 - INFO -    📄 Page 2/12
+2025-09-13 10:51:05,300 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:06,389 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:51:11,614 - INFO -    📄 Page 3/12
+2025-09-13 10:51:12,414 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:13,342 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:51:15,681 - INFO -    📄 Page 4/12
+2025-09-13 10:51:16,271 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:17,320 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 10:51:22,820 - INFO -    📄 Page 5/12
+2025-09-13 10:51:23,440 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:24,505 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 10:51:28,375 - INFO -    📄 Page 6/12
+2025-09-13 10:51:29,131 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:30,007 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 10:51:33,641 - INFO -    📄 Page 7/12
+2025-09-13 10:51:34,219 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:35,228 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 10:51:40,195 - INFO -    📄 Page 8/12
+2025-09-13 10:51:40,791 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:41,781 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 10:51:45,134 - INFO -    📄 Page 9/12
+2025-09-13 10:51:45,755 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:46,776 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 10:51:50,668 - INFO -    📄 Page 10/12
+2025-09-13 10:51:51,280 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:52,371 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 10:51:58,249 - INFO -    📄 Page 11/12
+2025-09-13 10:51:58,864 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:51:59,978 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 10:52:04,244 - INFO -    📄 Page 12/12
+2025-09-13 10:52:05,113 - INFO -    ✅ Found 10 job cards
+2025-09-13 10:52:05,452 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 10:52:08,308 - INFO - ✅ Query 'AI Engineer' completed successfully!
+2025-09-13 10:52:08,308 - INFO -    📄 Pages scraped: 12
+2025-09-13 10:52:08,308 - INFO -    ✅ Jobs found: 0
+2025-09-13 10:52:08,308 - INFO - ✅ Query 'AI Engineer' completed successfully
+2025-09-13 10:52:08,308 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:52:08,426 - INFO -    ✅ Progress saved!
+2025-09-13 10:52:08,426 - INFO -    📊 New jobs: 4
+2025-09-13 10:52:08,426 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:52:08,426 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:52:11,066 - INFO - 🔄 [5/30] Processing query: 'Data Scientist'
+2025-09-13 10:52:11,066 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:52:11,214 - INFO -    🗑️  Killed old driver
+2025-09-13 10:52:14,982 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:52:14,983 - INFO - 🔍 Starting query: 'Data Scientist'
+2025-09-13 10:52:14,983 - INFO -    📄 Page 1/12
+2025-09-13 10:52:16,059 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:52:17,333 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:52:21,754 - INFO -    📄 Page 2/12
+2025-09-13 10:52:22,474 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:52:23,288 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:52:27,984 - INFO -    📄 Page 3/12
+2025-09-13 10:52:28,533 - INFO -    ✅ Found 17 job cards
+2025-09-13 10:52:29,533 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:52:33,517 - INFO -    📄 Page 4/12
+2025-09-13 10:52:43,963 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 10:52:43,963 - INFO -    📄 Page 5/12
+2025-09-13 10:52:54,445 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 10:52:54,446 - INFO -    📄 Page 6/12
+2025-09-13 10:53:04,904 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 10:53:04,904 - INFO -    📄 Page 7/12
+2025-09-13 10:53:15,472 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 10:53:15,472 - INFO -    📄 Page 8/12
+2025-09-13 10:53:26,223 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 10:53:26,223 - INFO -    📄 Page 9/12
+2025-09-13 10:53:36,842 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 10:53:36,842 - INFO -    📄 Page 10/12
+2025-09-13 10:53:47,366 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 10:53:47,366 - INFO -    📄 Page 11/12
+2025-09-13 10:53:57,072 - ERROR -    ❌ WebDriver error on page 11: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x5578bef6994a <unknown>
+#1 0x5578be9de6f3 <unknown>
+#2 0x5578be9c6b75 <unknown>
+#3 0x5578be9c4a42 <unknown>
+#4 0x5578be9c539f <unknown>
+#5 0x5578be9d3bf3 <unknown>
+#6 0x5578be9ed523 <unknown>
+#7 0x5578bea7bddf <unknown>
+#8 0x5578bea55e03 <unknown>
+#9 0x5578bea22968 <unknown>
+#10 0x5578bea235e1 <unknown>
+#11 0x5578bef2d548 <unknown>
+#12 0x5578bef31272 <unknown>
+#13 0x5578bef14313 <unknown>
+#14 0x5578bef31dc5 <unknown>
+#15 0x5578beef949f <unknown>
+#16 0x5578bef56158 <unknown>
+#17 0x5578bef56332 <unknown>
+#18 0x5578bef68a53 <unknown>
+#19 0x7f59ea89caa4 <unknown>
+#20 0x7f59ea929c3c <unknown>
+
+2025-09-13 10:53:57,072 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:53:57,195 - INFO -    ✅ Progress saved!
+2025-09-13 10:53:57,196 - INFO -    📊 New jobs: 4
+2025-09-13 10:53:57,196 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:53:57,196 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:53:57,196 - WARNING - ⚠️  Query 'Data Scientist' failed/crashed, moved to next query
+2025-09-13 10:53:57,197 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:53:57,314 - INFO -    ✅ Progress saved!
+2025-09-13 10:53:57,314 - INFO -    📊 New jobs: 4
+2025-09-13 10:53:57,314 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:53:57,314 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:54:02,686 - INFO - 🔄 [6/30] Processing query: 'Gen AI Engineer'
+2025-09-13 10:54:02,686 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:54:02,845 - INFO -    🗑️  Killed old driver
+2025-09-13 10:54:06,664 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:54:06,664 - INFO - 🔍 Starting query: 'Gen AI Engineer'
+2025-09-13 10:54:06,664 - INFO -    📄 Page 1/12
+2025-09-13 10:54:07,767 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:54:09,024 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:54:13,052 - INFO -    📄 Page 2/12
+2025-09-13 10:54:13,666 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:54:14,793 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:54:19,216 - INFO -    📄 Page 3/12
+2025-09-13 10:54:19,841 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:54:20,817 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:54:25,927 - INFO -    📄 Page 4/12
+2025-09-13 10:54:26,575 - INFO -    ✅ Found 14 job cards
+2025-09-13 10:54:27,467 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 10:54:30,806 - INFO -    📄 Page 5/12
+2025-09-13 10:54:41,317 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 10:54:41,317 - INFO -    📄 Page 6/12
+2025-09-13 10:54:51,827 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 10:54:51,827 - INFO -    📄 Page 7/12
+2025-09-13 10:55:02,340 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 10:55:02,340 - INFO -    📄 Page 8/12
+2025-09-13 10:55:12,844 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 10:55:12,844 - INFO -    📄 Page 9/12
+2025-09-13 10:55:23,526 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 10:55:23,527 - INFO -    📄 Page 10/12
+2025-09-13 10:55:34,131 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 10:55:34,132 - INFO -    📄 Page 11/12
+2025-09-13 10:55:44,639 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 10:55:44,639 - INFO -    📄 Page 12/12
+2025-09-13 10:55:54,473 - ERROR -    ❌ WebDriver error on page 12: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x55ba8486c94a <unknown>
+#1 0x55ba842e16f3 <unknown>
+#2 0x55ba842c9b75 <unknown>
+#3 0x55ba842c7a42 <unknown>
+#4 0x55ba842c839f <unknown>
+#5 0x55ba842d6bf3 <unknown>
+#6 0x55ba842f0523 <unknown>
+#7 0x55ba8437eddf <unknown>
+#8 0x55ba84358e03 <unknown>
+#9 0x55ba84325968 <unknown>
+#10 0x55ba843265e1 <unknown>
+#11 0x55ba84830548 <unknown>
+#12 0x55ba84834272 <unknown>
+#13 0x55ba84817313 <unknown>
+#14 0x55ba84834dc5 <unknown>
+#15 0x55ba847fc49f <unknown>
+#16 0x55ba84859158 <unknown>
+#17 0x55ba84859332 <unknown>
+#18 0x55ba8486ba53 <unknown>
+#19 0x7efca7a9caa4 <unknown>
+#20 0x7efca7b29c3c <unknown>
+
+2025-09-13 10:55:54,473 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:55:54,589 - INFO -    ✅ Progress saved!
+2025-09-13 10:55:54,589 - INFO -    📊 New jobs: 4
+2025-09-13 10:55:54,590 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:55:54,590 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:55:54,591 - WARNING - ⚠️  Query 'Gen AI Engineer' failed/crashed, moved to next query
+2025-09-13 10:55:54,591 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:55:54,705 - INFO -    ✅ Progress saved!
+2025-09-13 10:55:54,706 - INFO -    📊 New jobs: 4
+2025-09-13 10:55:54,706 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:55:54,706 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:55:58,522 - INFO - 🔄 [7/30] Processing query: 'Generative AI'
+2025-09-13 10:55:58,522 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:55:58,681 - INFO -    🗑️  Killed old driver
+2025-09-13 10:56:02,440 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:56:02,440 - INFO - 🔍 Starting query: 'Generative AI'
+2025-09-13 10:56:02,441 - INFO -    📄 Page 1/12
+2025-09-13 10:56:03,702 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:04,946 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:56:08,938 - INFO -    📄 Page 2/12
+2025-09-13 10:56:09,538 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:10,754 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:56:14,402 - INFO -    📄 Page 3/12
+2025-09-13 10:56:15,042 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:15,969 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:56:20,031 - INFO -    📄 Page 4/12
+2025-09-13 10:56:20,674 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:21,591 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 10:56:26,134 - INFO -    📄 Page 5/12
+2025-09-13 10:56:26,673 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:27,746 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 10:56:32,405 - INFO -    📄 Page 6/12
+2025-09-13 10:56:33,020 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:34,061 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 10:56:38,311 - INFO -    📄 Page 7/12
+2025-09-13 10:56:38,914 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:39,967 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 10:56:42,878 - INFO -    📄 Page 8/12
+2025-09-13 10:56:43,472 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:44,488 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 10:56:47,154 - INFO -    📄 Page 9/12
+2025-09-13 10:56:47,932 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:56:48,820 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 10:56:51,574 - INFO -    📄 Page 10/12
+2025-09-13 10:56:52,110 - INFO -    ✅ Found 16 job cards
+2025-09-13 10:56:53,080 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 10:56:58,698 - INFO -    📄 Page 11/12
+2025-09-13 10:57:09,226 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 10:57:09,226 - INFO -    📄 Page 12/12
+2025-09-13 10:57:20,077 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 10:57:20,078 - INFO - ✅ Query 'Generative AI' completed successfully!
+2025-09-13 10:57:20,078 - INFO -    📄 Pages scraped: 10
+2025-09-13 10:57:20,078 - INFO -    ✅ Jobs found: 0
+2025-09-13 10:57:20,078 - INFO - ✅ Query 'Generative AI' completed successfully
+2025-09-13 10:57:20,078 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:57:20,192 - INFO -    ✅ Progress saved!
+2025-09-13 10:57:20,192 - INFO -    📊 New jobs: 4
+2025-09-13 10:57:20,192 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:57:20,193 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:57:23,337 - INFO - 🔄 [8/30] Processing query: 'LLM Engineer'
+2025-09-13 10:57:23,337 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:57:23,503 - INFO -    🗑️  Killed old driver
+2025-09-13 10:57:27,311 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:57:27,312 - INFO - 🔍 Starting query: 'LLM Engineer'
+2025-09-13 10:57:27,312 - INFO -    📄 Page 1/12
+2025-09-13 10:57:28,367 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:57:29,694 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:57:32,951 - INFO -    📄 Page 2/12
+2025-09-13 10:57:33,622 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:57:34,790 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:57:38,034 - INFO -    📄 Page 3/12
+2025-09-13 10:57:38,688 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:57:39,658 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:57:42,327 - INFO -    📄 Page 4/12
+2025-09-13 10:57:42,954 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:57:43,981 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 10:57:49,348 - INFO -    📄 Page 5/12
+2025-09-13 10:57:49,959 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:57:51,074 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 10:57:54,895 - INFO -    📄 Page 6/12
+2025-09-13 10:57:55,476 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:57:56,540 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 10:58:01,582 - INFO -    📄 Page 7/12
+2025-09-13 10:58:02,339 - INFO -    ✅ Found 9 job cards
+2025-09-13 10:58:02,983 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 10:58:06,367 - INFO -    📄 Page 8/12
+2025-09-13 10:58:16,779 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 10:58:16,780 - INFO -    📄 Page 9/12
+2025-09-13 10:58:27,229 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 10:58:27,230 - INFO -    📄 Page 10/12
+2025-09-13 10:58:37,696 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 10:58:37,696 - INFO -    📄 Page 11/12
+2025-09-13 10:58:48,488 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 10:58:48,488 - INFO -    📄 Page 12/12
+2025-09-13 10:58:58,959 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 10:58:58,959 - INFO - ✅ Query 'LLM Engineer' completed successfully!
+2025-09-13 10:58:58,959 - INFO -    📄 Pages scraped: 7
+2025-09-13 10:58:58,959 - INFO -    ✅ Jobs found: 0
+2025-09-13 10:58:58,959 - INFO - ✅ Query 'LLM Engineer' completed successfully
+2025-09-13 10:58:58,959 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 10:58:59,072 - INFO -    ✅ Progress saved!
+2025-09-13 10:58:59,073 - INFO -    📊 New jobs: 4
+2025-09-13 10:58:59,073 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 10:58:59,073 - INFO -    📁 Total in CSV: 6577
+2025-09-13 10:59:04,098 - INFO - 🔄 [9/30] Processing query: 'ML Engineer'
+2025-09-13 10:59:04,098 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 10:59:04,267 - INFO -    🗑️  Killed old driver
+2025-09-13 10:59:08,034 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 10:59:08,034 - INFO - 🔍 Starting query: 'ML Engineer'
+2025-09-13 10:59:08,034 - INFO -    📄 Page 1/12
+2025-09-13 10:59:09,105 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:59:10,366 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 10:59:15,072 - INFO -    📄 Page 2/12
+2025-09-13 10:59:15,734 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:59:16,940 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 10:59:22,677 - INFO -    📄 Page 3/12
+2025-09-13 10:59:23,268 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:59:24,322 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 10:59:28,944 - INFO -    📄 Page 4/12
+2025-09-13 10:59:29,600 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:59:30,619 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 10:59:33,483 - INFO -    📄 Page 5/12
+2025-09-13 10:59:34,254 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:59:35,247 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 10:59:38,419 - INFO -    📄 Page 6/12
+2025-09-13 10:59:39,038 - INFO -    ✅ Found 20 job cards
+2025-09-13 10:59:40,113 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 10:59:43,324 - INFO -    📄 Page 7/12
+2025-09-13 10:59:43,922 - INFO -    ✅ Found 13 job cards
+2025-09-13 10:59:44,801 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 10:59:49,720 - INFO -    📄 Page 8/12
+2025-09-13 11:00:00,164 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:00:00,164 - INFO -    📄 Page 9/12
+2025-09-13 11:00:10,675 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:00:10,675 - INFO -    📄 Page 10/12
+2025-09-13 11:00:21,215 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:00:21,216 - INFO -    📄 Page 11/12
+2025-09-13 11:00:31,813 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:00:31,813 - INFO -    📄 Page 12/12
+2025-09-13 11:00:42,354 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 11:00:42,355 - INFO - ✅ Query 'ML Engineer' completed successfully!
+2025-09-13 11:00:42,355 - INFO -    📄 Pages scraped: 7
+2025-09-13 11:00:42,355 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:00:42,355 - INFO - ✅ Query 'ML Engineer' completed successfully
+2025-09-13 11:00:42,355 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:00:42,469 - INFO -    ✅ Progress saved!
+2025-09-13 11:00:42,470 - INFO -    📊 New jobs: 4
+2025-09-13 11:00:42,470 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:00:42,470 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:00:48,371 - INFO - 🔄 [10/30] Processing query: 'Data Engineer'
+2025-09-13 11:00:48,371 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:00:48,534 - INFO -    🗑️  Killed old driver
+2025-09-13 11:00:52,318 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:00:52,318 - INFO - 🔍 Starting query: 'Data Engineer'
+2025-09-13 11:00:52,318 - INFO -    📄 Page 1/12
+2025-09-13 11:00:53,347 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:00:54,651 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:00:56,826 - INFO -    📄 Page 2/12
+2025-09-13 11:00:57,424 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:00:58,669 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:01:01,636 - INFO -    📄 Page 3/12
+2025-09-13 11:01:02,207 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:01:03,285 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:01:08,151 - INFO -    📄 Page 4/12
+2025-09-13 11:01:08,772 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:01:09,830 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:01:14,625 - INFO -    📄 Page 5/12
+2025-09-13 11:01:15,188 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:01:16,260 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:01:20,204 - INFO -    📄 Page 6/12
+2025-09-13 11:01:20,825 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:01:21,844 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:01:26,755 - INFO -    📄 Page 7/12
+2025-09-13 11:01:27,397 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:01:28,435 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:01:30,367 - INFO -    📄 Page 8/12
+2025-09-13 11:01:30,968 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:01:31,926 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:01:36,631 - INFO -    📄 Page 9/12
+2025-09-13 11:01:37,215 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:01:38,374 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:01:40,822 - INFO -    📄 Page 10/12
+2025-09-13 11:01:41,536 - INFO -    ✅ Found 13 job cards
+2025-09-13 11:01:42,522 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:01:48,082 - INFO -    📄 Page 11/12
+2025-09-13 11:01:58,526 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:01:58,526 - INFO -    📄 Page 12/12
+2025-09-13 11:02:09,066 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 11:02:09,066 - INFO - ✅ Query 'Data Engineer' completed successfully!
+2025-09-13 11:02:09,066 - INFO -    📄 Pages scraped: 10
+2025-09-13 11:02:09,066 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:02:09,066 - INFO - ✅ Query 'Data Engineer' completed successfully
+2025-09-13 11:02:09,066 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:02:09,178 - INFO -    ✅ Progress saved!
+2025-09-13 11:02:09,178 - INFO -    📊 New jobs: 4
+2025-09-13 11:02:09,178 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:02:09,178 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:02:12,247 - INFO - 🔄 [11/30] Processing query: 'AI Developer'
+2025-09-13 11:02:12,247 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:02:12,377 - INFO -    🗑️  Killed old driver
+2025-09-13 11:02:16,161 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:02:16,162 - INFO - 🔍 Starting query: 'AI Developer'
+2025-09-13 11:02:16,162 - INFO -    📄 Page 1/12
+2025-09-13 11:02:17,326 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:18,587 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:02:22,909 - INFO -    📄 Page 2/12
+2025-09-13 11:02:23,580 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:24,802 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:02:29,689 - INFO -    📄 Page 3/12
+2025-09-13 11:02:30,337 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:31,428 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:02:34,968 - INFO -    📄 Page 4/12
+2025-09-13 11:02:35,636 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:36,347 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:02:40,709 - INFO -    📄 Page 5/12
+2025-09-13 11:02:41,467 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:42,487 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:02:46,246 - INFO -    📄 Page 6/12
+2025-09-13 11:02:46,887 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:47,951 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:02:51,752 - INFO -    📄 Page 7/12
+2025-09-13 11:02:52,396 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:53,420 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:02:55,816 - INFO -    📄 Page 8/12
+2025-09-13 11:02:56,410 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:02:57,487 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:03:00,714 - INFO -    📄 Page 9/12
+2025-09-13 11:03:01,417 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:02,401 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:03:05,915 - INFO -    📄 Page 10/12
+2025-09-13 11:03:06,566 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:07,573 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:03:12,203 - INFO -    📄 Page 11/12
+2025-09-13 11:03:12,898 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:13,803 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:03:16,672 - INFO -    📄 Page 12/12
+2025-09-13 11:03:17,342 - INFO -    ✅ Found 10 job cards
+2025-09-13 11:03:18,256 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 11:03:22,527 - INFO - ✅ Query 'AI Developer' completed successfully!
+2025-09-13 11:03:22,527 - INFO -    📄 Pages scraped: 12
+2025-09-13 11:03:22,527 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:03:22,527 - INFO - ✅ Query 'AI Developer' completed successfully
+2025-09-13 11:03:22,527 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:03:22,640 - INFO -    ✅ Progress saved!
+2025-09-13 11:03:22,640 - INFO -    📊 New jobs: 4
+2025-09-13 11:03:22,640 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:03:22,640 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:03:26,561 - INFO - 🔄 [12/30] Processing query: 'ML Developer'
+2025-09-13 11:03:26,561 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:03:26,696 - INFO -    🗑️  Killed old driver
+2025-09-13 11:03:30,492 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:03:30,492 - INFO - 🔍 Starting query: 'ML Developer'
+2025-09-13 11:03:30,492 - INFO -    📄 Page 1/12
+2025-09-13 11:03:31,614 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:32,795 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:03:34,345 - INFO -    📄 Page 2/12
+2025-09-13 11:03:35,083 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:36,206 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:03:40,301 - INFO -    📄 Page 3/12
+2025-09-13 11:03:40,961 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:41,961 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:03:46,807 - INFO -    📄 Page 4/12
+2025-09-13 11:03:47,510 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:48,395 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:03:53,140 - INFO -    📄 Page 5/12
+2025-09-13 11:03:53,721 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:54,715 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:03:57,001 - INFO -    📄 Page 6/12
+2025-09-13 11:03:57,673 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:03:58,561 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:04:00,942 - INFO -    📄 Page 7/12
+2025-09-13 11:04:01,546 - INFO -    ✅ Found 13 job cards
+2025-09-13 11:04:02,420 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:04:05,570 - INFO -    📄 Page 8/12
+2025-09-13 11:04:16,081 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:04:16,081 - INFO -    📄 Page 9/12
+2025-09-13 11:04:26,612 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:04:26,612 - INFO -    📄 Page 10/12
+2025-09-13 11:04:37,109 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:04:37,110 - INFO -    📄 Page 11/12
+2025-09-13 11:04:47,721 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:04:47,722 - INFO -    📄 Page 12/12
+2025-09-13 11:04:58,440 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 11:04:58,440 - INFO - ✅ Query 'ML Developer' completed successfully!
+2025-09-13 11:04:58,440 - INFO -    📄 Pages scraped: 7
+2025-09-13 11:04:58,441 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:04:58,441 - INFO - ✅ Query 'ML Developer' completed successfully
+2025-09-13 11:04:58,441 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:04:58,552 - INFO -    ✅ Progress saved!
+2025-09-13 11:04:58,552 - INFO -    📊 New jobs: 4
+2025-09-13 11:04:58,552 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:04:58,552 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:05:02,683 - INFO - 🔄 [13/30] Processing query: 'Computer Vision Engineer'
+2025-09-13 11:05:02,683 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:05:02,856 - INFO -    🗑️  Killed old driver
+2025-09-13 11:05:06,625 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:05:06,625 - INFO - 🔍 Starting query: 'Computer Vision Engineer'
+2025-09-13 11:05:06,625 - INFO -    📄 Page 1/12
+2025-09-13 11:05:07,659 - INFO -    ✅ Found 5 job cards
+2025-09-13 11:05:08,429 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:05:12,526 - INFO -    📄 Page 2/12
+2025-09-13 11:05:23,100 - WARNING -    ⏰ Timeout on page 2, trying next page...
+2025-09-13 11:05:23,100 - INFO -    📄 Page 3/12
+2025-09-13 11:05:33,655 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:05:33,655 - INFO -    📄 Page 4/12
+2025-09-13 11:05:44,214 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:05:44,214 - INFO -    📄 Page 5/12
+2025-09-13 11:05:54,850 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:05:54,850 - INFO -    📄 Page 6/12
+2025-09-13 11:06:05,718 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:06:05,718 - INFO -    📄 Page 7/12
+2025-09-13 11:06:16,252 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:06:16,252 - INFO -    📄 Page 8/12
+2025-09-13 11:06:26,118 - ERROR -    ❌ WebDriver error on page 8: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x55a38c4d994a <unknown>
+#1 0x55a38bf4e6f3 <unknown>
+#2 0x55a38bf36b75 <unknown>
+#3 0x55a38bf34a42 <unknown>
+#4 0x55a38bf3539f <unknown>
+#5 0x55a38bf43bf3 <unknown>
+#6 0x55a38bf5d523 <unknown>
+#7 0x55a38bfebddf <unknown>
+#8 0x55a38bfc5e03 <unknown>
+#9 0x55a38bf92968 <unknown>
+#10 0x55a38bf935e1 <unknown>
+#11 0x55a38c49d548 <unknown>
+#12 0x55a38c4a1272 <unknown>
+#13 0x55a38c484313 <unknown>
+#14 0x55a38c4a1dc5 <unknown>
+#15 0x55a38c46949f <unknown>
+#16 0x55a38c4c6158 <unknown>
+#17 0x55a38c4c6332 <unknown>
+#18 0x55a38c4d8a53 <unknown>
+#19 0x7f432289caa4 <unknown>
+#20 0x7f4322929c3c <unknown>
+
+2025-09-13 11:06:26,118 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:06:26,241 - INFO -    ✅ Progress saved!
+2025-09-13 11:06:26,241 - INFO -    📊 New jobs: 4
+2025-09-13 11:06:26,241 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:06:26,241 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:06:26,242 - WARNING - ⚠️  Query 'Computer Vision Engineer' failed/crashed, moved to next query
+2025-09-13 11:06:26,242 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:06:26,356 - INFO -    ✅ Progress saved!
+2025-09-13 11:06:26,356 - INFO -    📊 New jobs: 4
+2025-09-13 11:06:26,356 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:06:26,356 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:06:29,785 - INFO - 🔄 [14/30] Processing query: 'NLP Engineer'
+2025-09-13 11:06:29,785 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:06:29,940 - INFO -    🗑️  Killed old driver
+2025-09-13 11:06:33,710 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:06:33,710 - INFO - 🔍 Starting query: 'NLP Engineer'
+2025-09-13 11:06:33,711 - INFO -    📄 Page 1/12
+2025-09-13 11:06:34,898 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:06:36,116 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:06:40,883 - INFO -    📄 Page 2/12
+2025-09-13 11:06:41,621 - INFO -    ✅ Found 18 job cards
+2025-09-13 11:06:42,660 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:06:46,438 - INFO -    📄 Page 3/12
+2025-09-13 11:06:56,956 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:06:56,956 - INFO -    📄 Page 4/12
+2025-09-13 11:07:07,457 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:07:07,457 - INFO -    📄 Page 5/12
+2025-09-13 11:07:18,038 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:07:18,038 - INFO -    📄 Page 6/12
+2025-09-13 11:07:28,550 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:07:28,550 - INFO -    📄 Page 7/12
+2025-09-13 11:07:39,108 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:07:39,108 - INFO -    📄 Page 8/12
+2025-09-13 11:07:49,763 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:07:49,763 - INFO -    📄 Page 9/12
+2025-09-13 11:08:00,874 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:08:00,875 - INFO -    📄 Page 10/12
+2025-09-13 11:08:11,495 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:08:11,495 - INFO -    📄 Page 11/12
+2025-09-13 11:08:22,025 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:08:22,025 - INFO -    📄 Page 12/12
+2025-09-13 11:08:31,816 - ERROR -    ❌ WebDriver error on page 12: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x55b548e0994a <unknown>
+#1 0x55b54887e6f3 <unknown>
+#2 0x55b548866b75 <unknown>
+#3 0x55b548864a42 <unknown>
+#4 0x55b54886539f <unknown>
+#5 0x55b548873bf3 <unknown>
+#6 0x55b54888d523 <unknown>
+#7 0x55b54891bddf <unknown>
+#8 0x55b5488f5e03 <unknown>
+#9 0x55b5488c2968 <unknown>
+#10 0x55b5488c35e1 <unknown>
+#11 0x55b548dcd548 <unknown>
+#12 0x55b548dd1272 <unknown>
+#13 0x55b548db4313 <unknown>
+#14 0x55b548dd1dc5 <unknown>
+#15 0x55b548d9949f <unknown>
+#16 0x55b548df6158 <unknown>
+#17 0x55b548df6332 <unknown>
+#18 0x55b548e08a53 <unknown>
+#19 0x7f668689caa4 <unknown>
+#20 0x7f6686929c3c <unknown>
+
+2025-09-13 11:08:31,816 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:08:31,943 - INFO -    ✅ Progress saved!
+2025-09-13 11:08:31,943 - INFO -    📊 New jobs: 4
+2025-09-13 11:08:31,943 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:08:31,943 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:08:31,944 - WARNING - ⚠️  Query 'NLP Engineer' failed/crashed, moved to next query
+2025-09-13 11:08:31,944 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:08:32,061 - INFO -    ✅ Progress saved!
+2025-09-13 11:08:32,061 - INFO -    📊 New jobs: 4
+2025-09-13 11:08:32,061 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:08:32,061 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:08:35,857 - INFO - 🔄 [15/30] Processing query: 'Deep Learning Engineer'
+2025-09-13 11:08:35,857 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:08:36,016 - INFO -    🗑️  Killed old driver
+2025-09-13 11:08:39,784 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:08:39,784 - INFO - 🔍 Starting query: 'Deep Learning Engineer'
+2025-09-13 11:08:39,784 - INFO -    📄 Page 1/12
+2025-09-13 11:08:40,967 - INFO -    ✅ Found 1 job cards
+2025-09-13 11:08:41,447 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:08:47,350 - INFO -    📄 Page 2/12
+2025-09-13 11:08:57,979 - WARNING -    ⏰ Timeout on page 2, trying next page...
+2025-09-13 11:08:57,979 - INFO -    📄 Page 3/12
+2025-09-13 11:09:08,604 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:09:08,604 - INFO -    📄 Page 4/12
+2025-09-13 11:09:19,169 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:09:19,169 - INFO -    📄 Page 5/12
+2025-09-13 11:09:29,654 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:09:29,654 - INFO -    📄 Page 6/12
+2025-09-13 11:09:40,138 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:09:40,138 - INFO -    📄 Page 7/12
+2025-09-13 11:09:50,658 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:09:50,658 - INFO -    📄 Page 8/12
+2025-09-13 11:10:01,275 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:10:01,275 - INFO -    📄 Page 9/12
+2025-09-13 11:10:11,898 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:10:11,898 - INFO -    📄 Page 10/12
+2025-09-13 11:10:22,408 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:10:22,408 - INFO -    📄 Page 11/12
+2025-09-13 11:10:32,079 - ERROR -    ❌ WebDriver error on page 11: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x560d8a0f194a <unknown>
+#1 0x560d89b666f3 <unknown>
+#2 0x560d89b4eb75 <unknown>
+#3 0x560d89b4ca42 <unknown>
+#4 0x560d89b4d39f <unknown>
+#5 0x560d89b5bbf3 <unknown>
+#6 0x560d89b75523 <unknown>
+#7 0x560d89c03ddf <unknown>
+#8 0x560d89bdde03 <unknown>
+#9 0x560d89baa968 <unknown>
+#10 0x560d89bab5e1 <unknown>
+#11 0x560d8a0b5548 <unknown>
+#12 0x560d8a0b9272 <unknown>
+#13 0x560d8a09c313 <unknown>
+#14 0x560d8a0b9dc5 <unknown>
+#15 0x560d8a08149f <unknown>
+#16 0x560d8a0de158 <unknown>
+#17 0x560d8a0de332 <unknown>
+#18 0x560d8a0f0a53 <unknown>
+#19 0x7f580a09caa4 <unknown>
+#20 0x7f580a129c3c <unknown>
+
+2025-09-13 11:10:32,079 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:10:32,199 - INFO -    ✅ Progress saved!
+2025-09-13 11:10:32,199 - INFO -    📊 New jobs: 4
+2025-09-13 11:10:32,199 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:10:32,199 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:10:32,200 - WARNING - ⚠️  Query 'Deep Learning Engineer' failed/crashed, moved to next query
+2025-09-13 11:10:32,201 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:10:32,317 - INFO -    ✅ Progress saved!
+2025-09-13 11:10:32,317 - INFO -    📊 New jobs: 4
+2025-09-13 11:10:32,317 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:10:32,317 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:10:37,085 - INFO - 🔄 [16/30] Processing query: 'MLOps Engineer'
+2025-09-13 11:10:37,086 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:10:37,245 - INFO -    🗑️  Killed old driver
+2025-09-13 11:10:41,041 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:10:41,041 - INFO - 🔍 Starting query: 'MLOps Engineer'
+2025-09-13 11:10:41,041 - INFO -    📄 Page 1/12
+2025-09-13 11:10:42,070 - INFO -    ✅ Found 10 job cards
+2025-09-13 11:10:42,927 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:10:47,576 - INFO -    📄 Page 2/12
+2025-09-13 11:10:58,140 - WARNING -    ⏰ Timeout on page 2, trying next page...
+2025-09-13 11:10:58,140 - INFO -    📄 Page 3/12
+2025-09-13 11:11:08,817 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:11:08,818 - INFO -    📄 Page 4/12
+2025-09-13 11:11:19,388 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:11:19,389 - INFO -    📄 Page 5/12
+2025-09-13 11:11:29,885 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:11:29,885 - INFO -    📄 Page 6/12
+2025-09-13 11:11:40,291 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:11:40,291 - INFO -    📄 Page 7/12
+2025-09-13 11:11:50,788 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:11:50,788 - INFO -    📄 Page 8/12
+2025-09-13 11:12:01,385 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:12:01,385 - INFO -    📄 Page 9/12
+2025-09-13 11:12:11,916 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:12:11,916 - INFO -    📄 Page 10/12
+2025-09-13 11:12:22,394 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:12:22,394 - INFO -    📄 Page 11/12
+2025-09-13 11:12:32,699 - ERROR -    ❌ WebDriver error on page 11: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x55bd2944794a <unknown>
+#1 0x55bd28ebc6f3 <unknown>
+#2 0x55bd28ea4b75 <unknown>
+#3 0x55bd28ea2a42 <unknown>
+#4 0x55bd28ea339f <unknown>
+#5 0x55bd28eb1bf3 <unknown>
+#6 0x55bd28ecb523 <unknown>
+#7 0x55bd28f59ddf <unknown>
+#8 0x55bd28f33e03 <unknown>
+#9 0x55bd28f00968 <unknown>
+#10 0x55bd28f015e1 <unknown>
+#11 0x55bd2940b548 <unknown>
+#12 0x55bd2940f272 <unknown>
+#13 0x55bd293f2313 <unknown>
+#14 0x55bd2940fdc5 <unknown>
+#15 0x55bd293d749f <unknown>
+#16 0x55bd29434158 <unknown>
+#17 0x55bd29434332 <unknown>
+#18 0x55bd29446a53 <unknown>
+#19 0x7f7b8ec9caa4 <unknown>
+#20 0x7f7b8ed29c3c <unknown>
+
+2025-09-13 11:12:32,699 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:12:32,815 - INFO -    ✅ Progress saved!
+2025-09-13 11:12:32,816 - INFO -    📊 New jobs: 4
+2025-09-13 11:12:32,816 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:12:32,816 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:12:32,817 - WARNING - ⚠️  Query 'MLOps Engineer' failed/crashed, moved to next query
+2025-09-13 11:12:32,817 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:12:32,935 - INFO -    ✅ Progress saved!
+2025-09-13 11:12:32,935 - INFO -    📊 New jobs: 4
+2025-09-13 11:12:32,935 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:12:32,935 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:12:38,256 - INFO - 🔄 [17/30] Processing query: 'AI Architect'
+2025-09-13 11:12:38,256 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:12:38,420 - INFO -    🗑️  Killed old driver
+2025-09-13 11:12:42,238 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:12:42,238 - INFO - 🔍 Starting query: 'AI Architect'
+2025-09-13 11:12:42,238 - INFO -    📄 Page 1/12
+2025-09-13 11:12:43,473 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:12:44,754 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:12:48,968 - INFO -    📄 Page 2/12
+2025-09-13 11:12:49,707 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:12:50,818 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:12:55,566 - INFO -    📄 Page 3/12
+2025-09-13 11:12:56,178 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:12:57,265 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:13:00,209 - INFO -    📄 Page 4/12
+2025-09-13 11:13:00,968 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:13:01,985 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:13:04,760 - INFO -    📄 Page 5/12
+2025-09-13 11:13:05,393 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:13:06,483 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:13:10,101 - INFO -    📄 Page 6/12
+2025-09-13 11:13:10,714 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:13:11,732 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:13:15,309 - INFO -    📄 Page 7/12
+2025-09-13 11:13:16,111 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:13:17,044 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:13:20,373 - INFO -    📄 Page 8/12
+2025-09-13 11:13:20,965 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:13:22,097 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:13:27,547 - INFO -    📄 Page 9/12
+2025-09-13 11:13:28,143 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:13:29,252 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:13:30,904 - INFO -    📄 Page 10/12
+2025-09-13 11:13:31,575 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:13:32,526 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:13:36,647 - INFO -    📄 Page 11/12
+2025-09-13 11:13:37,212 - INFO -    ✅ Found 17 job cards
+2025-09-13 11:13:38,180 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:13:41,277 - INFO -    📄 Page 12/12
+2025-09-13 11:13:51,798 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 11:13:51,799 - INFO - ✅ Query 'AI Architect' completed successfully!
+2025-09-13 11:13:51,799 - INFO -    📄 Pages scraped: 11
+2025-09-13 11:13:51,799 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:13:51,799 - INFO - ✅ Query 'AI Architect' completed successfully
+2025-09-13 11:13:51,799 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:13:51,922 - INFO -    ✅ Progress saved!
+2025-09-13 11:13:51,922 - INFO -    📊 New jobs: 4
+2025-09-13 11:13:51,923 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:13:51,923 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:13:56,364 - INFO - 🔄 [18/30] Processing query: 'Prompt Engineer'
+2025-09-13 11:13:56,364 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:13:56,530 - INFO -    🗑️  Killed old driver
+2025-09-13 11:14:00,311 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:14:00,311 - INFO - 🔍 Starting query: 'Prompt Engineer'
+2025-09-13 11:14:00,311 - INFO -    📄 Page 1/12
+2025-09-13 11:14:01,447 - INFO -    ✅ Found 18 job cards
+2025-09-13 11:14:02,522 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:14:05,560 - INFO -    📄 Page 2/12
+2025-09-13 11:14:16,085 - WARNING -    ⏰ Timeout on page 2, trying next page...
+2025-09-13 11:14:16,085 - INFO -    📄 Page 3/12
+2025-09-13 11:14:26,487 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:14:26,487 - INFO -    📄 Page 4/12
+2025-09-13 11:14:36,955 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:14:36,955 - INFO -    📄 Page 5/12
+2025-09-13 11:14:47,413 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:14:47,413 - INFO -    📄 Page 6/12
+2025-09-13 11:14:57,834 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:14:57,834 - INFO -    📄 Page 7/12
+2025-09-13 11:15:08,321 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:15:08,321 - INFO -    📄 Page 8/12
+2025-09-13 11:15:18,939 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:15:18,940 - INFO -    📄 Page 9/12
+2025-09-13 11:15:29,565 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:15:29,565 - INFO -    📄 Page 10/12
+2025-09-13 11:15:40,295 - ERROR -    ❌ WebDriver error on page 10: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x563ddd01194a <unknown>
+#1 0x563ddca866f3 <unknown>
+#2 0x563ddca6eb75 <unknown>
+#3 0x563ddca6ca42 <unknown>
+#4 0x563ddca6d39f <unknown>
+#5 0x563ddca7bbf3 <unknown>
+#6 0x563ddca95523 <unknown>
+#7 0x563ddcb23ddf <unknown>
+#8 0x563ddcafde03 <unknown>
+#9 0x563ddcaca968 <unknown>
+#10 0x563ddcacb5e1 <unknown>
+#11 0x563ddcfd5548 <unknown>
+#12 0x563ddcfd9272 <unknown>
+#13 0x563ddcfbc313 <unknown>
+#14 0x563ddcfd9dc5 <unknown>
+#15 0x563ddcfa149f <unknown>
+#16 0x563ddcffe158 <unknown>
+#17 0x563ddcffe332 <unknown>
+#18 0x563ddd010a53 <unknown>
+#19 0x7f43a329caa4 <unknown>
+#20 0x7f43a3329c3c <unknown>
+
+2025-09-13 11:15:40,296 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:15:40,416 - INFO -    ✅ Progress saved!
+2025-09-13 11:15:40,416 - INFO -    📊 New jobs: 4
+2025-09-13 11:15:40,416 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:15:40,416 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:15:40,417 - WARNING - ⚠️  Query 'Prompt Engineer' failed/crashed, moved to next query
+2025-09-13 11:15:40,417 - INFO - 💾 Saving progress: 4 jobs scraped so far...
+2025-09-13 11:15:40,533 - INFO -    ✅ Progress saved!
+2025-09-13 11:15:40,533 - INFO -    📊 New jobs: 4
+2025-09-13 11:15:40,533 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:15:40,533 - INFO -    📁 Total in CSV: 6577
+2025-09-13 11:15:45,517 - INFO - 🔄 [19/30] Processing query: 'Business Analyst'
+2025-09-13 11:15:45,517 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:15:45,675 - INFO -    🗑️  Killed old driver
+2025-09-13 11:15:49,478 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:15:49,478 - INFO - 🔍 Starting query: 'Business Analyst'
+2025-09-13 11:15:49,478 - INFO -    📄 Page 1/12
+2025-09-13 11:15:50,565 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:15:52,038 - INFO -    📊 Page 1: 1 jobs added
+2025-09-13 11:15:56,894 - INFO -    📄 Page 2/12
+2025-09-13 11:15:57,581 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:15:58,650 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:16:02,898 - INFO -    📄 Page 3/12
+2025-09-13 11:16:03,594 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:04,593 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:16:09,506 - INFO -    📄 Page 4/12
+2025-09-13 11:16:10,101 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:11,020 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:16:14,381 - INFO -    📄 Page 5/12
+2025-09-13 11:16:15,098 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:16,082 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:16:19,199 - INFO -    📄 Page 6/12
+2025-09-13 11:16:19,812 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:20,869 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:16:24,185 - INFO -    📄 Page 7/12
+2025-09-13 11:16:24,798 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:25,797 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:16:29,386 - INFO -    📄 Page 8/12
+2025-09-13 11:16:29,987 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:30,976 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:16:32,087 - INFO -    📄 Page 9/12
+2025-09-13 11:16:32,723 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:33,660 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:16:37,386 - INFO -    📄 Page 10/12
+2025-09-13 11:16:37,995 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:38,993 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:16:43,980 - INFO -    📄 Page 11/12
+2025-09-13 11:16:44,563 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:45,676 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:16:49,260 - INFO -    📄 Page 12/12
+2025-09-13 11:16:50,112 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:16:51,368 - INFO -    📊 Page 12: 1 jobs added
+2025-09-13 11:16:54,233 - INFO - ✅ Query 'Business Analyst' completed successfully!
+2025-09-13 11:16:54,233 - INFO -    📄 Pages scraped: 12
+2025-09-13 11:16:54,233 - INFO -    ✅ Jobs found: 2
+2025-09-13 11:16:54,233 - INFO - ✅ Query 'Business Analyst' completed successfully
+2025-09-13 11:16:54,233 - INFO - 💾 Saving progress: 6 jobs scraped so far...
+2025-09-13 11:16:54,348 - INFO -    ✅ Progress saved!
+2025-09-13 11:16:54,349 - INFO -    📊 New jobs: 6
+2025-09-13 11:16:54,349 - INFO -    🔄 Duplicates removed: 4
+2025-09-13 11:16:54,349 - INFO -    📁 Total in CSV: 6579
+2025-09-13 11:16:58,481 - INFO - 🔄 [20/30] Processing query: 'Junior AI'
+2025-09-13 11:16:58,481 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:16:58,609 - INFO -    🗑️  Killed old driver
+2025-09-13 11:17:02,421 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:17:02,421 - INFO - 🔍 Starting query: 'Junior AI'
+2025-09-13 11:17:02,421 - INFO -    📄 Page 1/12
+2025-09-13 11:17:03,472 - INFO -    ✅ Found 1 job cards
+2025-09-13 11:17:03,978 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:17:09,182 - INFO -    📄 Page 2/12
+2025-09-13 11:17:19,859 - WARNING -    ⏰ Timeout on page 2, trying next page...
+2025-09-13 11:17:19,860 - INFO -    📄 Page 3/12
+2025-09-13 11:17:30,337 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:17:30,337 - INFO -    📄 Page 4/12
+2025-09-13 11:17:40,833 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:17:40,833 - INFO -    📄 Page 5/12
+2025-09-13 11:17:51,338 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:17:51,338 - INFO -    📄 Page 6/12
+2025-09-13 11:18:01,877 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:18:01,877 - INFO -    📄 Page 7/12
+2025-09-13 11:18:12,435 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:18:12,435 - INFO -    📄 Page 8/12
+2025-09-13 11:18:23,327 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:18:23,327 - INFO -    📄 Page 9/12
+2025-09-13 11:18:33,843 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:18:33,843 - INFO -    📄 Page 10/12
+2025-09-13 11:18:44,359 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:18:44,359 - INFO -    📄 Page 11/12
+2025-09-13 11:18:53,988 - ERROR -    ❌ WebDriver error on page 11: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x5631170d294a <unknown>
+#1 0x563116b476f3 <unknown>
+#2 0x563116b2fb75 <unknown>
+#3 0x563116b2da42 <unknown>
+#4 0x563116b2e39f <unknown>
+#5 0x563116b3cbf3 <unknown>
+#6 0x563116b56523 <unknown>
+#7 0x563116be4ddf <unknown>
+#8 0x563116bbee03 <unknown>
+#9 0x563116b8b968 <unknown>
+#10 0x563116b8c5e1 <unknown>
+#11 0x563117096548 <unknown>
+#12 0x56311709a272 <unknown>
+#13 0x56311707d313 <unknown>
+#14 0x56311709adc5 <unknown>
+#15 0x56311706249f <unknown>
+#16 0x5631170bf158 <unknown>
+#17 0x5631170bf332 <unknown>
+#18 0x5631170d1a53 <unknown>
+#19 0x7f371689caa4 <unknown>
+#20 0x7f3716929c3c <unknown>
+
+2025-09-13 11:18:53,988 - INFO - 💾 Saving progress: 6 jobs scraped so far...
+2025-09-13 11:18:54,105 - INFO -    ✅ Progress saved!
+2025-09-13 11:18:54,106 - INFO -    📊 New jobs: 6
+2025-09-13 11:18:54,106 - INFO -    🔄 Duplicates removed: 6
+2025-09-13 11:18:54,106 - INFO -    📁 Total in CSV: 6579
+2025-09-13 11:18:54,107 - WARNING - ⚠️  Query 'Junior AI' failed/crashed, moved to next query
+2025-09-13 11:18:54,107 - INFO - 💾 Saving progress: 6 jobs scraped so far...
+2025-09-13 11:18:54,222 - INFO -    ✅ Progress saved!
+2025-09-13 11:18:54,222 - INFO -    📊 New jobs: 6
+2025-09-13 11:18:54,222 - INFO -    🔄 Duplicates removed: 6
+2025-09-13 11:18:54,222 - INFO -    📁 Total in CSV: 6579
+2025-09-13 11:18:59,482 - INFO - 🔄 [21/30] Processing query: 'Entry Level AI'
+2025-09-13 11:18:59,482 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:18:59,640 - INFO -    🗑️  Killed old driver
+2025-09-13 11:19:03,403 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:19:03,403 - INFO - 🔍 Starting query: 'Entry Level AI'
+2025-09-13 11:19:03,404 - INFO -    📄 Page 1/12
+2025-09-13 11:19:04,341 - INFO -    ✅ Found 1 job cards
+2025-09-13 11:19:04,770 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:19:08,825 - INFO -    📄 Page 2/12
+2025-09-13 11:19:19,380 - WARNING -    ⏰ Timeout on page 2, trying next page...
+2025-09-13 11:19:19,380 - INFO -    📄 Page 3/12
+2025-09-13 11:19:30,247 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:19:30,247 - INFO -    📄 Page 4/12
+2025-09-13 11:19:40,761 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:19:40,761 - INFO -    📄 Page 5/12
+2025-09-13 11:19:51,267 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:19:51,268 - INFO -    📄 Page 6/12
+2025-09-13 11:20:01,774 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:20:01,774 - INFO -    📄 Page 7/12
+2025-09-13 11:20:12,311 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:20:12,311 - INFO -    📄 Page 8/12
+2025-09-13 11:20:22,973 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:20:22,973 - INFO -    📄 Page 9/12
+2025-09-13 11:20:33,815 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:20:33,815 - INFO -    📄 Page 10/12
+2025-09-13 11:20:44,333 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:20:44,333 - INFO -    📄 Page 11/12
+2025-09-13 11:20:54,871 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:20:54,872 - INFO -    📄 Page 12/12
+2025-09-13 11:21:04,642 - ERROR -    ❌ WebDriver error on page 12: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x55a0e8bbd94a <unknown>
+#1 0x55a0e86326f3 <unknown>
+#2 0x55a0e861ab75 <unknown>
+#3 0x55a0e8618a42 <unknown>
+#4 0x55a0e861939f <unknown>
+#5 0x55a0e8627bf3 <unknown>
+#6 0x55a0e8641523 <unknown>
+#7 0x55a0e86cfddf <unknown>
+#8 0x55a0e86a9e03 <unknown>
+#9 0x55a0e8676968 <unknown>
+#10 0x55a0e86775e1 <unknown>
+#11 0x55a0e8b81548 <unknown>
+#12 0x55a0e8b85272 <unknown>
+#13 0x55a0e8b68313 <unknown>
+#14 0x55a0e8b85dc5 <unknown>
+#15 0x55a0e8b4d49f <unknown>
+#16 0x55a0e8baa158 <unknown>
+#17 0x55a0e8baa332 <unknown>
+#18 0x55a0e8bbca53 <unknown>
+#19 0x7f93b2c9caa4 <unknown>
+#20 0x7f93b2d29c3c <unknown>
+
+2025-09-13 11:21:04,642 - INFO - 💾 Saving progress: 6 jobs scraped so far...
+2025-09-13 11:21:04,760 - INFO -    ✅ Progress saved!
+2025-09-13 11:21:04,761 - INFO -    📊 New jobs: 6
+2025-09-13 11:21:04,761 - INFO -    🔄 Duplicates removed: 6
+2025-09-13 11:21:04,761 - INFO -    📁 Total in CSV: 6579
+2025-09-13 11:21:04,762 - WARNING - ⚠️  Query 'Entry Level AI' failed/crashed, moved to next query
+2025-09-13 11:21:04,762 - INFO - 💾 Saving progress: 6 jobs scraped so far...
+2025-09-13 11:21:04,878 - INFO -    ✅ Progress saved!
+2025-09-13 11:21:04,878 - INFO -    📊 New jobs: 6
+2025-09-13 11:21:04,878 - INFO -    🔄 Duplicates removed: 6
+2025-09-13 11:21:04,878 - INFO -    📁 Total in CSV: 6579
+2025-09-13 11:21:10,524 - INFO - 🔄 [22/30] Processing query: 'Python Developer'
+2025-09-13 11:21:10,524 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:21:10,682 - INFO -    🗑️  Killed old driver
+2025-09-13 11:21:14,446 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:21:14,446 - INFO - 🔍 Starting query: 'Python Developer'
+2025-09-13 11:21:14,446 - INFO -    📄 Page 1/12
+2025-09-13 11:21:15,623 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:21:16,829 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:21:23,047 - INFO -    📄 Page 2/12
+2025-09-13 11:21:23,876 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:21:24,900 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:21:28,176 - INFO -    📄 Page 3/12
+2025-09-13 11:21:28,819 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:21:29,694 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:21:32,347 - INFO -    📄 Page 4/12
+2025-09-13 11:21:33,041 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:21:33,949 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:21:37,273 - INFO -    📄 Page 5/12
+2025-09-13 11:21:37,909 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:21:38,848 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:21:42,971 - INFO -    📄 Page 6/12
+2025-09-13 11:21:43,589 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:21:44,595 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:21:47,022 - INFO -    📄 Page 7/12
+2025-09-13 11:21:47,624 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:21:48,304 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:21:53,548 - INFO -    📄 Page 8/12
+2025-09-13 11:22:04,052 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:22:04,052 - INFO -    📄 Page 9/12
+2025-09-13 11:22:14,597 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:22:14,597 - INFO -    📄 Page 10/12
+2025-09-13 11:22:25,131 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:22:25,131 - INFO -    📄 Page 11/12
+2025-09-13 11:22:35,806 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:22:35,806 - INFO -    📄 Page 12/12
+2025-09-13 11:22:46,313 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 11:22:46,313 - INFO - ✅ Query 'Python Developer' completed successfully!
+2025-09-13 11:22:46,313 - INFO -    📄 Pages scraped: 7
+2025-09-13 11:22:46,313 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:22:46,313 - INFO - ✅ Query 'Python Developer' completed successfully
+2025-09-13 11:22:46,313 - INFO - 💾 Saving progress: 6 jobs scraped so far...
+2025-09-13 11:22:46,425 - INFO -    ✅ Progress saved!
+2025-09-13 11:22:46,425 - INFO -    📊 New jobs: 6
+2025-09-13 11:22:46,425 - INFO -    🔄 Duplicates removed: 6
+2025-09-13 11:22:46,425 - INFO -    📁 Total in CSV: 6579
+2025-09-13 11:22:52,135 - INFO - 🔄 [23/30] Processing query: 'Full Stack Engineer'
+2025-09-13 11:22:52,136 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:22:52,308 - INFO -    🗑️  Killed old driver
+2025-09-13 11:22:56,069 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:22:56,069 - INFO - 🔍 Starting query: 'Full Stack Engineer'
+2025-09-13 11:22:56,069 - INFO -    📄 Page 1/12
+2025-09-13 11:22:57,178 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:22:58,156 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:23:01,810 - INFO -    📄 Page 2/12
+2025-09-13 11:23:02,574 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:03,665 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:23:06,699 - INFO -    📄 Page 3/12
+2025-09-13 11:23:07,347 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:08,288 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:23:10,415 - INFO -    📄 Page 4/12
+2025-09-13 11:23:10,980 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:11,990 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:23:17,271 - INFO -    📄 Page 5/12
+2025-09-13 11:23:18,130 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:19,150 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:23:22,579 - INFO -    📄 Page 6/12
+2025-09-13 11:23:23,122 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:24,065 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:23:27,357 - INFO -    📄 Page 7/12
+2025-09-13 11:23:27,926 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:28,867 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:23:30,722 - INFO -    📄 Page 8/12
+2025-09-13 11:23:31,396 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:32,272 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:23:34,690 - INFO -    📄 Page 9/12
+2025-09-13 11:23:35,310 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:36,209 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:23:40,165 - INFO -    📄 Page 10/12
+2025-09-13 11:23:40,781 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:41,734 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:23:45,978 - INFO -    📄 Page 11/12
+2025-09-13 11:23:46,610 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:47,556 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:23:51,166 - INFO -    📄 Page 12/12
+2025-09-13 11:23:51,770 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:23:52,675 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 11:23:56,063 - INFO - ✅ Query 'Full Stack Engineer' completed successfully!
+2025-09-13 11:23:56,064 - INFO -    📄 Pages scraped: 12
+2025-09-13 11:23:56,064 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:23:56,064 - INFO - ✅ Query 'Full Stack Engineer' completed successfully
+2025-09-13 11:23:56,064 - INFO - 💾 Saving progress: 6 jobs scraped so far...
+2025-09-13 11:23:56,190 - INFO -    ✅ Progress saved!
+2025-09-13 11:23:56,190 - INFO -    📊 New jobs: 6
+2025-09-13 11:23:56,190 - INFO -    🔄 Duplicates removed: 6
+2025-09-13 11:23:56,190 - INFO -    📁 Total in CSV: 6579
+2025-09-13 11:24:01,925 - INFO - 🔄 [24/30] Processing query: 'Software Engineer'
+2025-09-13 11:24:01,926 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:24:02,059 - INFO -    🗑️  Killed old driver
+2025-09-13 11:24:05,813 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:24:05,813 - INFO - 🔍 Starting query: 'Software Engineer'
+2025-09-13 11:24:05,813 - INFO -    📄 Page 1/12
+2025-09-13 11:24:06,990 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:08,467 - INFO -    📊 Page 1: 2 jobs added
+2025-09-13 11:24:13,204 - INFO -    📄 Page 2/12
+2025-09-13 11:24:13,886 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:14,903 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:24:18,826 - INFO -    📄 Page 3/12
+2025-09-13 11:24:19,504 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:20,483 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:24:23,587 - INFO -    📄 Page 4/12
+2025-09-13 11:24:24,223 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:28,292 - INFO -    📊 Page 4: 1 jobs added
+2025-09-13 11:24:32,998 - INFO -    📄 Page 5/12
+2025-09-13 11:24:33,726 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:34,784 - INFO -    📊 Page 5: 1 jobs added
+2025-09-13 11:24:36,205 - INFO -    📄 Page 6/12
+2025-09-13 11:24:36,797 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:37,835 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:24:42,239 - INFO -    📄 Page 7/12
+2025-09-13 11:24:43,001 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:43,845 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:24:45,841 - INFO -    📄 Page 8/12
+2025-09-13 11:24:46,448 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:47,484 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:24:52,580 - INFO -    📄 Page 9/12
+2025-09-13 11:24:53,216 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:24:54,262 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:24:58,729 - INFO -    📄 Page 10/12
+2025-09-13 11:24:59,394 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:25:00,372 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:25:02,761 - INFO -    📄 Page 11/12
+2025-09-13 11:25:03,367 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:25:04,427 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:25:10,552 - INFO -    📄 Page 12/12
+2025-09-13 11:25:11,408 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:25:12,219 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 11:25:17,139 - INFO - ✅ Query 'Software Engineer' completed successfully!
+2025-09-13 11:25:17,139 - INFO -    📄 Pages scraped: 12
+2025-09-13 11:25:17,139 - INFO -    ✅ Jobs found: 4
+2025-09-13 11:25:17,139 - INFO - ✅ Query 'Software Engineer' completed successfully
+2025-09-13 11:25:17,140 - INFO - 💾 Saving progress: 10 jobs scraped so far...
+2025-09-13 11:25:17,253 - INFO -    ✅ Progress saved!
+2025-09-13 11:25:17,253 - INFO -    📊 New jobs: 10
+2025-09-13 11:25:17,253 - INFO -    🔄 Duplicates removed: 6
+2025-09-13 11:25:17,253 - INFO -    📁 Total in CSV: 6583
+2025-09-13 11:25:22,923 - INFO - 🔄 [25/30] Processing query: 'Research Scientist'
+2025-09-13 11:25:22,924 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:25:23,077 - INFO -    🗑️  Killed old driver
+2025-09-13 11:25:26,856 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:25:26,856 - INFO - 🔍 Starting query: 'Research Scientist'
+2025-09-13 11:25:26,856 - INFO -    📄 Page 1/12
+2025-09-13 11:25:27,802 - INFO -    ✅ Found 8 job cards
+2025-09-13 11:25:28,637 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:25:33,296 - INFO -    📄 Page 2/12
+2025-09-13 11:25:44,023 - WARNING -    ⏰ Timeout on page 2, trying next page...
+2025-09-13 11:25:44,023 - INFO -    📄 Page 3/12
+2025-09-13 11:25:54,453 - WARNING -    ⏰ Timeout on page 3, trying next page...
+2025-09-13 11:25:54,453 - INFO -    📄 Page 4/12
+2025-09-13 11:26:04,927 - WARNING -    ⏰ Timeout on page 4, trying next page...
+2025-09-13 11:26:04,927 - INFO -    📄 Page 5/12
+2025-09-13 11:26:15,425 - WARNING -    ⏰ Timeout on page 5, trying next page...
+2025-09-13 11:26:15,425 - INFO -    📄 Page 6/12
+2025-09-13 11:26:25,936 - WARNING -    ⏰ Timeout on page 6, trying next page...
+2025-09-13 11:26:25,937 - INFO -    📄 Page 7/12
+2025-09-13 11:26:36,396 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:26:36,396 - INFO -    📄 Page 8/12
+2025-09-13 11:26:47,039 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:26:47,039 - INFO -    📄 Page 9/12
+2025-09-13 11:26:57,562 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:26:57,562 - INFO -    📄 Page 10/12
+2025-09-13 11:27:08,051 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:27:08,051 - INFO -    📄 Page 11/12
+2025-09-13 11:27:17,513 - ERROR -    ❌ WebDriver error on page 11: Message: tab crashed
+  (Session info: chrome=140.0.7339.0)
+Stacktrace:
+#0 0x564d3b07494a <unknown>
+#1 0x564d3aae96f3 <unknown>
+#2 0x564d3aad1b75 <unknown>
+#3 0x564d3aacfa42 <unknown>
+#4 0x564d3aad039f <unknown>
+#5 0x564d3aadebf3 <unknown>
+#6 0x564d3aaf8523 <unknown>
+#7 0x564d3ab86ddf <unknown>
+#8 0x564d3ab60e03 <unknown>
+#9 0x564d3ab2d968 <unknown>
+#10 0x564d3ab2e5e1 <unknown>
+#11 0x564d3b038548 <unknown>
+#12 0x564d3b03c272 <unknown>
+#13 0x564d3b01f313 <unknown>
+#14 0x564d3b03cdc5 <unknown>
+#15 0x564d3b00449f <unknown>
+#16 0x564d3b061158 <unknown>
+#17 0x564d3b061332 <unknown>
+#18 0x564d3b073a53 <unknown>
+#19 0x7fcf3869caa4 <unknown>
+#20 0x7fcf38729c3c <unknown>
+
+2025-09-13 11:27:17,513 - INFO - 💾 Saving progress: 10 jobs scraped so far...
+2025-09-13 11:27:17,629 - INFO -    ✅ Progress saved!
+2025-09-13 11:27:17,629 - INFO -    📊 New jobs: 10
+2025-09-13 11:27:17,629 - INFO -    🔄 Duplicates removed: 10
+2025-09-13 11:27:17,629 - INFO -    📁 Total in CSV: 6583
+2025-09-13 11:27:17,630 - WARNING - ⚠️  Query 'Research Scientist' failed/crashed, moved to next query
+2025-09-13 11:27:17,630 - INFO - 💾 Saving progress: 10 jobs scraped so far...
+2025-09-13 11:27:17,745 - INFO -    ✅ Progress saved!
+2025-09-13 11:27:17,745 - INFO -    📊 New jobs: 10
+2025-09-13 11:27:17,746 - INFO -    🔄 Duplicates removed: 10
+2025-09-13 11:27:17,746 - INFO -    📁 Total in CSV: 6583
+2025-09-13 11:27:23,433 - INFO - 🔄 [26/30] Processing query: 'AI Consultant'
+2025-09-13 11:27:23,433 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:27:23,593 - INFO -    🗑️  Killed old driver
+2025-09-13 11:27:27,352 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:27:27,352 - INFO - 🔍 Starting query: 'AI Consultant'
+2025-09-13 11:27:27,352 - INFO -    📄 Page 1/12
+2025-09-13 11:27:28,446 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:27:29,506 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:27:34,762 - INFO -    📄 Page 2/12
+2025-09-13 11:27:35,480 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:27:36,621 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:27:38,930 - INFO -    📄 Page 3/12
+2025-09-13 11:27:39,615 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:27:40,631 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:27:44,186 - INFO -    📄 Page 4/12
+2025-09-13 11:27:44,786 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:27:45,796 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:27:52,275 - INFO -    📄 Page 5/12
+2025-09-13 11:27:52,849 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:27:53,857 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:27:57,234 - INFO -    📄 Page 6/12
+2025-09-13 11:27:57,772 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:27:58,851 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:28:02,246 - INFO -    📄 Page 7/12
+2025-09-13 11:28:12,755 - WARNING -    ⏰ Timeout on page 7, trying next page...
+2025-09-13 11:28:12,755 - INFO -    📄 Page 8/12
+2025-09-13 11:28:23,245 - WARNING -    ⏰ Timeout on page 8, trying next page...
+2025-09-13 11:28:23,245 - INFO -    📄 Page 9/12
+2025-09-13 11:28:33,735 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:28:33,735 - INFO -    📄 Page 10/12
+2025-09-13 11:28:44,370 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:28:44,370 - INFO -    📄 Page 11/12
+2025-09-13 11:28:54,987 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:28:54,987 - INFO -    📄 Page 12/12
+2025-09-13 11:29:05,707 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 11:29:05,707 - INFO - ✅ Query 'AI Consultant' completed successfully!
+2025-09-13 11:29:05,707 - INFO -    📄 Pages scraped: 6
+2025-09-13 11:29:05,707 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:29:05,707 - INFO - ✅ Query 'AI Consultant' completed successfully
+2025-09-13 11:29:05,707 - INFO - 💾 Saving progress: 10 jobs scraped so far...
+2025-09-13 11:29:05,819 - INFO -    ✅ Progress saved!
+2025-09-13 11:29:05,819 - INFO -    📊 New jobs: 10
+2025-09-13 11:29:05,819 - INFO -    🔄 Duplicates removed: 10
+2025-09-13 11:29:05,820 - INFO -    📁 Total in CSV: 6583
+2025-09-13 11:29:08,804 - INFO - 🔄 [27/30] Processing query: 'Data Analyst'
+2025-09-13 11:29:08,804 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:29:08,973 - INFO -    🗑️  Killed old driver
+2025-09-13 11:29:12,745 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:29:12,745 - INFO - 🔍 Starting query: 'Data Analyst'
+2025-09-13 11:29:12,745 - INFO -    📄 Page 1/12
+2025-09-13 11:29:13,807 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:29:15,010 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:29:17,434 - INFO -    📄 Page 2/12
+2025-09-13 11:29:18,078 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:29:22,352 - INFO -    📊 Page 2: 2 jobs added
+2025-09-13 11:29:24,660 - INFO -    📄 Page 3/12
+2025-09-13 11:29:25,209 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:29:26,258 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:29:31,715 - INFO -    📄 Page 4/12
+2025-09-13 11:29:32,294 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:29:33,321 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:29:38,698 - INFO -    📄 Page 5/12
+2025-09-13 11:29:39,518 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:29:40,461 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:29:43,872 - INFO -    📄 Page 6/12
+2025-09-13 11:29:44,552 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:29:45,539 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:29:50,294 - INFO -    📄 Page 7/12
+2025-09-13 11:29:50,915 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:29:51,905 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:29:55,345 - INFO -    📄 Page 8/12
+2025-09-13 11:29:55,962 - INFO -    ✅ Found 13 job cards
+2025-09-13 11:29:56,801 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:29:59,360 - INFO -    📄 Page 9/12
+2025-09-13 11:30:09,865 - WARNING -    ⏰ Timeout on page 9, trying next page...
+2025-09-13 11:30:09,865 - INFO -    📄 Page 10/12
+2025-09-13 11:30:20,427 - WARNING -    ⏰ Timeout on page 10, trying next page...
+2025-09-13 11:30:20,427 - INFO -    📄 Page 11/12
+2025-09-13 11:30:31,023 - WARNING -    ⏰ Timeout on page 11, trying next page...
+2025-09-13 11:30:31,023 - INFO -    📄 Page 12/12
+2025-09-13 11:30:41,532 - WARNING -    ⏰ Timeout on page 12, trying next page...
+2025-09-13 11:30:41,532 - INFO - ✅ Query 'Data Analyst' completed successfully!
+2025-09-13 11:30:41,532 - INFO -    📄 Pages scraped: 8
+2025-09-13 11:30:41,532 - INFO -    ✅ Jobs found: 2
+2025-09-13 11:30:41,532 - INFO - ✅ Query 'Data Analyst' completed successfully
+2025-09-13 11:30:41,532 - INFO - 💾 Saving progress: 12 jobs scraped so far...
+2025-09-13 11:30:41,643 - INFO -    ✅ Progress saved!
+2025-09-13 11:30:41,643 - INFO -    📊 New jobs: 12
+2025-09-13 11:30:41,643 - INFO -    🔄 Duplicates removed: 10
+2025-09-13 11:30:41,643 - INFO -    📁 Total in CSV: 6585
+2025-09-13 11:30:45,244 - INFO - 🔄 [28/30] Processing query: 'Business Analyst'
+2025-09-13 11:30:45,244 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:30:45,365 - INFO -    🗑️  Killed old driver
+2025-09-13 11:30:49,112 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:30:49,112 - INFO - 🔍 Starting query: 'Business Analyst'
+2025-09-13 11:30:49,112 - INFO -    📄 Page 1/12
+2025-09-13 11:30:50,157 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:30:51,355 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:30:55,144 - INFO -    📄 Page 2/12
+2025-09-13 11:30:55,729 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:30:56,878 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:31:02,583 - INFO -    📄 Page 3/12
+2025-09-13 11:31:03,130 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:04,143 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:31:07,987 - INFO -    📄 Page 4/12
+2025-09-13 11:31:08,596 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:09,456 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:31:13,474 - INFO -    📄 Page 5/12
+2025-09-13 11:31:14,050 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:15,036 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:31:19,020 - INFO -    📄 Page 6/12
+2025-09-13 11:31:19,615 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:20,518 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:31:25,740 - INFO -    📄 Page 7/12
+2025-09-13 11:31:26,407 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:27,317 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:31:30,834 - INFO -    📄 Page 8/12
+2025-09-13 11:31:31,377 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:32,394 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:31:35,040 - INFO -    📄 Page 9/12
+2025-09-13 11:31:35,578 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:36,585 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:31:40,434 - INFO -    📄 Page 10/12
+2025-09-13 11:31:40,980 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:41,956 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:31:46,854 - INFO -    📄 Page 11/12
+2025-09-13 11:31:47,477 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:48,385 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:31:53,615 - INFO -    📄 Page 12/12
+2025-09-13 11:31:54,401 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:31:55,232 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 11:31:58,494 - INFO - ✅ Query 'Business Analyst' completed successfully!
+2025-09-13 11:31:58,494 - INFO -    📄 Pages scraped: 12
+2025-09-13 11:31:58,494 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:31:58,494 - INFO - ✅ Query 'Business Analyst' completed successfully
+2025-09-13 11:31:58,494 - INFO - 💾 Saving progress: 12 jobs scraped so far...
+2025-09-13 11:31:58,627 - INFO -    ✅ Progress saved!
+2025-09-13 11:31:58,627 - INFO -    📊 New jobs: 12
+2025-09-13 11:31:58,627 - INFO -    🔄 Duplicates removed: 12
+2025-09-13 11:31:58,627 - INFO -    📁 Total in CSV: 6585
+2025-09-13 11:32:03,632 - INFO - 🔄 [29/30] Processing query: 'Junior'
+2025-09-13 11:32:03,632 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:32:03,783 - INFO -    🗑️  Killed old driver
+2025-09-13 11:32:07,535 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:32:07,536 - INFO - 🔍 Starting query: 'Junior'
+2025-09-13 11:32:07,536 - INFO -    📄 Page 1/12
+2025-09-13 11:32:08,758 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:09,997 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:32:13,367 - INFO -    📄 Page 2/12
+2025-09-13 11:32:13,998 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:14,753 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:32:18,480 - INFO -    📄 Page 3/12
+2025-09-13 11:32:19,085 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:19,703 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:32:23,174 - INFO -    📄 Page 4/12
+2025-09-13 11:32:24,400 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:25,287 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:32:28,702 - INFO -    📄 Page 5/12
+2025-09-13 11:32:29,238 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:30,243 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:32:34,167 - INFO -    📄 Page 6/12
+2025-09-13 11:32:34,720 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:35,729 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:32:41,117 - INFO -    📄 Page 7/12
+2025-09-13 11:32:41,729 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:42,696 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:32:47,833 - INFO -    📄 Page 8/12
+2025-09-13 11:32:48,609 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:49,427 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:32:53,384 - INFO -    📄 Page 9/12
+2025-09-13 11:32:54,045 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:32:54,931 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:32:58,662 - INFO -    📄 Page 10/12
+2025-09-13 11:32:59,689 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:00,667 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:33:05,743 - INFO -    📄 Page 11/12
+2025-09-13 11:33:06,256 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:07,199 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:33:12,149 - INFO -    📄 Page 12/12
+2025-09-13 11:33:12,867 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:13,881 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 11:33:18,004 - INFO - ✅ Query 'Junior' completed successfully!
+2025-09-13 11:33:18,004 - INFO -    📄 Pages scraped: 12
+2025-09-13 11:33:18,004 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:33:18,004 - INFO - ✅ Query 'Junior' completed successfully
+2025-09-13 11:33:18,005 - INFO - 💾 Saving progress: 12 jobs scraped so far...
+2025-09-13 11:33:18,116 - INFO -    ✅ Progress saved!
+2025-09-13 11:33:18,116 - INFO -    📊 New jobs: 12
+2025-09-13 11:33:18,117 - INFO -    🔄 Duplicates removed: 12
+2025-09-13 11:33:18,117 - INFO -    📁 Total in CSV: 6585
+2025-09-13 11:33:23,022 - INFO - 🔄 [30/30] Processing query: 'Jr'
+2025-09-13 11:33:23,022 - INFO - 🔧 Creating fresh Chrome driver...
+2025-09-13 11:33:23,188 - INFO -    🗑️  Killed old driver
+2025-09-13 11:33:26,944 - INFO -    ✅ Fresh driver created successfully
+2025-09-13 11:33:26,944 - INFO - 🔍 Starting query: 'Jr'
+2025-09-13 11:33:26,944 - INFO -    📄 Page 1/12
+2025-09-13 11:33:28,149 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:29,403 - INFO -    📊 Page 1: 0 jobs added
+2025-09-13 11:33:33,353 - INFO -    📄 Page 2/12
+2025-09-13 11:33:34,045 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:35,133 - INFO -    📊 Page 2: 0 jobs added
+2025-09-13 11:33:39,944 - INFO -    📄 Page 3/12
+2025-09-13 11:33:41,177 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:42,127 - INFO -    📊 Page 3: 0 jobs added
+2025-09-13 11:33:46,174 - INFO -    📄 Page 4/12
+2025-09-13 11:33:47,871 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:48,821 - INFO -    📊 Page 4: 0 jobs added
+2025-09-13 11:33:54,023 - INFO -    📄 Page 5/12
+2025-09-13 11:33:54,607 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:55,493 - INFO -    📊 Page 5: 0 jobs added
+2025-09-13 11:33:58,140 - INFO -    📄 Page 6/12
+2025-09-13 11:33:58,899 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:33:59,942 - INFO -    📊 Page 6: 0 jobs added
+2025-09-13 11:34:04,524 - INFO -    📄 Page 7/12
+2025-09-13 11:34:05,277 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:34:06,281 - INFO -    📊 Page 7: 0 jobs added
+2025-09-13 11:34:10,041 - INFO -    📄 Page 8/12
+2025-09-13 11:34:10,727 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:34:11,775 - INFO -    📊 Page 8: 0 jobs added
+2025-09-13 11:34:16,642 - INFO -    📄 Page 9/12
+2025-09-13 11:34:17,219 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:34:18,238 - INFO -    📊 Page 9: 0 jobs added
+2025-09-13 11:34:21,131 - INFO -    📄 Page 10/12
+2025-09-13 11:34:21,892 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:34:22,839 - INFO -    📊 Page 10: 0 jobs added
+2025-09-13 11:34:26,133 - INFO -    📄 Page 11/12
+2025-09-13 11:34:26,801 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:34:27,545 - INFO -    📊 Page 11: 0 jobs added
+2025-09-13 11:34:32,146 - INFO -    📄 Page 12/12
+2025-09-13 11:34:32,799 - INFO -    ✅ Found 20 job cards
+2025-09-13 11:34:33,422 - INFO -    📊 Page 12: 0 jobs added
+2025-09-13 11:34:38,255 - INFO - ✅ Query 'Jr' completed successfully!
+2025-09-13 11:34:38,255 - INFO -    📄 Pages scraped: 12
+2025-09-13 11:34:38,255 - INFO -    ✅ Jobs found: 0
+2025-09-13 11:34:38,255 - INFO - ✅ Query 'Jr' completed successfully
+2025-09-13 11:34:38,255 - INFO - 💾 Saving progress: 12 jobs scraped so far...
+2025-09-13 11:34:38,366 - INFO -    ✅ Progress saved!
+2025-09-13 11:34:38,366 - INFO -    📊 New jobs: 12
+2025-09-13 11:34:38,366 - INFO -    🔄 Duplicates removed: 12
+2025-09-13 11:34:38,366 - INFO -    📁 Total in CSV: 6585
+2025-09-13 11:34:38,501 - INFO - 🎉 Crash-resilient scraping completed!
+2025-09-13 11:34:38,501 - INFO -    ✅ Successful queries: 20/30
+2025-09-13 11:34:38,501 - INFO -    ❌ Failed queries: 10
+2025-09-13 11:34:38,501 - INFO -    📊 Total jobs scraped: 12
+2025-09-13 11:34:38,502 - INFO -    📁 Final save to: output/jobs.csv
+2025-09-13 11:34:38,502 - INFO -    ⚠️  Failed queries: Data Scientist, Gen AI Engineer, Computer Vision Engineer, NLP Engineer, Deep Learning Engineer, MLOps Engineer, Prompt Engineer, Junior AI, Entry Level AI, Research Scientist
+2025-09-13 11:34:38,502 - INFO - 🎯 CRASH-RESILIENT scraping strategy completed!
+2025-09-13 11:34:38,503 - INFO -    ✅ Scraping completed
+2025-09-13 11:34:38,503 - INFO - 🎯 Starting job filtering...
+2025-09-13 11:34:38,503 - INFO - 🔍 Starting similarity-based job filtering
+2025-09-13 11:34:38,503 - INFO - 📋 Loaded 99 relevant job title keywords
+2025-09-13 11:34:38,537 - INFO - 📂 Loaded 6585 jobs from output/jobs.csv
+2025-09-13 11:34:38,537 - INFO - 🎯 Filtering jobs by similarity...
+2025-09-13 11:34:45,050 - INFO -    ✅ Found 2718 relevant jobs out of 6585 total
+2025-09-13 11:34:45,050 - INFO - 📂 Loading existing filtered jobs from output/final_ml_jobs.csv
+2025-09-13 11:34:45,066 - INFO -    📊 Found 2729 existing jobs, 2729 unique links
+2025-09-13 11:34:45,066 - INFO - 🔄 Combining datasets and removing duplicates...
+2025-09-13 11:34:45,067 - INFO -    🔄 Removed 2708 duplicate jobs
+2025-09-13 11:34:45,069 - INFO -    📊 Sorted jobs by status
+2025-09-13 11:34:45,100 - INFO - 💾 Saved filtered jobs to output/final_ml_jobs.csv
+2025-09-13 11:34:45,102 - INFO - 🎉 Filtering completed successfully!
+2025-09-13 11:34:45,102 - INFO -    📊 Total relevant jobs: 2739
+2025-09-13 11:34:45,102 - INFO -    ✅ New jobs added: 10
+2025-09-13 11:34:45,102 - INFO -    ⏳ New pending jobs: 10
+2025-09-13 11:34:45,102 - INFO -    💾 Saved to: output/final_ml_jobs.csv
+2025-09-13 11:34:45,104 - INFO -    ✅ Filtering completed
+2025-09-13 11:34:45,104 - INFO - 🎉 Main pipeline completed successfully!
